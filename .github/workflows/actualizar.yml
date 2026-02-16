@@ -32,5 +32,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Actualizacion Automatica de Links
-          file_pattern: channels.json canales.json # Por las dudas puse los dos nombres
+          file_pattern: canales.json # Por las dudas puse los dos nombres
           branch: main
