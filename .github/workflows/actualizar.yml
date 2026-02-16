@@ -1,0 +1,34 @@
+name: Actualizar Canales TV
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # SE EJECUTA CADA 30 MINUTOS
+  workflow_dispatch: # Permite ejecutarlo manual con un botón
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write # Permiso para guardar el archivo json
+
+    steps:
+      - name: Bajar código del repositorio
+        uses: actions/checkout@v3
+
+      - name: Instalar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Instalar librería Requests
+        run: pip install requests
+
+      - name: Correr el Scraper
+        run: python scraper.py
+
+      - name: Guardar cambios (Commit & Push)
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Actualizacion Automatica de Links
+          file_pattern: channels.json
