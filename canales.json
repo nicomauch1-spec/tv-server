@@ -1,0 +1,53 @@
+[
+    {
+        "id": "0",
+        "name": "ESPN Premium",
+        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn-premium-ar.png",
+        "sources": [
+            {
+                "name": "Opci\u00f3n 2 (StreamTP)",
+                "url": "https://99a1.crackstreamslivehd.com:443/global/espnpremium/index.m3u8?token=2389545a8a73a77be73f56ea9fd86960e7e26050-cf-1771321992-1771267992&ip=172.184.219.164",
+                "referer": "https://streamtp10.com/global1.php?stream=espnpremium"
+            },
+            {
+                "name": "Opci\u00f3n 3 (La14HD)",
+                "url": "https://bGFuZQ.fubohd.com:443/espnpremium/mono.m3u8?token=bf919e8a68c4d5ec19bbf3e87cdf0fdb2a523bdc-89-1771294092-1771276092",
+                "referer": "https://la14hd.com/vivo/canales.php?stream=espnpremium"
+            }
+        ]
+    },
+    {
+        "id": "1",
+        "name": "TNT Sports",
+        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tnt-sports-ar.png",
+        "sources": [
+            {
+                "name": "Opci\u00f3n 2 (StreamTP)",
+                "url": "https://pecdl1.crackstreamslivehd.com:443/global/tntsports/index.m3u8?token=be4f647eed04f0bab7d991f5216e1f5dc4632992-39-1771321993-1771267993&ip=172.184.219.164",
+                "referer": "https://streamtp10.com/global1.php?stream=tntsports"
+            },
+            {
+                "name": "Opci\u00f3n 3 (La14HD)",
+                "url": "https://wp9xqedt.fubohd.com:443/tntsports/mono.m3u8?token=369d0e83e97cb7546e6f4a1b7c51a980e50a5ff9-45-1771294094-1771276094",
+                "referer": "https://la14hd.com/vivo/canales.php?stream=tntsports"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "TyC Sports",
+        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tyc-sports-ar.png",
+        "sources": [
+            {
+                "name": "Opci\u00f3n 2 (StreamTP)",
+                "url": "https://florcd1.crackstreamslivehd.com:443/global/tycsports/index.m3u8?token=348dfd150efeae0c81e0b8c60d72b7778bcfa0cf-8c-1771321995-1771267995&ip=172.184.219.164",
+                "referer": "https://streamtp10.com/global1.php?stream=tycsports"
+            },
+            {
+                "name": "Opci\u00f3n 3 (La14HD)",
+                "url": "https://agvyby.fubohd.com:443/tycsports/mono.m3u8?token=74cfe79c5a9ec0c58c67d480eaf34c3d58cb3f93-2c-1771294095-1771276095",
+                "referer": "https://la14hd.com/vivo/canales.php?stream=tycsports"
+            }
+        ]
+    }
+]
