@@ -2,18 +2,19 @@ name: Actualizar Canales TV
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # SE EJECUTA CADA 30 MINUTOS
-  workflow_dispatch: # Permite ejecutarlo manual con un botón
+    - cron: '*/30 * * * *' # Ejecutar cada 30 min
+  workflow_dispatch: # Botón manual
 
 jobs:
   build:
     runs-on: ubuntu-latest
     
+    # 👇 ESTO ES LO QUE FALTABA PARA QUE PUEDA GUARDAR EL ARCHIVO
     permissions:
-      contents: write # Permiso para guardar el archivo json
+      contents: write
 
     steps:
-      - name: Bajar código del repositorio
+      - name: Bajar código
         uses: actions/checkout@v3
 
       - name: Instalar Python
@@ -21,7 +22,7 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Instalar librería Requests
+      - name: Instalar librerías
         run: pip install requests
 
       - name: Correr el Scraper
@@ -31,4 +32,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Actualizacion Automatica de Links
-          file_pattern: channels.json
+          file_pattern: channels.json canales.json # Por las dudas puse los dos nombres
+          branch: main
