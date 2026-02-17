@@ -10,6 +10,7 @@ CANALES_CONFIG = [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
                 "url": "https://nowevents.xyz/vivo/?c=ESPN+Premium&o=0"
+                "forceWebView": true
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -31,6 +32,7 @@ CANALES_CONFIG = [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
                 "url": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=0"
+                "forceWebView": true
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -52,6 +54,7 @@ CANALES_CONFIG = [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
                 "url": "https://nowevents.xyz/vivo/?c=TyC+Sports&o=0"
+                "forceWebView": true
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -74,3 +77,4 @@ try:
     print("✅ canales.json actualizado: NowEvents configurado con URLs de Vivo.")
 except Exception as e:
     print(f"❌ Error al guardar: {e}")
+
