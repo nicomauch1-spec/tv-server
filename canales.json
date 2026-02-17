@@ -7,16 +7,16 @@
             {
                 "name": "Opción 1 (NowEvents)",
                 "url": "https://nowevents.xyz/vivo/?c=ESPN+Premium&o=0",
-                "referer": "https://nowevents.xyz/vivo/?c=ESPN+Premium&o=0"
+                "referer": "https://nowevents.xyz/"
             },
             {
                 "name": "Opción 2 (StreamTP)",
-                "url": "https://8c51.crackstreamslivehd.com:443/global/espnpremium/index.m3u8?token=661588065d90c4664a7304e99695f209ef5e646b-a4-1771338326-1771284326&ip=20.51.206.81",
+                "url": "https://streamtp10.com/global1.php?stream=espnpremium",
                 "referer": "https://streamtp10.com/"
             },
             {
                 "name": "Opción 3 (La14HD)",
-                "url": "https://ym9yzq.fubohd.com:443/espnpremium/mono.m3u8?token=40b34bc4fc1e7190e08e93a71ed8a08114217670-76-1771310427-1771292427",
+                "url": "https://la14hd.com/vivo/canales.php?stream=espnpremium",
                 "referer": "https://la14hd.com/"
             }
         ]
@@ -29,22 +29,17 @@
             {
                 "name": "Opción 1 (NowEvents)",
                 "url": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=0",
-                "referer": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=0"
+                "referer": "https://nowevents.xyz/"
             },
             {
                 "name": "Opción 2 (StreamTP)",
-                "url": "https://24a1.crackstreamslivehd.com:443/global/tntsports/index.m3u8?token=1233b7df920cd603a988448928c808f4002e62e5-28-1771338327-1771284327&ip=20.51.206.81",
+                "url": "https://streamtp10.com/global1.php?stream=tntsports",
                 "referer": "https://streamtp10.com/"
             },
             {
                 "name": "Opción 3 (La14HD)",
-                "url": "https://aw1wcm92zq.fubohd.com:443/tntsports/mono.m3u8?token=c8a28bb64be9a3381458b051245a0aa2cf0421e2-f3-1771310428-1771292428",
+                "url": "https://la14hd.com/vivo/canales.php?stream=tntsports",
                 "referer": "https://la14hd.com/"
-            },
-            {
-                "name": "Opción 4 (NowEvents Alt)",
-                "url": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=6",
-                "referer": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=6"
             }
         ]
     },
@@ -56,16 +51,16 @@
             {
                 "name": "Opción 1 (NowEvents)",
                 "url": "https://nowevents.xyz/vivo/?c=TyC+Sports&o=0",
-                "referer": "https://nowevents.xyz/vivo/?c=TyC+Sports&o=0"
+                "referer": "https://nowevents.xyz/"
             },
             {
                 "name": "Opción 2 (StreamTP)",
-                "url": "https://doc1.crackstreamslivehd.com:443/global/tycsports/index.m3u8?token=3eb7cc361f138e03e76ea36f1fb52dbcdbfe6cff-f3-1771338328-1771284328&ip=20.51.206.81",
+                "url": "https://streamtp10.com/global1.php?stream=tycsports",
                 "referer": "https://streamtp10.com/"
             },
             {
                 "name": "Opción 3 (La14HD)",
-                "url": "https://qzv4jmsc.fubohd.com:443/tycsports/mono.m3u8?token=48e3ea0b43ab28ef6b89c2cc9c37e885a0638302-d6-1771310429-1771292429",
+                "url": "https://la14hd.com/vivo/canales.php?stream=tycsports",
                 "referer": "https://la14hd.com/"
             }
         ]
