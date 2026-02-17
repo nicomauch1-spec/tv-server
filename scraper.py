@@ -1,6 +1,6 @@
 import json
 
-# Usamos la estructura /embed/ que es la que suelta el video rápido
+# Usamos la estructura /vivo/ que es la que confirmaste que funciona.
 CANALES_CONFIG = [
     {
         "id": "0", 
@@ -9,7 +9,7 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
-                "url": "https://nowevents.xyz/embed/espn-premium"
+                "url": "https://nowevents.xyz/vivo/?c=ESPN+Premium&o=0"
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -30,7 +30,7 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
-                "url": "https://nowevents.xyz/embed/tnt-sports"
+                "url": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=0"
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -51,7 +51,7 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
-                "url": "https://nowevents.xyz/embed/tyc-sports"
+                "url": "https://nowevents.xyz/vivo/?c=TyC+Sports&o=0"
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -67,7 +67,10 @@ CANALES_CONFIG = [
     }
 ]
 
-with open('canales.json', 'w', encoding='utf-8') as f:
-    json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
-
-print("✅ canales.json corregido con links de Embed.")
+# Guardamos el archivo canales.json
+try:
+    with open('canales.json', 'w', encoding='utf-8') as f:
+        json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
+    print("✅ canales.json actualizado: NowEvents configurado con URLs de Vivo.")
+except Exception as e:
+    print(f"❌ Error al guardar: {e}")
