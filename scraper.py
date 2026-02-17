@@ -1,6 +1,8 @@
 import json
 
-# Usamos la estructura /vivo/ que es la que confirmaste que funciona.
+# Corrección: Agregamos "forceWebView": True a las opciones de NowEvents
+# para que la App sepa que tiene que abrir el navegador y no el ExoPlayer.
+
 CANALES_CONFIG = [
     {
         "id": "0", 
@@ -9,8 +11,8 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
-                "url": "https://nowevents.xyz/vivo/?c=ESPN+Premium&o=0"
-                "forceWebView": true
+                "url": "https://nowevents.xyz/vivo/?c=ESPN+Premium&o=0",
+                "forceWebView": True  # <--- ¡AGREGAR ESTO!
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -31,8 +33,8 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
-                "url": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=0"
-                "forceWebView": true
+                "url": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=0",
+                "forceWebView": True  # <--- ¡AGREGAR ESTO!
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -53,8 +55,8 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
-                "url": "https://nowevents.xyz/vivo/?c=TyC+Sports&o=0"
-                "forceWebView": true
+                "url": "https://nowevents.xyz/vivo/?c=TyC+Sports&o=0",
+                "forceWebView": True  # <--- ¡AGREGAR ESTO!
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -70,11 +72,10 @@ CANALES_CONFIG = [
     }
 ]
 
-# Guardamos el archivo canales.json
 try:
     with open('canales.json', 'w', encoding='utf-8') as f:
+        # ensure_ascii=False es importante para que se vean bien los tildes
         json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
-    print("✅ canales.json actualizado: NowEvents configurado con URLs de Vivo.")
+    print("✅ canales.json actualizado correctamente con flag WebView.")
 except Exception as e:
     print(f"❌ Error al guardar: {e}")
-
