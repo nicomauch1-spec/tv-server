@@ -37,29 +37,62 @@ CANALES_CONFIG = [
     }
 ]
 
-HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+}
 
 def extraer_link(url_web):
     try:
-        # Intentamos extraer el link m3u8 directo
-        r = requests.get(url_web, headers=HEADERS, timeout=10)
-        match = re.search(r'(https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*)', r.text)
-        if match: return match.group(1)
-    except: pass
+        # Ajustamos el referer para engañar a la web
+        session_headers = HEADERS.copy()
+        if "nowevents" in url_web: session_headers["Referer"] = "https://nowevents.xyz/"
+        if "streamtp" in url_web: session_headers["Referer"] = "https://streamtp10.com/"
+        
+        r = requests.get(url_web, headers=session_headers, timeout=10)
+        # Buscamos m3u8 o mpd
+        match = re.search(r'(https?://[^\s"\'<>]+\.(m3u8|mpd)[^\s"\'<>]*)', r.text)
+        
+        if match:
+            link = match.group(1)
+            # ⚠️ CLAVE: Si el link trae la IP de GitHub, lo descartamos.
+            # Preferimos que la App use el Espía con la IP real del usuario.
+            if "ip=" in link or "token=" in link:
+                print(f"   ! Link con token detectado (IP Restringida). Usando modo Sniffer.")
+                return None
+            return link
+    except Exception as e:
+        print(f"   x Error en {url_web}: {e}")
     return None
 
+print("--- INICIANDO SCRAPER BLINDADO ---")
 lista_final = []
+
 for canal in CANALES_CONFIG:
-    obj_canal = {"id": canal["id"], "name": canal["name"], "logoUrl": canal["logoUrl"], "sources": []}
+    print(f"\n> Procesando: {canal['name']}")
+    obj_canal = {
+        "id": canal["id"],
+        "name": canal["name"],
+        "logoUrl": canal["logoUrl"],
+        "sources": []
+    }
+    
     for f in canal["fuentes"]:
-        link_directo = extraer_link(f["url"])
-        # SIEMPRE agregamos la fuente. Si no hay link directo, mandamos la web original.
+        link_final = extraer_link(f["url"])
+        
+        # Si el robot encontró un link 'limpio', se usa. 
+        # Si no, se manda la URL de la web para que la App la 'espie' localmente.
         obj_canal["sources"].append({
             "name": f["name"],
-            "url": link_directo if link_directo else f["url"], 
+            "url": link_final if link_final else f["url"], 
             "referer": f["url"]
         })
+        status = "DIRECTO" if link_final else "WEB (SNIFFER)"
+        print(f"   + {f['name']}: {status}")
+        
     lista_final.append(obj_canal)
 
+# Guardar con formato limpio
 with open('canales.json', 'w', encoding='utf-8') as f:
-    json.dump(lista_final, f, indent=4)
+    json.dump(lista_final, f, indent=4, ensure_ascii=False)
+
+print("\n--- PROCESO TERMINADO: canales.json actualizado ---")
