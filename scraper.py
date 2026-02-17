@@ -1,6 +1,6 @@
 import json
 
-# Configuración con NowEvents como prioridad para aprovechar el ABR (Calidad automática)
+# Usamos la estructura /embed/ que es la que suelta el video rápido
 CANALES_CONFIG = [
     {
         "id": "0", 
@@ -9,7 +9,7 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
-                "url": "https://nowevents.xyz/vivo/?c=ESPN+Premium&o=0",
+                "url": "https://nowevents.xyz/embed/espn-premium"
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -30,7 +30,7 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
-                "url": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=0",
+                "url": "https://nowevents.xyz/embed/tnt-sports"
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -51,7 +51,7 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)", 
-                "url": "https://nowevents.xyz/vivo/?c=TyC+Sports&o=0",
+                "url": "https://nowevents.xyz/embed/tyc-sports"
             },
             {
                 "name": "Opción 2 (StreamTP)", 
@@ -67,10 +67,7 @@ CANALES_CONFIG = [
     }
 ]
 
-# Guardamos el archivo canales.json para que la App lo descargue al iniciar
-try:
-    with open('canales.json', 'w', encoding='utf-8') as f:
-        json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
-    print("✅ canales.json actualizado: NowEvents reincorporado como Opción 1.")
-except Exception as e:
-    print(f"❌ Error al guardar el archivo: {e}")
+with open('canales.json', 'w', encoding='utf-8') as f:
+    json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
+
+print("✅ canales.json corregido con links de Embed.")
