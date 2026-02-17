@@ -6,7 +6,8 @@
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)",
-                "url": "https://nowevents.xyz/vivo/?c=ESPN+Premium&o=0"
+                "url": "https://nowevents.xyz/vivo/?c=ESPN+Premium&o=0",
+                "forceWebView": true
             },
             {
                 "name": "Opción 2 (StreamTP)",
@@ -27,7 +28,8 @@
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)",
-                "url": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=0"
+                "url": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=0",
+                "forceWebView": true
             },
             {
                 "name": "Opción 2 (StreamTP)",
@@ -48,7 +50,8 @@
         "sources": [
             {
                 "name": "Opción 1 (NowEvents - Auto)",
-                "url": "https://nowevents.xyz/vivo/?c=TyC+Sports&o=0"
+                "url": "https://nowevents.xyz/vivo/?c=TyC+Sports&o=0",
+                "forceWebView": true
             },
             {
                 "name": "Opción 2 (StreamTP)",
