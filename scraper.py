@@ -2,11 +2,17 @@ import requests
 import re
 import json
 
-# --- CONFIGURACIÓN ---
+# --- CONFIGURACIÓN DE REFERERS (Tus reglas de F12) ---
+REFERER_RULES = {
+    "nowevents.xyz": "https://nowevents.xyz/",
+    "streamtp10.com": "https://streamtp10.com/",
+    "la14hd.com": "https://la14hd.com/",
+    "fubohd.com": "https://la14hd.com/"
+}
+
 CANALES_CONFIG = [
     {
-        "id": "0",
-        "name": "ESPN Premium",
+        "id": "0", "name": "ESPN Premium",
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn-premium-ar.png",
         "fuentes": [
             {"name": "Opción 1 (NowEvents)", "url": "https://nowevents.xyz/vivo/?c=ESPN+Premium&o=0"},
@@ -15,8 +21,7 @@ CANALES_CONFIG = [
         ]
     },
     {
-        "id": "1",
-        "name": "TNT Sports",
+        "id": "1", "name": "TNT Sports",
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tnt-sports-ar.png",
         "fuentes": [
             {"name": "Opción 1 (NowEvents)", "url": "https://nowevents.xyz/vivo/?c=TNT+Sports&o=0"},
@@ -26,8 +31,7 @@ CANALES_CONFIG = [
         ]
     },
     {
-        "id": "2",
-        "name": "TyC Sports",
+        "id": "2", "name": "TyC Sports",
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tyc-sports-ar.png",
         "fuentes": [
             {"name": "Opción 1 (NowEvents)", "url": "https://nowevents.xyz/vivo/?c=TyC+Sports&o=0"},
@@ -37,62 +41,67 @@ CANALES_CONFIG = [
     }
 ]
 
-HEADERS = {
+HEADERS_BASE = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
 
-def extraer_link(url_web):
+def extraer_m3u8_avanzado(url_web):
     try:
-        # Ajustamos el referer para engañar a la web
-        session_headers = HEADERS.copy()
-        if "nowevents" in url_web: session_headers["Referer"] = "https://nowevents.xyz/"
-        if "streamtp" in url_web: session_headers["Referer"] = "https://streamtp10.com/"
+        # 1. Determinar el Referer correcto según el dominio
+        referer = None
+        for domain, ref in REFERER_RULES.items():
+            if domain in url_web:
+                referer = ref
+                break
         
-        r = requests.get(url_web, headers=session_headers, timeout=10)
-        # Buscamos m3u8 o mpd
-        match = re.search(r'(https?://[^\s"\'<>]+\.(m3u8|mpd)[^\s"\'<>]*)', r.text)
-        
-        if match:
-            link = match.group(1)
-            # ⚠️ CLAVE: Si el link trae la IP de GitHub, lo descartamos.
-            # Preferimos que la App use el Espía con la IP real del usuario.
-            if "ip=" in link or "token=" in link:
-                print(f"   ! Link con token detectado (IP Restringida). Usando modo Sniffer.")
-                return None
-            return link
-    except Exception as e:
-        print(f"   x Error en {url_web}: {e}")
-    return None
+        h = HEADERS_BASE.copy()
+        if referer: h['Referer'] = referer
 
-print("--- INICIANDO SCRAPER BLINDADO ---")
-lista_final = []
+        # 2. Obtener el HTML
+        r = requests.get(url_web, headers=h, timeout=10)
+        html = r.text
+
+        # 3. Búsqueda Multi-Patrón (Regex Pro)
+        # Busca links .m3u8 o .mpd, incluso si tienen barras invertidas o están en variables JS
+        patrones = [
+            r'(https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*)\'', # Link simple en comillas simples
+            r'(https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*)\"', # Link simple en comillas dobles
+            r'source:\s*["\'](.*?\.m3u8.*?)["\']',         # Variable source de Clappr/Player
+            r'file:\s*["\'](.*?\.m3u8.*?)["\']'           # Variable file de JWPlayer
+        ]
+        
+        for p in patrones:
+            match = re.search(p, html, re.IGNORECASE)
+            if match:
+                link = match.group(1).replace('\\/', '/') # Limpiar barras de JS
+                return link, referer
+
+    except Exception as e:
+        print(f"   x Error: {e}")
+    return None, None
+
+# --- EJECUCIÓN ---
+print("🚀 Iniciando extracción de alta precisión...")
+resultado_json = []
 
 for canal in CANALES_CONFIG:
-    print(f"\n> Procesando: {canal['name']}")
-    obj_canal = {
-        "id": canal["id"],
-        "name": canal["name"],
-        "logoUrl": canal["logoUrl"],
-        "sources": []
-    }
+    print(f"\n📺 {canal['name']}")
+    c_entry = {"id": canal["id"], "name": canal["name"], "logoUrl": canal["logoUrl"], "sources": []}
     
     for f in canal["fuentes"]:
-        link_final = extraer_link(f["url"])
+        link, ref = extraer_m3u8_avanzado(f["url"])
         
-        # Si el robot encontró un link 'limpio', se usa. 
-        # Si no, se manda la URL de la web para que la App la 'espie' localmente.
-        obj_canal["sources"].append({
+        # Guardamos la data. Si el link falló, guardamos la URL de la web para el Sniffer de la app.
+        c_entry["sources"].append({
             "name": f["name"],
-            "url": link_final if link_final else f["url"], 
-            "referer": f["url"]
+            "url": link if link else f["url"],
+            "referer": ref if link else f["url"]
         })
-        status = "DIRECTO" if link_final else "WEB (SNIFFER)"
-        print(f"   + {f['name']}: {status}")
-        
-    lista_final.append(obj_canal)
+        status = "✅ M3U8" if link else "🌍 WEB"
+        print(f"   {status} -> {f['name']}")
 
-# Guardar con formato limpio
+    resultado_json.append(c_entry)
+
 with open('canales.json', 'w', encoding='utf-8') as f:
-    json.dump(lista_final, f, indent=4, ensure_ascii=False)
-
-print("\n--- PROCESO TERMINADO: canales.json actualizado ---")
+    json.dump(resultado_json, f, indent=4, ensure_ascii=False)
+print("\n✅ canales.json actualizado con éxito.")
