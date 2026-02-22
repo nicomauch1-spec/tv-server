@@ -2,11 +2,12 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-# --- CONFIGURACIÓN DE LIGAS (Las que pediste de Promiedos) ---
+# --- CONFIGURACIÓN DE LIGAS (Nombres exactos de la página principal) ---
+# He incluido "Liga Profesional Argentina" y "UEFA Champions League" como aparecen ahora
 LIGAS_PERMITIDAS = [
-    "Liga Profesional", "Copa Argentina", 
+    "Liga Profesional Argentina", "Copa Argentina", 
     "CONMEBOL Copa Libertadores", "CONMEBOL Copa Sudamericana",
-    "Champions League", "Premier League", "LaLiga", 
+    "UEFA Champions League", "Premier League", "LaLiga", 
     "Serie A", "Bundesliga", "Ligue 1"
 ]
 
@@ -19,44 +20,46 @@ def obtener_agenda():
         soup = BeautifulSoup(response.text, 'html.parser')
         partidos_hoy = []
 
-        # Buscamos TODOS los títulos de ligas para ver qué hay disponible
-        bloques_ligas = soup.find_all('div', class_='tituloinfo')
+        # Buscamos los bloques de cada liga según las nuevas clases de tu captura
+        # La clase 'match-info_itemevent__jJv13' es el contenedor de cada liga
+        bloques_ligas = soup.find_all('div', class_='match-info_itemevent__jJv13')
         
-        for titulo in bloques_ligas:
-            nombre_liga = titulo.get_text(strip=True)
+        for bloque in bloques_ligas:
+            # El nombre de la liga está en un link con clase 'event-header_left__q8kgh'
+            tag_liga = bloque.select_one('a.event-header_left__q8kgh')
+            if not tag_liga: continue
             
-            # FILTRO: Verificamos si la liga está en nuestra lista (ahora más flexible)
+            nombre_liga = tag_liga.get_text(strip=True)
+            
+            # FILTRO: Verificamos si la liga está en nuestra lista de interés
             if any(liga.lower() in nombre_liga.lower() for liga in LIGAS_PERMITIDAS):
-                # Buscamos la tabla que sigue al título
-                tabla = titulo.find_next_sibling('div', id=lambda x: x and x.startswith('fixturein'))
-                
-                if tabla:
-                    for fila in tabla.select('tr'):
-                        celdas = fila.find_all('td')
-                        if len(celdas) >= 4:
-                            # Algunas filas son de partidos terminados o en juego, limpiamos el texto
-                            local = celdas[2].get_text(strip=True).replace(' (L)', '').replace(' (V)', '')
-                            visitante = celdas[4].get_text(strip=True).replace(' (L)', '').replace(' (V)', '')
-                            
-                            partido = {
-                                "liga": nombre_liga,
-                                "hora": celdas[0].get_text(strip=True),
-                                "local": local,
-                                "visitante": visitante,
-                                "tv": celdas[5].get_text(strip=True) if len(celdas) > 5 else "A confirmar",
-                                "prioridad": "San Lorenzo" in [local, visitante]
-                            }
-                            partidos_hoy.append(partido)
+                # Buscamos las filas de partidos (tr) dentro de este bloque
+                for fila in bloque.select('tr'):
+                    celdas = fila.find_all('td')
+                    if len(celdas) >= 4:
+                        # Limpiamos nombres de equipos para que se vean bien en la app
+                        local = celdas[2].get_text(strip=True).replace(' (L)', '').replace(' (V)', '')
+                        visitante = celdas[4].get_text(strip=True).replace(' (L)', '').replace(' (V)', '')
+                        
+                        partido = {
+                            "liga": nombre_liga,
+                            "hora": celdas[0].get_text(strip=True),
+                            "local": local,
+                            "visitante": visitante,
+                            "tv": celdas[5].get_text(strip=True) if len(celdas) > 5 else "A confirmar",
+                            "prioridad": "San Lorenzo" in [local, visitante] # San Lorenzo arriba
+                        }
+                        partidos_hoy.append(partido)
         
-        # Ordenamos: San Lorenzo arriba
+        # Ordenamos: Los partidos de San Lorenzo aparecen primero
         partidos_hoy.sort(key=lambda x: x['prioridad'], reverse=True)
         return partidos_hoy
 
     except Exception as e:
-        print(f"❌ Error detallado: {e}")
+        print(f"❌ Error detallado en agenda: {e}")
         return []
 
-# --- TU CONFIGURACIÓN DE CANALES (Mantenida al 100%) ---
+# --- TU CONFIGURACIÓN DE CANALES (Mantenida al 100% como pediste) ---
 CANALES_CONFIG = [
     {
         "id": "0", 
@@ -93,13 +96,13 @@ CANALES_CONFIG = [
     }
 ]
 
-# --- BLOQUE DE EJECUCIÓN (Guarda ambos archivos) ---
+# --- BLOQUE DE EJECUCIÓN ---
 if __name__ == "__main__":
     try:
         # 1. Guardar los canales
         with open('canales.json', 'w', encoding='utf-8') as f:
             json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
-        print("✅ canales.json actualizado: Se incluyeron todas las fuentes.")
+        print("✅ canales.json actualizado.")
 
         # 2. Obtener y guardar la agenda de partidos
         agenda = obtener_agenda()
@@ -109,4 +112,3 @@ if __name__ == "__main__":
 
     except Exception as e:
         print(f"❌ Error al guardar archivos: {e}")
-
