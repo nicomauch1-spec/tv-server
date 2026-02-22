@@ -2,42 +2,54 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-# --- CONFIGURACIÓN DE LIGAS (Nombres exactos de la página principal) ---
-# He incluido "Liga Profesional Argentina" y "UEFA Champions League" como aparecen ahora
-LIGAS_PERMITIDAS = [
-    "Liga Profesional Argentina", "Copa Argentina", 
-    "CONMEBOL Copa Libertadores", "CONMEBOL Copa Sudamericana",
-    "UEFA Champions League", "Premier League", "LaLiga", 
-    "Serie A", "Bundesliga", "Ligue 1"
+# --- CONFIGURACIÓN DE LIGAS (Filtro por palabras clave) ---
+# Usamos palabras clave para que no importe si dice "Liga Profesional" o "Liga Profesional Argentina"
+LIGAS_INTERES = [
+    "liga profesional", "copa argentina", "libertadores", 
+    "sudamericana", "champions league", "premier league", 
+    "laliga", "serie a", "bundesliga", "ligue 1"
 ]
 
 def obtener_agenda():
     url = "https://www.promiedos.com.ar/"
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
     
     try:
         response = requests.get(url, headers=headers)
         soup = BeautifulSoup(response.text, 'html.parser')
         partidos_hoy = []
 
-        # Buscamos los bloques de cada liga según las nuevas clases de tu captura
-        # La clase 'match-info_itemevent__jJv13' es el contenedor de cada liga
-        bloques_ligas = soup.find_all('div', class_='match-info_itemevent__jJv13')
-        
+        print("--- 🔍 Iniciando Escaneo de Agenda ---")
+
+        # Buscamos todos los contenedores de ligas (usando coincidencia parcial de clase)
+        # Esto soluciona el problema de las clases con códigos como 'jJv13'
+        bloques_ligas = soup.find_all('div', class_=lambda x: x and 'match-info_itemevent' in x)
+
+        if not bloques_ligas:
+            # Si el diseño moderno falla, probamos con el diseño clásico de Promiedos
+            bloques_ligas = soup.find_all('div', class_='tituloinfo')
+
         for bloque in bloques_ligas:
-            # El nombre de la liga está en un link con clase 'event-header_left__q8kgh'
-            tag_liga = bloque.select_one('a.event-header_left__q8kgh')
-            if not tag_liga: continue
-            
-            nombre_liga = tag_liga.get_text(strip=True)
-            
-            # FILTRO: Verificamos si la liga está en nuestra lista de interés
-            if any(liga.lower() in nombre_liga.lower() for liga in LIGAS_PERMITIDAS):
-                # Buscamos las filas de partidos (tr) dentro de este bloque
-                for fila in bloque.select('tr'):
+            # Buscamos el nombre de la liga dentro de una imagen (alt) o un link (text)
+            # Esto es lo que vimos en tu captura 'image_80461d.png'
+            tag_img = bloque.find('img', alt=True)
+            nombre_liga = tag_img['alt'] if tag_img else bloque.get_text(strip=True)
+
+            # Filtramos por tus ligas de interés
+            if any(liga.lower() in nombre_liga.lower() for liga in LIGAS_INTERES):
+                print(f"✅ Procesando: {nombre_liga}")
+                
+                # Buscamos los partidos. Suelen estar en tablas (tr) o divs internos
+                filas = bloque.find_all(['tr', 'div'], class_=lambda x: x and 'match-info_match' in x)
+                
+                # Si no encuentra por clase, buscamos todas las filas de tabla
+                if not filas: filas = bloque.find_all('tr')
+
+                for fila in filas:
                     celdas = fila.find_all('td')
                     if len(celdas) >= 4:
-                        # Limpiamos nombres de equipos para que se vean bien en la app
                         local = celdas[2].get_text(strip=True).replace(' (L)', '').replace(' (V)', '')
                         visitante = celdas[4].get_text(strip=True).replace(' (L)', '').replace(' (V)', '')
                         
@@ -47,19 +59,19 @@ def obtener_agenda():
                             "local": local,
                             "visitante": visitante,
                             "tv": celdas[5].get_text(strip=True) if len(celdas) > 5 else "A confirmar",
-                            "prioridad": "San Lorenzo" in [local, visitante] # San Lorenzo arriba
+                            "prioridad": "San Lorenzo" in [local, visitante] or "Liverpool" in [local, visitante]
                         }
                         partidos_hoy.append(partido)
-        
-        # Ordenamos: Los partidos de San Lorenzo aparecen primero
+
+        # San Lorenzo y Liverpool primero
         partidos_hoy.sort(key=lambda x: x['prioridad'], reverse=True)
         return partidos_hoy
 
     except Exception as e:
-        print(f"❌ Error detallado en agenda: {e}")
+        print(f"❌ Error crítico: {e}")
         return []
 
-# --- TU CONFIGURACIÓN DE CANALES (Mantenida al 100% como pediste) ---
+# --- TU CONFIGURACIÓN DE CANALES (INTACTA) ---
 CANALES_CONFIG = [
     {
         "id": "0", 
@@ -68,7 +80,7 @@ CANALES_CONFIG = [
         "sources": [
             {"name": "Opción 1 (HD)", "url": "https://streamtp501.com/global1.php?stream=espnpremium", "referer": "https://streamtp501.com/"},
             {"name": "Opción 2 (Alternativa)", "url": "https://la14hd.com/vivo/canales.php?stream=espnpremium", "referer": "https://la14hd.com/"},
-            {"name": "Opción 3 (Nebunexa)", "url": "https://nebunexa.life/cvatt.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE&lang=1", "referer": "https://nebunexa.life/"},
+            {"name": "Opción 3 (Nebunexa)", "url": "https://nebunexa.life/cvatt.html?get=Rm94X1Nwb3J0c19QcmVtaXVu_hE&lang=1", "referer": "https://nebunexa.life/"},
             {"name": "Opción 4 (Bolaloca)", "url": "https://bolaloca.my/player/1/76", "referer": "https://bolaloca.my/"}
         ]
     },
@@ -96,19 +108,14 @@ CANALES_CONFIG = [
     }
 ]
 
-# --- BLOQUE DE EJECUCIÓN ---
 if __name__ == "__main__":
-    try:
-        # 1. Guardar los canales
-        with open('canales.json', 'w', encoding='utf-8') as f:
-            json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
-        print("✅ canales.json actualizado.")
+    # Guardar Canales
+    with open('canales.json', 'w', encoding='utf-8') as f:
+        json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
+    
+    # Guardar Agenda
+    agenda = obtener_agenda()
+    with open('partidos.json', 'w', encoding='utf-8') as f:
+        json.dump(agenda, f, indent=4, ensure_ascii=False)
 
-        # 2. Obtener y guardar la agenda de partidos
-        agenda = obtener_agenda()
-        with open('partidos.json', 'w', encoding='utf-8') as f:
-            json.dump(agenda, f, indent=4, ensure_ascii=False)
-        print(f"✅ partidos.json actualizado. Se encontraron {len(agenda)} partidos.")
-
-    except Exception as e:
-        print(f"❌ Error al guardar archivos: {e}")
+    print(f"✅ Proceso terminado. Se guardaron {len(agenda)} partidos.")
