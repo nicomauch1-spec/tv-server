@@ -1,8 +1,6 @@
 import json
 
-# Configuración de canales simplificada: 
-# Eliminamos NowEvents para priorizar estabilidad con ExoPlayer (StreamTP y La14HD)
-
+# Configuración de canales con TODAS las fuentes (Estables + Sniffers)
 CANALES_CONFIG = [
     {
         "id": "0", 
@@ -18,6 +16,16 @@ CANALES_CONFIG = [
                 "name": "Opción 2 (Alternativa)", 
                 "url": "https://la14hd.com/vivo/canales.php?stream=espnpremium", 
                 "referer": "https://la14hd.com/"
+            },
+            {
+                "name": "Opción 3 (Nebunexa)",
+                "url": "https://nebunexa.life/cvatt.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE&lang=1",
+                "referer": "https://nebunexa.life/"
+            },
+            {
+                "name": "Opción 4 (Bolaloca)",
+                "url": "https://bolaloca.my/player/1/76",
+                "referer": "https://bolaloca.my/"
             }
         ]
     },
@@ -35,6 +43,16 @@ CANALES_CONFIG = [
                 "name": "Opción 2 (Alternativa)", 
                 "url": "https://la14hd.com/vivo/canales.php?stream=tntsports", 
                 "referer": "https://la14hd.com/"
+            },
+            {
+                "name": "Opción 3 (Nebunexa)",
+                "url": "https://nebunexa.life/cvatt.html?get=VE5UX1Nwb3J0c19IRA&lang=1",
+                "referer": "https://nebunexa.life/"
+            },
+            {
+                "name": "Opción 4 (Bolaloca)",
+                "url": "https://bolaloca.my/player/1/75",
+                "referer": "https://bolaloca.my/"
             }
         ]
     },
@@ -52,6 +70,16 @@ CANALES_CONFIG = [
                 "name": "Opción 2 (Alternativa)", 
                 "url": "https://la14hd.com/vivo/canales.php?stream=tycsports", 
                 "referer": "https://la14hd.com/"
+            },
+            {
+                "name": "Opción 3 (Nebunexa)",
+                "url": "https://www.nebunexa.life/cvatt.html?get=VHlDU3BvcnQ&lang=1",
+                "referer": "https://www.nebunexa.life/"
+            },
+            {
+                "name": "Opción 4 (Bolaloca)",
+                "url": "https://bolaloca.my/player/1/77",
+                "referer": "https://bolaloca.my/"
             }
         ]
     }
@@ -59,9 +87,7 @@ CANALES_CONFIG = [
 
 try:
     with open('canales.json', 'w', encoding='utf-8') as f:
-        # ensure_ascii=False para que los tildes se vean correctamente
         json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
-    print("✅ canales.json actualizado: Ahora solo con fuentes estables (ExoPlayer).")
+    print("✅ canales.json actualizado: Se incluyeron fuentes de StreamTP, La14HD, Nebunexa y Bolaloca.")
 except Exception as e:
     print(f"❌ Error al guardar: {e}")
-
