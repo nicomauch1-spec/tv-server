@@ -24,7 +24,7 @@ jobs:
           python-version: '3.9'
 
       - name: Instalar librerías
-        run: pip install requests
+        run: pip install requests beautifulsoup4
 
       - name: Correr el Scraper
         run: python scraper.py
