@@ -14,12 +14,12 @@ jobs:
 
     steps:
       - name: Bajar código
-        uses: actions/checkout@v4 # Actualizado a v4
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Trae todo el historial para evitar conflictos de rama
+          fetch-depth: 0 
 
       - name: Instalar Python
-        uses: actions/setup-python@v5 # Actualizado a v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
 
@@ -29,7 +29,6 @@ jobs:
       - name: Correr el Scraper
         run: python scraper.py
 
-      # Sincronizamos por si hubo cambios manuales en el repo mientras corría el scraper
       - name: Pull de cambios remotos
         run: |
           git config --global user.name "github-actions[bot]"
@@ -37,8 +36,9 @@ jobs:
           git pull origin main --rebase
 
       - name: Guardar cambios (Commit & Push)
-        uses: stefanzweifel/git-auto-commit-action@v5 # Actualizado a v5
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Actualizacion Automatica de Links"
-          file_pattern: 'canales.json'
+          commit_message: "Actualización Automática: Canales y Agenda de Partidos"
+          # LA CLAVE: Agregamos el archivo de partidos aquí abajo
+          file_pattern: 'canales.json partidos.json'
           branch: main
