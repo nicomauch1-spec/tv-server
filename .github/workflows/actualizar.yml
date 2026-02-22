@@ -9,16 +9,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
-    # 👇 ESTO ES LO QUE FALTABA PARA QUE PUEDA GUARDAR EL ARCHIVO
     permissions:
       contents: write
 
     steps:
       - name: Bajar código
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Actualizado a v4
+        with:
+          fetch-depth: 0 # Trae todo el historial para evitar conflictos de rama
 
       - name: Instalar Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # Actualizado a v5
         with:
           python-version: '3.9'
 
@@ -28,9 +29,16 @@ jobs:
       - name: Correr el Scraper
         run: python scraper.py
 
+      # Sincronizamos por si hubo cambios manuales en el repo mientras corría el scraper
+      - name: Pull de cambios remotos
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main --rebase
+
       - name: Guardar cambios (Commit & Push)
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5 # Actualizado a v5
         with:
-          commit_message: Actualizacion Automatica de Links
-          file_pattern: canales.json # Por las dudas puse los dos nombres
+          commit_message: "Actualizacion Automatica de Links"
+          file_pattern: 'canales.json'
           branch: main
