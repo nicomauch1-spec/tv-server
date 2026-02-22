@@ -11,8 +11,8 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (HD)", 
-                "url": "https://streamtp10.com/global1.php?stream=espnpremium", 
-                "referer": "https://streamtp10.com/"
+                "url": "https://streamtp501.com/global1.php?stream=espnpremium", 
+                "referer": "https://streamtp501.com/"
             },
             {
                 "name": "Opción 2 (Alternativa)", 
@@ -28,8 +28,8 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (HD)", 
-                "url": "https://streamtp10.com/global1.php?stream=tntsports", 
-                "referer": "https://streamtp10.com/"
+                "url": "https://streamtp501.com/global1.php?stream=tntsports", 
+                "referer": "https://streamtp501.com/"
             },
             {
                 "name": "Opción 2 (Alternativa)", 
@@ -45,8 +45,8 @@ CANALES_CONFIG = [
         "sources": [
             {
                 "name": "Opción 1 (HD)", 
-                "url": "https://streamtp10.com/global1.php?stream=tycsports", 
-                "referer": "https://streamtp10.com/"
+                "url": "https://streamtp501.com/global1.php?stream=tycsports", 
+                "referer": "https://streamtp501.com/"
             },
             {
                 "name": "Opción 2 (Alternativa)", 
@@ -64,3 +64,4 @@ try:
     print("✅ canales.json actualizado: Ahora solo con fuentes estables (ExoPlayer).")
 except Exception as e:
     print(f"❌ Error al guardar: {e}")
+
