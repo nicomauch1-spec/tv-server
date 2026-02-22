@@ -1,0 +1,7 @@
+{
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "apkUrl": "https://github.com/nicomauch1-spec/tv-server/raw/main/futbol_v1.1.0.apk",
+  "releaseNotes": "Se agregaron nuevos canales y se mejoró la estabilidad del reproductor en Android TV.",
+  "forceUpdate": true
+}
