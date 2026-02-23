@@ -1,3 +1,5 @@
+import requests
+from bs4 import BeautifulSoup
 import json
 
 CANALES_CONFIG = [
@@ -163,10 +165,75 @@ CANALES_CONFIG = [
     }
 ]
 
-if __name__ == "__main__":
+def ajustar_hora(hora_str):
+    try:
+        hora_obj = datetime.strptime(hora_str, "%H:%M")
+        nueva_hora = hora_obj + timedelta(hours=2)
+        return nueva_hora.strftime("%H:%M")
+    except:
+        return hora_str
 
+def procesar_todo():
+    print("🚀 Actualizando datos...")
+    
+    # 1. Guardar Canales
     with open("canales.json", "w", encoding="utf-8") as f:
         json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
 
-    print("✅ canales.json generado correctamente")
+    # 2. Procesar Agenda desde el JSON externo
+    url_agenda = "https://la14hd.com/eventos/json/agenda123.json"
+    headers = {"User-Agent": "Mozilla/5.0"}
+    
+    try:
+        response = requests.get(url_agenda, headers=headers)
+        data = response.json()
+        
+        agenda_filtrada = []
+        partidos_vistos = set()
 
+        for evento in data:
+            titulo_raw = evento.get("title", "")
+            titulo_up = titulo_raw.upper()
+            
+            # Filtros: Solo Ligas Top o San Lorenzo
+            es_cuervo = "SAN LORENZO" in titulo_up
+            es_interesante = any(liga in titulo_up for liga in LIGAS_TOP)
+
+            if es_interesante or es_cuervo:
+                # Ajuste de hora Argentina
+                hora_arg = ajustar_hora(evento.get("time", "00:00"))
+                
+                # Evitar duplicados
+                clave = f"{titulo_up}-{hora_arg}"
+                if clave not in partidos_vistos:
+                    partidos_vistos.add(clave)
+                    
+                    # --- LIMPIEZA DE TÍTULO ---
+                    # De "Serie A: Bologna vs Udinese" sacamos Liga y Partido
+                    if ":" in titulo_raw:
+                        liga, partido = titulo_raw.split(":", 1)
+                    else:
+                        liga, partido = "Fútbol", titulo_raw
+
+                    # Solo guardamos lo que te interesa
+                    agenda_filtrada.append({
+                        "liga": liga.strip(),
+                        "partido": partido.strip(),
+                        "hora": hora_arg,
+                        "prioridad": es_cuervo
+                    })
+
+        # Ordenar: San Lorenzo arriba, resto por hora
+        agenda_filtrada.sort(key=lambda x: (not x['prioridad'], x['hora']))
+
+        # Guardar Agenda limpia
+        with open("partidos.json", "w", encoding="utf-8") as f:
+            json.dump(agenda_filtrada, f, indent=4, ensure_ascii=False)
+        
+        print(f"✅ Proceso terminado. Agenda con {len(agenda_filtrada)} partidos.")
+
+    except Exception as e:
+        print(f"❌ Error: {e}")
+
+if __name__ == "__main__":
+    procesar_todo()
