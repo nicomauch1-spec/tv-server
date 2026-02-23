@@ -1,12 +1,14 @@
 import json
 import cloudscraper
 
+
 # --- CONFIGURACIÓN DE LIGAS (Filtro por palabras clave) ---
 LIGAS_INTERES = [
-    "liga profesional", "copa argentina", "libertadores", 
-    "sudamericana", "champions league", "premier league", 
+    "liga profesional", "copa argentina", "libertadores",
+    "sudamericana", "champions league", "premier league",
     "laliga", "serie a", "bundesliga", "ligue 1"
 ]
+
 
 def obtener_agenda():
     url = "https://api.promiedos.com.ar/games/today"
@@ -20,19 +22,55 @@ def obtener_agenda():
 
     try:
         scraper = cloudscraper.create_scraper()
-        response = scraper.get(url, headers=headers)
-        data = response.json()
+        response = scraper.get(url, headers=headers, timeout=20)
+
+        print(f"🌐 Status Code: {response.status_code}")
+
+        if response.status_code != 200:
+            print("❌ La API no respondió correctamente")
+            return []
+
+        try:
+            data = response.json()
+        except Exception:
+            print("❌ Error al decodificar JSON")
+            return []
+
+        # --- Detectar estructura real ---
+        if isinstance(data, list):
+            partidos_api = data
+        elif isinstance(data, dict):
+            partidos_api = (
+                data.get("games")
+                or data.get("data")
+                or data.get("matches")
+                or []
+            )
+        else:
+            partidos_api = []
+
+        print(f"🔎 Partidos recibidos desde API: {len(partidos_api)}")
+
+        if not partidos_api:
+            print("⚠️ No hay partidos hoy o la estructura cambió.")
+            return []
 
         partidos_hoy = []
 
-        print("--- 🔍 Procesando partidos desde API ---")
+        for partido in partidos_api:
 
-        for partido in data:
+            # Protección por si cambian estructura interna
+            league_data = partido.get("league") or {}
+            home_data = partido.get("home") or {}
+            away_data = partido.get("away") or {}
 
-            liga = partido.get("league", {}).get("name", "")
-            hora = partido.get("time", "")
-            local = partido.get("home", {}).get("name", "")
-            visitante = partido.get("away", {}).get("name", "")
+            liga = league_data.get("name", "")
+            hora = partido.get("time") or partido.get("date") or ""
+            local = home_data.get("name", "")
+            visitante = away_data.get("name", "")
+
+            if not liga:
+                continue
 
             if any(liga_interes in liga.lower() for liga_interes in LIGAS_INTERES):
 
@@ -45,20 +83,22 @@ def obtener_agenda():
                     "prioridad": "san lorenzo" in f"{local} {visitante}".lower()
                 })
 
-        # San Lorenzo primero
+        # Prioridad primero
         partidos_hoy.sort(key=lambda x: x["prioridad"], reverse=True)
+
+        print(f"✅ Partidos filtrados guardados: {len(partidos_hoy)}")
 
         return partidos_hoy
 
     except Exception as e:
-        print(f"❌ Error crítico: {e}")
+        print(f"❌ Error crítico general: {e}")
         return []
 
 
 # --- TU CONFIGURACIÓN DE CANALES (INTACTA) ---
 CANALES_CONFIG = [
     {
-        "id": "0", 
+        "id": "0",
         "name": "ESPN Premium",
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn-premium-ar.png",
         "sources": [
@@ -69,7 +109,7 @@ CANALES_CONFIG = [
         ]
     },
     {
-        "id": "1", 
+        "id": "1",
         "name": "TNT Sports",
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tnt-sports-ar.png",
         "sources": [
@@ -80,7 +120,7 @@ CANALES_CONFIG = [
         ]
     },
     {
-        "id": "2", 
+        "id": "2",
         "name": "TyC Sports",
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tyc-sports-ar.png",
         "sources": [
@@ -92,14 +132,19 @@ CANALES_CONFIG = [
     }
 ]
 
+
 if __name__ == "__main__":
+
+    print("🚀 Iniciando actualización...\n")
+
     # Guardar Canales
     with open('canales.json', 'w', encoding='utf-8') as f:
         json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
-    
+
     # Guardar Agenda
     agenda = obtener_agenda()
+
     with open('partidos.json', 'w', encoding='utf-8') as f:
         json.dump(agenda, f, indent=4, ensure_ascii=False)
 
-    print(f"✅ Proceso terminado. Se guardaron {len(agenda)} partidos.")
+    print(f"\n🏁 Proceso terminado. Partidos guardados: {len(agenda)}")
