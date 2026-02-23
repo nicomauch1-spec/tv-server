@@ -1,9 +1,7 @@
 import json
-import requests
-from bs4 import BeautifulSoup
+import cloudscraper
 
 # --- CONFIGURACIÓN DE LIGAS (Filtro por palabras clave) ---
-# Usamos palabras clave para que no importe si dice "Liga Profesional" o "Liga Profesional Argentina"
 LIGAS_INTERES = [
     "liga profesional", "copa argentina", "libertadores", 
     "sudamericana", "champions league", "premier league", 
@@ -11,65 +9,51 @@ LIGAS_INTERES = [
 ]
 
 def obtener_agenda():
-    url = "https://www.promiedos.com.ar/"
+    url = "https://api.promiedos.com.ar/games/today"
+
     headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        "x-ver": "1.11.7.5",
+        "origin": "https://www.promiedos.com.ar",
+        "referer": "https://www.promiedos.com.ar/",
+        "user-agent": "Mozilla/5.0"
     }
-    
+
     try:
-        response = requests.get(url, headers=headers)
-        soup = BeautifulSoup(response.text, 'html.parser')
+        scraper = cloudscraper.create_scraper()
+        response = scraper.get(url, headers=headers)
+        data = response.json()
+
         partidos_hoy = []
 
-        print("--- 🔍 Iniciando Escaneo de Agenda ---")
+        print("--- 🔍 Procesando partidos desde API ---")
 
-        # Buscamos todos los contenedores de ligas (usando coincidencia parcial de clase)
-        # Esto soluciona el problema de las clases con códigos como 'jJv13'
-        bloques_ligas = soup.find_all('div', class_=lambda x: x and 'match-info_itemevent' in x)
+        for partido in data:
 
-        if not bloques_ligas:
-            # Si el diseño moderno falla, probamos con el diseño clásico de Promiedos
-            bloques_ligas = soup.find_all('div', class_='tituloinfo')
+            liga = partido.get("league", {}).get("name", "")
+            hora = partido.get("time", "")
+            local = partido.get("home", {}).get("name", "")
+            visitante = partido.get("away", {}).get("name", "")
 
-        for bloque in bloques_ligas:
-            # Buscamos el nombre de la liga dentro de una imagen (alt) o un link (text)
-            # Esto es lo que vimos en tu captura 'image_80461d.png'
-            tag_img = bloque.find('img', alt=True)
-            nombre_liga = tag_img['alt'] if tag_img else bloque.get_text(strip=True)
+            if any(liga_interes in liga.lower() for liga_interes in LIGAS_INTERES):
 
-            # Filtramos por tus ligas de interés
-            if any(liga.lower() in nombre_liga.lower() for liga in LIGAS_INTERES):
-                print(f"✅ Procesando: {nombre_liga}")
-                
-                # Buscamos los partidos. Suelen estar en tablas (tr) o divs internos
-                filas = bloque.find_all(['tr', 'div'], class_=lambda x: x and 'match-info_match' in x)
-                
-                # Si no encuentra por clase, buscamos todas las filas de tabla
-                if not filas: filas = bloque.find_all('tr')
+                partidos_hoy.append({
+                    "liga": liga,
+                    "hora": hora,
+                    "local": local,
+                    "visitante": visitante,
+                    "tv": "A confirmar",
+                    "prioridad": "san lorenzo" in f"{local} {visitante}".lower()
+                })
 
-                for fila in filas:
-                    celdas = fila.find_all('td')
-                    if len(celdas) >= 4:
-                        local = celdas[2].get_text(strip=True).replace(' (L)', '').replace(' (V)', '')
-                        visitante = celdas[4].get_text(strip=True).replace(' (L)', '').replace(' (V)', '')
-                        
-                        partido = {
-                            "liga": nombre_liga,
-                            "hora": celdas[0].get_text(strip=True),
-                            "local": local,
-                            "visitante": visitante,
-                            "tv": celdas[5].get_text(strip=True) if len(celdas) > 5 else "A confirmar",
-                            "prioridad": "San Lorenzo" in [local, visitante] or "Liverpool" in [local, visitante]
-                        }
-                        partidos_hoy.append(partido)
+        # San Lorenzo primero
+        partidos_hoy.sort(key=lambda x: x["prioridad"], reverse=True)
 
-        # San Lorenzo y Liverpool primero
-        partidos_hoy.sort(key=lambda x: x['prioridad'], reverse=True)
         return partidos_hoy
 
     except Exception as e:
         print(f"❌ Error crítico: {e}")
         return []
+
 
 # --- TU CONFIGURACIÓN DE CANALES (INTACTA) ---
 CANALES_CONFIG = [
