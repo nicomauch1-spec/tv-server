@@ -1,6 +1,7 @@
 import requests
 import json
 import time
+import cloudscraper
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
 
@@ -62,30 +63,45 @@ def procesar_canales():
     canales_finales = []
     
     try:
-        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
-        response = requests.get(url_origen, headers=headers, timeout=15)
-        response.raise_for_status()
-        data_origen = response.json()
+        # CREAMOS EL SCRAPER ANTI-CLOUDFLARE
+        scraper = cloudscraper.create_scraper(browser={
+            'browser': 'chrome',
+            'platform': 'windows',
+            'desktop': True
+        })
         
+        # Agregamos cabeceras para parecer 100% legítimos
+        headers = {
+            "Accept": "application/json, text/javascript, */*; q=0.01",
+            "Referer": "https://nowfutbol.pages.dev/vivo/",
+            "Origin": "https://nowfutbol.pages.dev"
+        }
+        
+        response = scraper.get(url_origen, headers=headers, timeout=20)
+        
+        # Validación de seguridad: verificamos si no es JSON antes de que rompa
+        try:
+            data_origen = response.json()
+        except json.decoder.JSONDecodeError:
+            print("❌ Error: Cloudflare bloqueó la petición o la página devolvió HTML.")
+            print(f"Código HTTP recibido: {response.status_code}")
+            return # Cortamos la ejecución de canales acá para que no salte el error fatal
+
         for mi_canal in MIS_CANALES_BASE:
             fuentes_limpias = []
-            urls_vistas = set() # Usamos un Set para evitar duplicados si un canal está en varias "ligas"
+            urls_vistas = set() 
             contador_fuentes = 1
 
-            # Buscamos en TODAS las categorías y en TODAS las opciones
             for categoria in data_origen:
                 opciones_crudas = categoria.get("options", [])
                 
                 for opcion in opciones_crudas:
                     nombre_opcion_crudo = opcion.get("name", "")
                     
-                    # Verificamos si el nombre de la opción contiene el nombre que buscamos
-                    # Ej: Si buscamos "ESPN Premium", tiene que coincidir con "ESPN Premium - Opción 1"
                     if mi_canal["search_name"].lower() in nombre_opcion_crudo.lower():
                         if es_opcion_valida(opcion):
                             url_limpia = opcion.get("iframe")
                             
-                            # Evitamos agregar la misma URL dos veces
                             if url_limpia not in urls_vistas:
                                 urls_vistas.add(url_limpia)
                                 
@@ -103,7 +119,6 @@ def procesar_canales():
                                 fuentes_limpias.append(fuente)
                                 contador_fuentes += 1
 
-            # Si encontramos al menos una fuente para este canal, lo guardamos
             if fuentes_limpias:
                 nuevo_canal = {
                     "id": mi_canal["id"],
@@ -116,14 +131,15 @@ def procesar_canales():
             else:
                 print(f"[-] Canal {mi_canal['name']} sin fuentes válidas.")
 
-        # Guardamos todo el archivo JSON al final
-        with open("canales.json", "w", encoding="utf-8") as f:
-            json.dump(canales_finales, f, indent=4, ensure_ascii=False)
-        print("✅ canales.json guardado con éxito.")
+        if canales_finales:
+            with open("canales.json", "w", encoding="utf-8") as f:
+                json.dump(canales_finales, f, indent=4, ensure_ascii=False)
+            print("✅ canales.json guardado con éxito.")
+        else:
+            print("⚠️ No se guardó canales.json porque la lista final quedó vacía.")
 
     except Exception as e:
-        print(f"❌ Error actualizando canales: {e}")
-
+        print(f"❌ Error crítico actualizando canales: {e}")
 # ==========================================
 # CONFIGURACIÓN DEL SCRAPER DE AGENDA
 # ==========================================
@@ -206,3 +222,4 @@ def procesar_todo():
 
 if __name__ == "__main__":
     procesar_todo()
+
