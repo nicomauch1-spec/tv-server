@@ -8,7 +8,7 @@ from urllib.parse import urlparse
 # CONFIGURACIÓN DEL SCRAPER DE CANALES
 # ==========================================
 
-# Tu plantilla base (sin los sources, que se llenarán dinámicamente)
+# Mantenemos tu plantilla base. "search_name" ahora será un fragmento que buscaremos dentro de las "options"
 MIS_CANALES_BASE = [
     {"id": "0", "name": "ESPN Premium", "search_name": "ESPN Premium", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn-premium-ar.png"},
     {"id": "1", "name": "TNT Sports", "search_name": "TNT Sports", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tnt-sports-ar.png"},
@@ -22,9 +22,9 @@ MIS_CANALES_BASE = [
     {"id": "9", "name": "ESPN 7", "search_name": "ESPN 7", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/espn-7-lam.png"},
     {"id": "10", "name": "FOX Sports", "search_name": "FOX Sports", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-ar.png"},
     {"id": "11", "name": "FOX Sports 2", "search_name": "FOX Sports 2", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png"},
-    {"id": "12", "name": "FOX Sports Premium MX", "search_name": "FOX Sports Premium Mexico", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/mexico/fox-sports-premium-mx.png"},
+    {"id": "12", "name": "FOX Sports Premium MX", "search_name": "FOX Sports Premium", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/mexico/fox-sports-premium-mx.png"}, # Le saqué "Mexico" para que coincida más fácil
     {"id": "13", "name": "Premiere 1", "search_name": "Premiere 1", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/premiere-br.png"},
-    {"id": "14", "name": "DAZN F1", "search_name": "DAZN F1 (ES)", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dazn-f1-es.png"}
+    {"id": "14", "name": "DAZN F1", "search_name": "DAZN F1", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dazn-f1-es.png"}
 ]
 
 PROVEEDORES_PERMITIDOS = ['la14hd', 'streamtpcloud', 'nebunexa', 'bolaloca']
@@ -62,43 +62,48 @@ def procesar_canales():
     canales_finales = []
     
     try:
-        response = requests.get(url_origen, timeout=15)
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
+        response = requests.get(url_origen, headers=headers, timeout=15)
         response.raise_for_status()
         data_origen = response.json()
         
         for mi_canal in MIS_CANALES_BASE:
-            canal_encontrado = None
-            
-            for categoria in data_origen:
-                if categoria.get("name", "").lower() == mi_canal["search_name"].lower():
-                    canal_encontrado = categoria
-                    break
-
-            if not canal_encontrado:
-                continue
-
             fuentes_limpias = []
-            opciones_crudas = canal_encontrado.get("options", [])
-
+            urls_vistas = set() # Usamos un Set para evitar duplicados si un canal está en varias "ligas"
             contador_fuentes = 1
-            for opcion in opciones_crudas:
-                if es_opcion_valida(opcion):
-                    url_limpia = opcion.get("iframe")
+
+            # Buscamos en TODAS las categorías y en TODAS las opciones
+            for categoria in data_origen:
+                opciones_crudas = categoria.get("options", [])
+                
+                for opcion in opciones_crudas:
+                    nombre_opcion_crudo = opcion.get("name", "")
                     
-                    nombre_bonito = f"Opción {contador_fuentes}"
-                    if "la14hd" in url_limpia: nombre_bonito += " (Alternativa)"
-                    elif "streamtpcloud" in url_limpia: nombre_bonito += " (HD)"
-                    elif "nebunexa" in url_limpia: nombre_bonito += " (Nebunexa)"
-                    elif "bolaloca" in url_limpia: nombre_bonito += " (Bolaloca)"
+                    # Verificamos si el nombre de la opción contiene el nombre que buscamos
+                    # Ej: Si buscamos "ESPN Premium", tiene que coincidir con "ESPN Premium - Opción 1"
+                    if mi_canal["search_name"].lower() in nombre_opcion_crudo.lower():
+                        if es_opcion_valida(opcion):
+                            url_limpia = opcion.get("iframe")
+                            
+                            # Evitamos agregar la misma URL dos veces
+                            if url_limpia not in urls_vistas:
+                                urls_vistas.add(url_limpia)
+                                
+                                nombre_bonito = f"Opción {contador_fuentes}"
+                                if "la14hd" in url_limpia: nombre_bonito += " (Alternativa)"
+                                elif "streamtpcloud" in url_limpia: nombre_bonito += " (HD)"
+                                elif "nebunexa" in url_limpia: nombre_bonito += " (Nebunexa)"
+                                elif "bolaloca" in url_limpia: nombre_bonito += " (Bolaloca)"
 
-                    fuente = {
-                        "name": nombre_bonito,
-                        "url": url_limpia,
-                        "referer": obtener_referer(url_limpia)
-                    }
-                    fuentes_limpias.append(fuente)
-                    contador_fuentes += 1
+                                fuente = {
+                                    "name": nombre_bonito,
+                                    "url": url_limpia,
+                                    "referer": obtener_referer(url_limpia)
+                                }
+                                fuentes_limpias.append(fuente)
+                                contador_fuentes += 1
 
+            # Si encontramos al menos una fuente para este canal, lo guardamos
             if fuentes_limpias:
                 nuevo_canal = {
                     "id": mi_canal["id"],
@@ -111,14 +116,13 @@ def procesar_canales():
             else:
                 print(f"[-] Canal {mi_canal['name']} sin fuentes válidas.")
 
+        # Guardamos todo el archivo JSON al final
         with open("canales.json", "w", encoding="utf-8") as f:
             json.dump(canales_finales, f, indent=4, ensure_ascii=False)
         print("✅ canales.json guardado con éxito.")
 
     except Exception as e:
         print(f"❌ Error actualizando canales: {e}")
-        # Si falla, podrías considerar guardar un JSON con los iframes hardcodeados como backup
-
 
 # ==========================================
 # CONFIGURACIÓN DEL SCRAPER DE AGENDA
@@ -202,4 +206,3 @@ def procesar_todo():
 
 if __name__ == "__main__":
     procesar_todo()
-
