@@ -126,7 +126,7 @@ def procesar_canales():
 LIGAS_TOP = [
     "LIGA PROFESIONAL", "COPA ARGENTINA", "LIBERTADORES", "SUDAMERICANA",
     "PREMIER", "LALIGA", "SERIE A", "BUNDESLIGA", "LIGUE 1", 
-    "CHAMPIONS", "EUROPA LEAGUE"
+    "UEFA Champions League", "EUROPA LEAGUE"
 ]
 
 def ajustar_hora(hora_str):
@@ -202,3 +202,4 @@ def procesar_todo():
 
 if __name__ == "__main__":
     procesar_todo()
+
