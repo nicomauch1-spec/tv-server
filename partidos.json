@@ -6,21 +6,9 @@
         "prioridad": true
     },
     {
-        "liga": "Campeonato Sub-20 de la CONCACAF",
-        "partido": "Los Angeles FC vs Real España",
-        "hora": "00:00",
-        "prioridad": false
-    },
-    {
         "liga": "UEFA Champions League",
         "partido": "Atlético Madrid vs Club Brugge",
         "hora": "14:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Campeonato Sub-20 de la CONCACAF",
-        "partido": "Trinidad y Tobago Sub-20 vs Bermudas Sub-20",
-        "hora": "17:00",
         "prioridad": false
     },
     {
@@ -54,20 +42,8 @@
         "prioridad": false
     },
     {
-        "liga": "Campeonato Sub-20 de la CONCACAF",
-        "partido": "St. Vincent / Gren. Sub-20 vs Anguila Sub-20",
-        "hora": "18:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores",
         "partido": "Huachipato vs Carabobo",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Campeonato Sub-20 de la CONCACAF",
-        "partido": "Martinica Sub-20 vs Islas Vírgenes de EE.UU. Sub-20",
         "hora": "19:00",
         "prioridad": false
     },
@@ -75,12 +51,6 @@
         "liga": "Liga Profesional",
         "partido": "Central Córdoba SdE vs Talleres Córdoba",
         "hora": "19:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Campeonato Sub-20 de la CONCACAF",
-        "partido": "Curazao Sub-20 vs Guyana Sub-20",
-        "hora": "21:00",
         "prioridad": false
     },
     {
@@ -105,18 +75,6 @@
         "liga": "Copa Libertadores",
         "partido": "Medellín vs Liverpool",
         "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Campeonato Sub-20 de la CONCACAF",
-        "partido": "Nicaragua Sub-20 vs Aruba Sub-20",
-        "hora": "22:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa de Campeones de la Concacaf",
-        "partido": "Nashville SC vs Atlético Ottawa",
-        "hora": "22:00",
         "prioridad": false
     },
     {
