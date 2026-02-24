@@ -165,28 +165,39 @@ CANALES_CONFIG = [
     }
 ]
 
+# --- CONFIGURACIÓN DE AGENDA ---
+# He simplificado las palabras clave para que coincidan más fácil
+LIGAS_TOP = [
+    "LIGA PROFESIONAL", "COPA ARGENTINA", "LIBERTADORES", "SUDAMERICANA",
+    "PREMIER", "LALIGA", "SERIE A", "BUNDESLIGA", "LIGUE 1", 
+    "CHAMPIONS", "EUROPA LEAGUE", "CONCACAF"
+]
+
 def ajustar_hora(hora_str):
     try:
-        hora_obj = datetime.strptime(hora_str, "%H:%M")
+        # Algunos vienen con espacios o formatos raros, limpiamos:
+        hora_limpia = hora_str.strip()
+        hora_obj = datetime.strptime(hora_limpia, "%H:%M")
         nueva_hora = hora_obj + timedelta(hours=2)
         return nueva_hora.strftime("%H:%M")
     except:
         return hora_str
 
 def procesar_todo():
-    print("🚀 Actualizando datos...")
+    print("🚀 Iniciando scraper...")
     
-    # 1. Guardar Canales
+    # 1. Canales
     with open("canales.json", "w", encoding="utf-8") as f:
         json.dump(CANALES_CONFIG, f, indent=4, ensure_ascii=False)
 
-    # 2. Procesar Agenda desde el JSON externo
+    # 2. Agenda
     url_agenda = "https://la14hd.com/eventos/json/agenda123.json"
     headers = {"User-Agent": "Mozilla/5.0"}
     
     try:
-        response = requests.get(url_agenda, headers=headers)
+        response = requests.get(url_agenda, headers=headers, timeout=15)
         data = response.json()
+        print(f"📡 Datos recibidos: {len(data)} eventos encontrados en la web.")
         
         agenda_filtrada = []
         partidos_vistos = set()
@@ -195,27 +206,23 @@ def procesar_todo():
             titulo_raw = evento.get("title", "")
             titulo_up = titulo_raw.upper()
             
-            # Filtros: Solo Ligas Top o San Lorenzo
+            # Buscamos San Lorenzo o las ligas
             es_cuervo = "SAN LORENZO" in titulo_up
             es_interesante = any(liga in titulo_up for liga in LIGAS_TOP)
 
             if es_interesante or es_cuervo:
-                # Ajuste de hora Argentina
                 hora_arg = ajustar_hora(evento.get("time", "00:00"))
                 
-                # Evitar duplicados
                 clave = f"{titulo_up}-{hora_arg}"
                 if clave not in partidos_vistos:
                     partidos_vistos.add(clave)
                     
-                    # --- LIMPIEZA DE TÍTULO ---
-                    # De "Serie A: Bologna vs Udinese" sacamos Liga y Partido
+                    # Separar Liga de Equipos
                     if ":" in titulo_raw:
                         liga, partido = titulo_raw.split(":", 1)
                     else:
                         liga, partido = "Fútbol", titulo_raw
 
-                    # Solo guardamos lo que te interesa
                     agenda_filtrada.append({
                         "liga": liga.strip(),
                         "partido": partido.strip(),
@@ -223,19 +230,20 @@ def procesar_todo():
                         "prioridad": es_cuervo
                     })
 
-        # Ordenar: San Lorenzo arriba, resto por hora
+        # Ordenar: Prioridad San Lorenzo primero, luego hora
         agenda_filtrada.sort(key=lambda x: (not x['prioridad'], x['hora']))
 
-        # Guardar Agenda limpia
+        # IMPORTANTE: Si después de filtrar no hay nada, avisamos en la consola
+        if not agenda_filtrada:
+            print("⚠️ Filtro aplicado: No se encontraron partidos que coincidan con tus ligas.")
+        
         with open("partidos.json", "w", encoding="utf-8") as f:
             json.dump(agenda_filtrada, f, indent=4, ensure_ascii=False)
         
-        print(f"✅ Proceso terminado. Agenda con {len(agenda_filtrada)} partidos.")
+        print(f"✅ Proceso terminado. Partidos guardados: {len(agenda_filtrada)}")
 
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"❌ Error crítico: {e}")
 
 if __name__ == "__main__":
     procesar_todo()
-
-
