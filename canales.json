@@ -110,7 +110,7 @@
     {
         "id": "4",
         "name": "ESPN 2",
-        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn2-ar.png",
+        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-2-ar.png",
         "sources": [
             {
                 "name": "Opción 1",
@@ -137,7 +137,7 @@
     {
         "id": "5",
         "name": "ESPN 3",
-        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn3-ar.png",
+        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-3-ar.png",
         "sources": [
             {
                 "name": "Opción 1",
