@@ -58,7 +58,7 @@ def es_opcion_valida(opcion):
 def procesar_canales():
     print("\n📺 Iniciando scraper de CANALES...")
     timestamp = int(time.time() * 1000)
-    url_origen = f"https://nowfutbol.pages.dev/channels.json?{timestamp}"
+    url_origen = f"https://nowfutbol.pages.dev/vivo/channels.json?{timestamp}"
     
     canales_finales = []
     
@@ -222,4 +222,5 @@ def procesar_todo():
 
 if __name__ == "__main__":
     procesar_todo()
+
 
