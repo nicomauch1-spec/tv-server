@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Liga Profesional",
-        "partido": "Platense vs Defensa y Justicia",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores",
         "partido": "Huachipato vs Carabobo",
         "hora": "19:00",
