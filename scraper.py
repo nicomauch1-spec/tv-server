@@ -50,7 +50,7 @@ CANALES_CONFIG = [
     {
         "id": "4",
         "name": "ESPN 2",
-        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn2-ar.png",
+        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-2-ar.png",
         "sources": [
             {"name": "Opción 1", "url": "https://nebunexa.life/cvatt.html?get=RVNQTjJfQXJn&lang=1", "referer": "https://nebunexa.life/"},
             {"name": "Opción 2", "url": "https://streamtpcloud.com/global1.php?stream=espn2", "referer": "https://streamtp501.com/"},
@@ -61,7 +61,7 @@ CANALES_CONFIG = [
     {
         "id": "5",
         "name": "ESPN 3",
-        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn3-ar.png",
+        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-3-ar.png",
         "sources": [
             {"name": "Opción 1", "url": "https://nebunexa.life/cvatt.html?get=RVNQTjM=&lang=1", "referer": "https://nebunexa.life/"},
             {"name": "Opción 2", "url": "https://streamtpcloud.com/global1.php?stream=espn2", "referer": "https://streamtp501.com/"},
@@ -247,3 +247,4 @@ def procesar_todo():
 
 if __name__ == "__main__":
     procesar_todo()
+
