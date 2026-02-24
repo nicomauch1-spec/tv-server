@@ -1,1 +1,98 @@
-[]
+[
+    {
+        "liga": "Liga Profesional",
+        "partido": "San Lorenzo vs Instituto",
+        "hora": "19:15",
+        "prioridad": true
+    },
+    {
+        "liga": "Campeonato Sub-20 de la CONCACAF",
+        "partido": "Barbados Sub-20 vs Sint Maarten Sub-20",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "UEFA Champions League",
+        "partido": "Atlético Madrid vs Club Brugge",
+        "hora": "14:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Campeonato Sub-20 de la CONCACAF",
+        "partido": "Trinidad y Tobago Sub-20 vs Bermudas Sub-20",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "UEFA Champions League",
+        "partido": "Internazionale vs Bodø / Glimt",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Championship",
+        "partido": "Southampton vs Queens Park Rangers",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "UEFA Champions League",
+        "partido": "Bayer Leverkusen vs Olympiakos Piraeus",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "UEFA Champions League",
+        "partido": "Newcastle United vs Qarabağ",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Platense vs Defensa y Justicia",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Campeonato Sub-20 de la CONCACAF",
+        "partido": "St. Vincent / Gren. Sub-20 vs Anguila Sub-20",
+        "hora": "18:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Huachipato vs Carabobo",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Campeonato Sub-20 de la CONCACAF",
+        "partido": "Martinica Sub-20 vs Islas Vírgenes de EE.UU. Sub-20",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Central Córdoba SdE vs Talleres Córdoba",
+        "hora": "19:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Campeonato Sub-20 de la CONCACAF",
+        "partido": "Curazao Sub-20 vs Guyana Sub-20",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Argentina",
+        "partido": "Boca Juniors vs Gimnasia Chivilcoy",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Belgrano vs Atlético Tucumán",
+        "hora": "21:30",
+        "prioridad": false
+    }
+]
