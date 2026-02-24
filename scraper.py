@@ -46,6 +46,9 @@ def es_opcion_valida(opcion):
     if not url_opcion or url_opcion == 'undefined':
         return False
 
+    # Acá está el arreglo mágico:
+    PALABRAS_PROHIBIDAS = ['extension', 'vpn', 'app', '(pc)', ' pc ']
+    
     for palabra in PALABRAS_PROHIBIDAS:
         if palabra in nombre_opcion:
             return False
@@ -217,3 +220,4 @@ def procesar_todo():
 
 if __name__ == "__main__":
     procesar_todo()
+
