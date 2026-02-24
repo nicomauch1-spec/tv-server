@@ -1,5 +1,4 @@
 import requests
-from bs4 import BeautifulSoup
 import json
 
 CANALES_CONFIG = [
@@ -237,3 +236,4 @@ def procesar_todo():
 
 if __name__ == "__main__":
     procesar_todo()
+
