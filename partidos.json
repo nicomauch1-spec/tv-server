@@ -1,1 +1,26 @@
-
+[
+    {
+        "liga": "Campeonato Sub-20 de la CONCACAF",
+        "partido": "Puerto Rico Sub-20 vs St Kitts and Nevis Sub-20",
+        "hora": "18:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Campeonato Sub-20 de la CONCACAF",
+        "partido": "Surinam Sub-20 vs Belice Sub-20",
+        "hora": "20:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Campeonato Sub-20 de la CONCACAF",
+        "partido": "Jamaica Sub-20 vs Bonaire Sub-20",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Campeonato Sub-20 de la CONCACAF",
+        "partido": "El Salvador Sub-20 vs Guayana Francesa Sub-20",
+        "hora": "22:00",
+        "prioridad": false
+    }
+]
