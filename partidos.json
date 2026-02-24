@@ -7,6 +7,12 @@
     },
     {
         "liga": "Campeonato Sub-20 de la CONCACAF",
+        "partido": "Los Angeles FC vs Real España",
+        "hora": "00:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Campeonato Sub-20 de la CONCACAF",
         "partido": "Barbados Sub-20 vs Sint Maarten Sub-20",
         "hora": "14:00",
         "prioridad": false
@@ -90,9 +96,39 @@
         "prioridad": false
     },
     {
+        "liga": "Copa Libertadores",
+        "partido": "Sporting Cristal vs 2 de Mayo",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
         "liga": "Liga Profesional",
         "partido": "Belgrano vs Atlético Tucumán",
         "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Medellín vs Liverpool",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Campeonato Sub-20 de la CONCACAF",
+        "partido": "Nicaragua Sub-20 vs Aruba Sub-20",
+        "hora": "22:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa de Campeones de la Concacaf",
+        "partido": "Nashville SC vs Atlético Ottawa",
+        "hora": "22:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Gimnasia Mendoza vs Independiente",
+        "hora": "22:00",
         "prioridad": false
     }
 ]
