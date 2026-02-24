@@ -6,36 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "UEFA Champions League",
-        "partido": "Atlético Madrid vs Club Brugge",
-        "hora": "14:45",
-        "prioridad": false
-    },
-    {
-        "liga": "UEFA Champions League",
-        "partido": "Internazionale vs Bodø / Glimt",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Championship",
-        "partido": "Southampton vs Queens Park Rangers",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "UEFA Champions League",
-        "partido": "Bayer Leverkusen vs Olympiakos Piraeus",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "UEFA Champions League",
-        "partido": "Newcastle United vs Qarabağ",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Platense vs Defensa y Justicia",
         "hora": "17:00",
