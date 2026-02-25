@@ -12,7 +12,7 @@ from urllib.parse import urlparse
 # Plantilla base. "search_name" es el texto clave que buscaremos.
 MIS_CANALES_BASE = [
     {"id": "0", "name": "ESPN Premium", "search_name": "ESPN Premium", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn-premium-ar.png"},
-    {"id": "1", "name": "TNT Sports", "search_name": "TNT Sports", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tnt-sports-ar.png"},
+    {"id": "1", "name": "TNT Sports Premium", "search_name": "TNT Sports", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tnt-sports-ar.png"},
     {"id": "2", "name": "TyC Sports", "search_name": "TyC Sports", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tyc-sports-ar.png"},
     {"id": "3", "name": "ESPN", "search_name": "ESPN 1", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn-ar.png"},
     {"id": "4", "name": "ESPN 2", "search_name": "ESPN 2", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-2-ar.png"},
@@ -220,4 +220,5 @@ def procesar_todo():
 
 if __name__ == "__main__":
     procesar_todo()
+
 
