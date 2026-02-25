@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "liga": "Liga Profesional",
+        "partido": "Gimnasia La Plata vs Rosario Central",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Barracas Central vs Tigre",
+        "hora": "17:00",
+        "prioridad": false
+    }
+]
