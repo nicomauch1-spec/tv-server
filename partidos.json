@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "San Lorenzo vs Instituto",
-        "hora": "19:15",
-        "prioridad": true
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Huachipato vs Carabobo",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Central Córdoba SdE vs Talleres Córdoba",
-        "hora": "19:15",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Argentina",
         "partido": "Boca Juniors vs Gimnasia Chivilcoy",
         "hora": "21:00",
