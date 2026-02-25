@@ -10,5 +10,35 @@
         "partido": "Barracas Central vs Tigre",
         "hora": "17:00",
         "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Bahia vs O'Higgins",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Newell's Old Boys vs Estudiantes LP",
+        "hora": "19:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Vélez Sarsfield vs Deportivo Riestra",
+        "hora": "19:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Botafogo vs Nacional Potosí",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Argentinos Juniors vs Barcelona SC",
+        "hora": "21:30",
+        "prioridad": false
     }
 ]
