@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Racing Club vs Independiente Rivadavia",
-        "hora": "17:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Sarmiento vs Unión Santa Fe",
-        "hora": "17:15",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores",
         "partido": "Guaraní vs Juventud",
         "hora": "19:00",
