@@ -28,5 +28,17 @@
         "partido": "River Plate vs Banfield",
         "hora": "19:30",
         "prioridad": false
+    },
+    {
+        "liga": "Recopa Sudamericana",
+        "partido": "Flamengo vs Lanús | Final (2/2)",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Deportes Tolima vs Deportivo Táchira",
+        "hora": "21:30",
+        "prioridad": false
     }
 ]
