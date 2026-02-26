@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Copa Libertadores",
-        "partido": "Bahia vs O'Higgins",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Newell's Old Boys vs Estudiantes LP",
         "hora": "19:30",
