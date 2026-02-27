@@ -1,29 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Albacete vs Almería",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Augsburg vs Köln",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Strasbourg vs Lens",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Parma vs Cagliari",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Wolverhampton Wanderers vs Aston Villa",
         "hora": "17:00",
