@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Liga Profesional Saudí",
-        "partido": "Al Shabab vs Al Hilal",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Albacete vs Almería",
         "hora": "16:30",
