@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "liga": "Liga Profesional Saudí",
+        "partido": "Al Shabab vs Al Hilal",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Albacete vs Almería",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Augsburg vs Köln",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Parma vs Cagliari",
+        "hora": "16:45",
+        "prioridad": false
+    }
+]
