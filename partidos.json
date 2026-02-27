@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Copa Libertadores",
-        "partido": "Guaraní vs Juventud",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Estudiantes Río Cuarto vs Huracán",
         "hora": "19:30",
