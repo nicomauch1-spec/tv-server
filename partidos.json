@@ -1,17 +1,5 @@
 [
     {
-        "liga": "2. Bundesliga",
-        "partido": "Fortuna Düsseldorf vs Bochum",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "2. Bundesliga",
-        "partido": "Dynamo Dresden vs Darmstadt 98",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional Saudí",
         "partido": "Al Shabab vs Al Hilal",
         "hora": "16:00",
