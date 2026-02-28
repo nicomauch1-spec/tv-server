@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Bundesliga2",
-        "partido": "Holstein Kiel vs Elversberg",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga2",
-        "partido": "Kaiserslautern vs Paderborn",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga2",
-        "partido": "Arminia Bielefeld vs Hannover 96",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "AFC Bournemouth vs Sunderland",
         "hora": "09:30",
@@ -61,13 +43,13 @@
     },
     {
         "liga": "Premier League",
-        "partido": "Liverpool vs West Ham United",
+        "partido": "Burnley vs Brentford",
         "hora": "12:00",
         "prioridad": false
     },
     {
         "liga": "Premier League",
-        "partido": "Burnley vs Brentford",
+        "partido": "Liverpool vs West Ham United",
         "hora": "12:00",
         "prioridad": false
     },
