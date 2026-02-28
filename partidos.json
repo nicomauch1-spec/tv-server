@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "LaLiga",
-        "partido": "Barcelona vs Villarreal",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Real Zaragoza vs Burgos",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Rennes vs Toulouse",
         "hora": "13:00",
