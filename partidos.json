@@ -6,24 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "LaLiga",
-        "partido": "Real Oviedo vs Atlético Madrid",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "CD Castellon vs Racing Santander",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Le Havre vs PSG",
-        "hora": "17:05",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Boca Juniors vs Gimnasia Mendoza",
         "hora": "17:45",
