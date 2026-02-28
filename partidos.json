@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Bundesliga",
-        "partido": "Greuther Fürth vs Schalke 04",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Internazionale vs Genoa",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Real Oviedo vs Atlético Madrid",
         "hora": "17:00",
