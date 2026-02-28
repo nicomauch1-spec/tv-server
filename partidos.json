@@ -6,48 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Bundesliga",
-        "partido": "Hoffenheim vs St. Pauli",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Bayer Leverkusen vs Mainz 05",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Werder Bremen vs Heidenheim",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Borussia M'gladbach vs Union Berlin",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Burnley vs Brentford",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Liverpool vs West Ham United",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Newcastle United vs Everton",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Barcelona vs Villarreal",
         "hora": "12:15",
