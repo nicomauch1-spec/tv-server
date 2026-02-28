@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Ligue 1",
-        "partido": "Rennes vs Toulouse",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Verona vs Napoli",
         "hora": "14:00",
