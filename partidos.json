@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "AFC Bournemouth vs Sunderland",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Rayo Vallecano vs Athletic Club",
         "hora": "10:00",
@@ -84,8 +78,20 @@
         "prioridad": false
     },
     {
+        "liga": "LaLiga 2",
+        "partido": "Real Valladolid vs Huesca",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
         "liga": "Premier League",
         "partido": "Leeds United vs Manchester City",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga2",
+        "partido": "Granada vs Málaga",
         "hora": "14:30",
         "prioridad": false
     },
@@ -93,6 +99,54 @@
         "liga": "Bundesliga",
         "partido": "Borussia Dortmund vs Bayern München",
         "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Mallorca vs Real Sociedad",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Monaco vs Angers SCO",
+        "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Greuther Fürth vs Schalke 04",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Internazionale vs Genoa",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Oviedo vs Atlético Madrid",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "CD Castellon vs Racing Santander",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Le Havre vs PSG",
+        "hora": "17:05",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Boca Juniors vs Gimnasia Mendoza",
+        "hora": "17:45",
         "prioridad": false
     }
 ]
