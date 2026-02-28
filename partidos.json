@@ -6,36 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "LaLiga 2",
-        "partido": "Real Valladolid vs Huesca",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Leeds United vs Manchester City",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga2",
-        "partido": "Granada vs Málaga",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Borussia Dortmund vs Bayern München",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Mallorca vs Real Sociedad",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Monaco vs Angers SCO",
         "hora": "15:00",
