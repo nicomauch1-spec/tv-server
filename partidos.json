@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Serie A",
-        "partido": "Como vs Lecce",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Hoffenheim vs St. Pauli",
         "hora": "11:30",
