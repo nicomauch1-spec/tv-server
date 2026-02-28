@@ -1,9 +1,9 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Rayo Vallecano vs Athletic Club",
-        "hora": "10:00",
-        "prioridad": false
+        "liga": "Liga Profesional",
+        "partido": "Talleres Córdoba vs San Lorenzo",
+        "hora": "22:15",
+        "prioridad": true
     },
     {
         "liga": "Serie A",
@@ -147,6 +147,12 @@
         "liga": "Liga Profesional",
         "partido": "Boca Juniors vs Gimnasia Mendoza",
         "hora": "17:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Independiente vs Central Córdoba SdE",
+        "hora": "20:00",
         "prioridad": false
     }
 ]
