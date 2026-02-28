@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Ligue 1",
-        "partido": "Monaco vs Angers SCO",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Greuther Fürth vs Schalke 04",
         "hora": "16:30",
