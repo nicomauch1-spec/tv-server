@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Stuttgart vs Wolfsburg",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Sporting Gijón vs Leganés",
         "hora": "12:15",
