@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Manchester United vs Crystal Palace",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Fulham vs Tottenham Hotspur",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Brighton & Hove Albion vs Nottingham Forest",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Paris vs Nice",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Sassuolo vs Atalanta",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Stuttgart vs Wolfsburg",
         "hora": "11:30",
@@ -126,6 +96,12 @@
         "prioridad": false
     },
     {
+        "liga": "Liga Profesional",
+        "partido": "Newell's Old Boys vs Rosario Central",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
         "liga": "LaLiga",
         "partido": "Girona vs Celta de Vigo",
         "hora": "17:00",
@@ -135,6 +111,30 @@
         "liga": "LaLiga 2",
         "partido": "Eibar vs Cádiz",
         "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Instituto vs Unión Santa Fe",
+        "hora": "19:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Argentinos Juniors vs Barracas Central",
+        "hora": "19:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Defensa y Justicia vs Lanús",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Tigre vs Gimnasia La Plata",
+        "hora": "21:30",
         "prioridad": false
     }
 ]
