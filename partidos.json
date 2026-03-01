@@ -4,11 +4,5 @@
         "partido": "Talleres Córdoba vs San Lorenzo",
         "hora": "22:15",
         "prioridad": true
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Independiente vs Central Córdoba SdE",
-        "hora": "20:00",
-        "prioridad": false
     }
 ]
