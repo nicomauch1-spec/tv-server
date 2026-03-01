@@ -130,5 +130,17 @@
         "partido": "Torino vs Lazio",
         "hora": "14:00",
         "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Betis vs Sevilla",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Cultural Leonesa vs Las Palmas",
+        "hora": "14:30",
+        "prioridad": false
     }
 ]
