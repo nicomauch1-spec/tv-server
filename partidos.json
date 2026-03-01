@@ -1,1 +1,74 @@
-[]
+[
+    {
+        "liga": "Serie A",
+        "partido": "Cremonese vs Milan",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Hertha BSC vs Nürnberg",
+        "hora": "09:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Eintracht Braunschweig vs Preußen Münster",
+        "hora": "09:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Magdeburg vs Karlsruher SC",
+        "hora": "09:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Elche vs Espanyol",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Real Sociedad II vs Deportivo La Coruña",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Manchester United vs Crystal Palace",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Fulham vs Tottenham Hotspur",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Brighton & Hove Albion vs Nottingham Forest",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Paris vs Nice",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Sassuolo vs Atalanta",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Stuttgart vs Wolfsburg",
+        "hora": "11:30",
+        "prioridad": false
+    }
+]
