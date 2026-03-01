@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Arsenal vs Chelsea",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Eintracht Frankfurt vs Freiburg",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A de Ecuador",
         "partido": "LDU Quito vs Macará",
         "hora": "14:00",
