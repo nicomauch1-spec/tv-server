@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Roma vs Juventus",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Olympique Marseille vs Olympique Lyonnais",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Newell's Old Boys vs Rosario Central",
         "hora": "17:00",
