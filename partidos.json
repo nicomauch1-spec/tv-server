@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Hertha BSC vs Nürnberg",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Eintracht Braunschweig vs Preußen Münster",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Magdeburg vs Karlsruher SC",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Elche vs Espanyol",
         "hora": "10:00",
