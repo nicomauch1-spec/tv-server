@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Cremonese vs Milan",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga 2",
         "partido": "Hertha BSC vs Nürnberg",
         "hora": "09:30",
