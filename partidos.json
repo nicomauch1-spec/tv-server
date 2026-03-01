@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Serie A de Ecuador",
-        "partido": "LDU Quito vs Macará",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Torino vs Lazio",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Real Betis vs Sevilla",
         "hora": "14:30",
