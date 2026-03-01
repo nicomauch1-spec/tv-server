@@ -70,5 +70,65 @@
         "partido": "Stuttgart vs Wolfsburg",
         "hora": "11:30",
         "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Sporting Gijón vs Leganés",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Mirandés vs Ceuta",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Valencia vs Osasuna",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Metz vs Brest",
+        "hora": "13:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Lille vs Nantes",
+        "hora": "13:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Lorient vs Auxerre",
+        "hora": "13:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Arsenal vs Chelsea",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Eintracht Frankfurt vs Freiburg",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A de Ecuador",
+        "partido": "LDU Quito vs Macará",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Torino vs Lazio",
+        "hora": "14:00",
+        "prioridad": false
     }
 ]
