@@ -106,5 +106,35 @@
         "partido": "Cultural Leonesa vs Las Palmas",
         "hora": "14:30",
         "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Hamburger SV vs RB Leipzig",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Roma vs Juventus",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Olympique Marseille vs Olympique Lyonnais",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Girona vs Celta de Vigo",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Eibar vs Cádiz",
+        "hora": "17:00",
+        "prioridad": false
     }
 ]
