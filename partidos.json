@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Metz vs Brest",
-        "hora": "13:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Lille vs Nantes",
-        "hora": "13:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Lorient vs Auxerre",
-        "hora": "13:15",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Arsenal vs Chelsea",
         "hora": "13:30",
