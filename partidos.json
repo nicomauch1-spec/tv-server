@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Hamburger SV vs RB Leipzig",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Roma vs Juventus",
         "hora": "16:45",
