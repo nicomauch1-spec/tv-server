@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "liga": "Serie A",
+        "partido": "Pisa vs Bologna",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Córdoba vs FC Andorra",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Udinese vs Fiorentina",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Madrid vs Getafe",
+        "hora": "17:00",
+        "prioridad": false
+    }
+]
