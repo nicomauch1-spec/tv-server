@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Real Madrid vs Getafe",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Deportivo Riestra vs Platense",
         "hora": "19:15",
