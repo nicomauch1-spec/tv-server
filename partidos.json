@@ -1,18 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Instituto vs Unión Santa Fe",
-        "hora": "19:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Argentinos Juniors vs Barracas Central",
-        "hora": "19:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Defensa y Justicia vs Lanús",
         "hora": "21:30",
         "prioridad": false
