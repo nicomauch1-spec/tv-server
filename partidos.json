@@ -1,14 +1,1 @@
-[
-    {
-        "liga": "Liga Profesional",
-        "partido": "Banfield vs Aldosivi",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Independiente Rivadavia vs River Plate",
-        "hora": "21:30",
-        "prioridad": false
-    }
-]
+[]
