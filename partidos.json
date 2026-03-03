@@ -1,24 +1,6 @@
 [
     {
         "liga": "Premier League",
-        "partido": "AFC Bournemouth vs Brentford",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Leeds United vs Sunderland",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Everton vs Burnley",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
         "partido": "Wolverhampton Wanderers vs Liverpool",
         "hora": "17:15",
         "prioridad": false
