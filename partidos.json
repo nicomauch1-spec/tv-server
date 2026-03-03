@@ -1,18 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Deportivo Riestra vs Platense",
-        "hora": "19:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Estudiantes vs Vélez Sarsfield",
-        "hora": "19:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Banfield vs Aldosivi",
         "hora": "21:30",
         "prioridad": false
