@@ -1,1 +1,80 @@
-[]
+[
+    {
+        "liga": "Premier League",
+        "partido": "Leeds United vs Sunderland",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "AFC Bournemouth vs Brentford",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Everton vs Burnley",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Wolverhampton Wanderers vs Liverpool",
+        "hora": "17:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Sarmiento vs Estudiantes Río Cuarto",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Torque vs Defensor Sporting",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Independiente Petrolero vs Guabirá",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Huracán vs Belgrano",
+        "hora": "19:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Atlético Tucumán vs Racing Club",
+        "hora": "21:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Cobresal vs Audax Italiano",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Barcelona vs Botafogo",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Academia Puerto Cabello vs Monagas",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Alianza Atlético vs Deportivo Garcilaso",
+        "hora": "23:00",
+        "prioridad": false
+    }
+]
