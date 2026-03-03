@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Wolverhampton Wanderers vs Liverpool",
-        "hora": "17:15",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Sarmiento vs Estudiantes Río Cuarto",
         "hora": "19:00",
