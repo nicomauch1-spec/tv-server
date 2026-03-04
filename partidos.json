@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Atlético Tucumán vs Racing Club",
-        "hora": "21:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Cobresal vs Audax Italiano",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Barcelona vs Botafogo",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Academia Puerto Cabello vs Monagas",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Sudamericana",
         "partido": "Alianza Atlético vs Deportivo Garcilaso",
         "hora": "23:00",
