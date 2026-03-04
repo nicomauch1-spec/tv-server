@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Rayo Vallecano vs Real Oviedo",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Brighton & Hove Albion vs Arsenal",
         "hora": "16:30",
