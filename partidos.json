@@ -1,36 +1,6 @@
 [
     {
         "liga": "Premier League",
-        "partido": "Brighton & Hove Albion vs Arsenal",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Fulham vs West Ham United",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Manchester City vs Nottingham Forest",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Hamburger SV vs Bayer Leverkusen",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Aston Villa vs Chelsea",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
         "partido": "Newcastle United vs Manchester United",
         "hora": "17:15",
         "prioridad": false
