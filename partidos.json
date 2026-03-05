@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Lanús vs Boca Juniors",
-        "hora": "21:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Sportivo Trinidense vs Olimpia",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Universidad Chile vs Palestino",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "O'Higgins vs Deportes Tolima",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Atlético Nacional vs Millonarios",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Sudamericana",
         "partido": "Deportivo Cuenca vs Libertad",
         "hora": "23:00",
