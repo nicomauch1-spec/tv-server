@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Newcastle United vs Manchester United",
-        "hora": "17:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Blooming vs San Antonio Bulo Bulo",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Carabobo vs Sporting Cristal",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Caracas vs Metropolitanos",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Lanús vs Boca Juniors",
         "hora": "21:00",
@@ -42,14 +18,14 @@
         "prioridad": false
     },
     {
-        "liga": "Copa Sudamericana",
-        "partido": "Atlético Nacional vs Millonarios",
+        "liga": "Copa Libertadores",
+        "partido": "O'Higgins vs Deportes Tolima",
         "hora": "21:30",
         "prioridad": false
     },
     {
-        "liga": "Copa Libertadores",
-        "partido": "O'Higgins vs Deportes Tolima",
+        "liga": "Copa Sudamericana",
+        "partido": "Atlético Nacional vs Millonarios",
         "hora": "21:30",
         "prioridad": false
     },
