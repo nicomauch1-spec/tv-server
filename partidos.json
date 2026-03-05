@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Tottenham Hotspur vs Crystal Palace",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Sudamericana",
         "partido": "Nacional Asunción vs Deportivo Recoleta",
         "hora": "19:00",
