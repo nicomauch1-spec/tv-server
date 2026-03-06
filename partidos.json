@@ -4,5 +4,41 @@
         "partido": "Schalke 04 vs Arminia Bielefeld",
         "hora": "14:30",
         "prioridad": false
+    },
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Elversberg vs Magdeburg",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Bayern München vs Borussia M'gladbach",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Cádiz vs Real Zaragoza",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "PSG vs Monaco",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Napoli vs Torino",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Celta de Vigo vs Real Madrid",
+        "hora": "17:00",
+        "prioridad": false
     }
 ]
