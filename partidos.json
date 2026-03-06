@@ -1,18 +1,6 @@
 [
     {
         "liga": "Copa Sudamericana",
-        "partido": "Nacional Asunción vs Deportivo Recoleta",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Boston River vs Racing",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
         "partido": "América de Cali vs Atlético Bucaramanga",
         "hora": "21:30",
         "prioridad": false
