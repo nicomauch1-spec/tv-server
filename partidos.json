@@ -1,24 +1,6 @@
 [
     {
         "liga": "Copa Sudamericana",
-        "partido": "América de Cali vs Atlético Bucaramanga",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Cienciano vs Melgar",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Juventud vs Medellín",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
         "partido": "Orense vs Macará",
         "hora": "23:00",
         "prioridad": false
