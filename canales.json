@@ -473,5 +473,49 @@
                 "referer": "https://bolaloca.my/"
             }
         ]
+    },
+    {
+        "id": "15",
+        "name": "DSports",
+        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png",
+        "sources": [
+            {
+                "name": "Opción 1 (HD)",
+                "url": "https://streamtpcloud.com/global1.php?stream=dsports",
+                "referer": "https://streamtpcloud.com/"
+            },
+            {
+                "name": "Opción 2 (Alternativa)",
+                "url": "https://la14hd.com/vivo/canales.php?stream=dsports",
+                "referer": "https://la14hd.com/"
+            },
+            {
+                "name": "Opción 3 (Bolaloca)",
+                "url": "https://bolaloca.my/player/2/94",
+                "referer": "https://bolaloca.my/"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "name": "DSports 2",
+        "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports2-lam.png",
+        "sources": [
+            {
+                "name": "Opción 1 (HD)",
+                "url": "https://streamtpcloud.com/global1.php?stream=dsports2",
+                "referer": "https://streamtpcloud.com/"
+            },
+            {
+                "name": "Opción 2 (Alternativa)",
+                "url": "https://la14hd.com/vivo/canal.php?stream=dsports2",
+                "referer": "https://la14hd.com/"
+            },
+            {
+                "name": "Opción 3 (Bolaloca)",
+                "url": "https://bolaloca.my/player/2/95",
+                "referer": "https://bolaloca.my/"
+            }
+        ]
     }
 ]
