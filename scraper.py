@@ -25,7 +25,9 @@ MIS_CANALES_BASE = [
     {"id": "11", "name": "FOX Sports 2", "search_name": "FOX Sports 2", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png"},
     {"id": "12", "name": "FOX Sports Premium MX", "search_name": "FOX Sports Premium Mexico", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/mexico/fox-sports-premium-mx.png"},
     {"id": "13", "name": "Premiere 1", "search_name": "Premiere 1", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/premiere-br.png"},
-    {"id": "14", "name": "DAZN F1", "search_name": "DAZN F1", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dazn-f1-es.png"}
+    {"id": "14", "name": "DAZN F1", "search_name": "DAZN F1", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dazn-f1-es.png"},
+    {"id": "15", "name": "DSports", "search_name": "DSports", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png"},
+    {"id": "16", "name": "DSports 2", "search_name": "DSports 2", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports2-lam.png"}
 ]
 
 # Dejamos "streamtp" genérico para que atrape .com, cloud, 501, 10, etc.
@@ -220,5 +222,6 @@ def procesar_todo():
 
 if __name__ == "__main__":
     procesar_todo()
+
 
 
