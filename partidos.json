@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Paderborn vs Eintracht Braunschweig",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Darmstadt 98 vs Holstein Kiel",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Nürnberg vs Fortuna Düsseldorf",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Osasuna vs Mallorca",
         "hora": "10:00",
