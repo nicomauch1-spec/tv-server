@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Atalanta vs Udinese",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Köln vs Borussia Dortmund",
         "hora": "14:30",
