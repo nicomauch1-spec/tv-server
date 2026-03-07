@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Köln vs Borussia Dortmund",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Atlético Madrid vs Real Sociedad",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Auxerre vs Strasbourg",
         "hora": "15:00",
