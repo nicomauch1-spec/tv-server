@@ -1,1 +1,98 @@
-[]
+[
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Paderborn vs Eintracht Braunschweig",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Darmstadt 98 vs Holstein Kiel",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Nürnberg vs Fortuna Düsseldorf",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Osasuna vs Mallorca",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Cagliari vs Como",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Freiburg vs Bayer Leverkusen",
+        "hora": "11:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Mainz 05 vs Stuttgart",
+        "hora": "11:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "RB Leipzig vs Augsburg",
+        "hora": "11:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Heidenheim vs Hoffenheim",
+        "hora": "11:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Wolfsburg vs Hamburger SV",
+        "hora": "11:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Levante vs Girona",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Nantes vs Angers SCO",
+        "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Atalanta vs Udinese",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Köln vs Borussia Dortmund",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Atlético Madrid vs Real Sociedad",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Auxerre vs Strasbourg",
+        "hora": "15:00",
+        "prioridad": false
+    }
+]
