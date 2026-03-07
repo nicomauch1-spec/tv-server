@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Auxerre vs Strasbourg",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga 2",
         "partido": "Bochum vs Kaiserslautern",
         "hora": "16:30",
