@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Osasuna vs Mallorca",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Cagliari vs Como",
         "hora": "11:00",
@@ -75,6 +69,24 @@
         "liga": "Ligue 1",
         "partido": "Auxerre vs Strasbourg",
         "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Bochum vs Kaiserslautern",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Juventus vs Pisa",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Athletic Club vs Barcelona",
+        "hora": "17:00",
         "prioridad": false
     }
 ]
