@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Bochum vs Kaiserslautern",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Juventus vs Pisa",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Athletic Club vs Barcelona",
         "hora": "17:00",
