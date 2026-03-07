@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Cagliari vs Como",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Freiburg vs Bayer Leverkusen",
         "hora": "11:30",
@@ -87,6 +81,12 @@
         "liga": "LaLiga",
         "partido": "Athletic Club vs Barcelona",
         "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Toulouse vs Olympique Marseille",
+        "hora": "17:05",
         "prioridad": false
     }
 ]
