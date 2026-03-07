@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Freiburg vs Bayer Leverkusen",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Mainz 05 vs Stuttgart",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "RB Leipzig vs Augsburg",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Heidenheim vs Hoffenheim",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Wolfsburg vs Hamburger SV",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Levante vs Girona",
         "hora": "12:15",
@@ -87,6 +57,12 @@
         "liga": "Ligue 1",
         "partido": "Toulouse vs Olympique Marseille",
         "hora": "17:05",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Libertad vs LDU Quito",
+        "hora": "21:00",
         "prioridad": false
     }
 ]
