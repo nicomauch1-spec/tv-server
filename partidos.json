@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Nantes vs Angers SCO",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Atalanta vs Udinese",
         "hora": "14:00",
