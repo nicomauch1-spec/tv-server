@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Olympique Lyonnais vs Paris",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Milan vs Inter",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Deportivo La Coruña vs Granada",
         "hora": "17:00",
