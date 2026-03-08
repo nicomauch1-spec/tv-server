@@ -1,23 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Racing Santander vs Córdoba",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Leganés vs Eibar",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Sevilla vs Rayo Vallecano",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Olympique Lyonnais vs Paris",
         "hora": "16:45",
