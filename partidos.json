@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Brest vs Le Havre",
-        "hora": "13:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Lille vs Lorient",
-        "hora": "13:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Nice vs Rennes",
-        "hora": "13:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Union Berlin vs Werder Bremen",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Genoa vs Roma",
         "hora": "14:00",
