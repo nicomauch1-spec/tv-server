@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Lens vs Metz",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Bologna vs Verona",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Fiorentina vs Parma",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "St. Pauli vs Eintracht Frankfurt",
         "hora": "11:30",
