@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Villarreal vs Elche",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Lens vs Metz",
         "hora": "11:00",
