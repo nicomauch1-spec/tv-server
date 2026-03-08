@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Getafe vs Real Betis",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Brest vs Le Havre",
         "hora": "13:15",
