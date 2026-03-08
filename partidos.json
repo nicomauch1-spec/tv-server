@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Preußen Münster vs Hertha BSC",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Hannover 96 vs Greuther Fürth",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Karlsruher SC vs Dynamo Dresden",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Villarreal vs Elche",
         "hora": "10:00",
