@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "St. Pauli vs Eintracht Frankfurt",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Getafe vs Real Betis",
         "hora": "12:15",
