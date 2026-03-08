@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Lecce vs Cremonese",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga 2",
         "partido": "Preußen Münster vs Hertha BSC",
         "hora": "09:30",
