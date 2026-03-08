@@ -1,14 +1,1 @@
-[
-    {
-        "liga": "LaLiga 2",
-        "partido": "Deportivo La Coruña vs Granada",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Valencia vs Deportivo Alavés",
-        "hora": "17:00",
-        "prioridad": false
-    }
-]
+[]
