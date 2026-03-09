@@ -1,20 +1,14 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Almería vs Cultural Leonesa",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Lazio vs Sassuolo",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Espanyol vs Real Oviedo",
         "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores Sub-20",
+        "partido": "Belgrano Sub-20 vs LDU Quito Sub-20",
+        "hora": "19:00",
         "prioridad": false
     }
 ]
