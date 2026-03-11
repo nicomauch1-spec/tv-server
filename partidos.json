@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Liga Profesional",
-        "partido": "Argentinos Juniors vs Rosario Central",
-        "hora": "17:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Banfield vs Gimnasia La Plata",
-        "hora": "17:30",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores",
         "partido": "Sporting Cristal vs Carabobo",
         "hora": "19:00",
