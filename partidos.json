@@ -1,1 +1,44 @@
-[]
+[
+    {
+        "liga": "Liga Profesional",
+        "partido": "Boca Juniors vs San Lorenzo",
+        "hora": "19:45",
+        "prioridad": true
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Argentinos Juniors vs Rosario Central",
+        "hora": "17:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Banfield vs Gimnasia La Plata",
+        "hora": "17:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Sporting Cristal vs Carabobo",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Deportes Tolima vs O'Higgins",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Atlético Tucumán vs Aldosivi",
+        "hora": "22:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Independiente Rivadavia vs Barracas Central",
+        "hora": "22:00",
+        "prioridad": false
+    }
+]
