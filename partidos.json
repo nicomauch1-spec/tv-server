@@ -1,14 +1,1 @@
-[
-    {
-        "liga": "Liga Profesional",
-        "partido": "Newell's Old Boys vs Platense",
-        "hora": "22:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Sarmiento vs Racing Club",
-        "hora": "22:00",
-        "prioridad": false
-    }
-]
+[]
