@@ -1,14 +1,1 @@
-[
-    {
-        "liga": "Liga Profesional",
-        "partido": "Atlético Tucumán vs Aldosivi",
-        "hora": "22:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Independiente Rivadavia vs Barracas Central",
-        "hora": "22:00",
-        "prioridad": false
-    }
-]
+[]
