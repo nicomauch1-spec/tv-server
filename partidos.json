@@ -7,12 +7,6 @@
     },
     {
         "liga": "Copa Libertadores",
-        "partido": "Sporting Cristal vs Carabobo",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
         "partido": "Deportes Tolima vs O'Higgins",
         "hora": "21:30",
         "prioridad": false
