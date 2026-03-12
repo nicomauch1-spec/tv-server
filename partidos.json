@@ -1,18 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Boca Juniors vs San Lorenzo",
-        "hora": "19:45",
-        "prioridad": true
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Deportes Tolima vs O'Higgins",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Atlético Tucumán vs Aldosivi",
         "hora": "22:00",
         "prioridad": false
