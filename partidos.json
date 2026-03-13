@@ -1,17 +1,5 @@
 [
     {
-        "liga": "2. Bundesliga",
-        "partido": "Magdeburg vs Darmstadt 98",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "2. Bundesliga",
-        "partido": "Greuther Fürth vs Elversberg",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Borussia M'gladbach vs St. Pauli",
         "hora": "16:30",
