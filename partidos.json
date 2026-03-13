@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Estudiantes Río Cuarto vs Belgrano",
-        "hora": "19:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Talleres Córdoba vs Instituto",
-        "hora": "19:15",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores Sub-20",
         "partido": "Club Nacional Sub-20 vs LDU Quito Sub-20",
         "hora": "19:45",
@@ -24,14 +12,14 @@
         "prioridad": false
     },
     {
-        "liga": "Liga Profesional",
-        "partido": "Huracán vs River Plate",
+        "liga": "Copa Libertadores",
+        "partido": "Medellín vs Juventud",
         "hora": "21:30",
         "prioridad": false
     },
     {
-        "liga": "Copa Libertadores",
-        "partido": "Medellín vs Juventud",
+        "liga": "Liga Profesional",
+        "partido": "Huracán vs River Plate",
         "hora": "21:30",
         "prioridad": false
     }
