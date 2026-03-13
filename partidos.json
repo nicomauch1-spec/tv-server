@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Borussia M'gladbach vs St. Pauli",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga SmartBank",
-        "partido": "Mirandés vs Cádiz",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Olympique Marseille vs Auxerre",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Torino vs Parma",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Deportivo Alavés vs Villarreal",
         "hora": "17:00",
