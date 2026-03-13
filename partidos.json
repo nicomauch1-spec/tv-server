@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Deportivo Alavés vs Villarreal",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores Sub-20",
         "partido": "Estudiantes Merida Sub-20 vs Bolivar Sub-20",
         "hora": "19:00",
