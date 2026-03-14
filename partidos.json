@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Napoli vs Lecce",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Chelsea vs Newcastle United",
         "hora": "14:30",
