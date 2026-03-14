@@ -7,12 +7,6 @@
     },
     {
         "liga": "Bundesliga",
-        "partido": "Bayer Leverkusen vs Bayern München",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
         "partido": "Borussia Dortmund vs Augsburg",
         "hora": "11:30",
         "prioridad": false
@@ -30,6 +24,12 @@
         "prioridad": false
     },
     {
+        "liga": "Bundesliga",
+        "partido": "Bayer Leverkusen vs Bayern München",
+        "hora": "11:30",
+        "prioridad": false
+    },
+    {
         "liga": "Premier League",
         "partido": "Sunderland vs Brighton & Hove Albion",
         "hora": "12:00",
@@ -42,14 +42,14 @@
         "prioridad": false
     },
     {
-        "liga": "LaLiga",
-        "partido": "Atlético Madrid vs Getafe",
+        "liga": "LaLiga SmartBank",
+        "partido": "Cultural Leonesa vs Racing Santander",
         "hora": "12:15",
         "prioridad": false
     },
     {
-        "liga": "LaLiga SmartBank",
-        "partido": "Cultural Leonesa vs Racing Santander",
+        "liga": "LaLiga",
+        "partido": "Atlético Madrid vs Getafe",
         "hora": "12:15",
         "prioridad": false
     },
@@ -126,14 +126,14 @@
         "prioridad": false
     },
     {
-        "liga": "LaLiga",
-        "partido": "Real Madrid vs Elche",
+        "liga": "LaLiga 2",
+        "partido": "Ceuta vs Deportivo La Coruña",
         "hora": "17:00",
         "prioridad": false
     },
     {
-        "liga": "LaLiga 2",
-        "partido": "Ceuta vs Deportivo La Coruña",
+        "liga": "LaLiga",
+        "partido": "Real Madrid vs Elche",
         "hora": "17:00",
         "prioridad": false
     },
