@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Girona vs Athletic Club",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Internazionale vs Atalanta",
         "hora": "11:00",
