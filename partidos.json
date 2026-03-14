@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Angers SCO vs Nice",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A de Ecuador",
         "partido": "Independiente del Valle vs Aucas",
         "hora": "16:00",
