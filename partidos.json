@@ -1,41 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Chelsea vs Newcastle United",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Arsenal vs Everton",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Hamburger SV vs Köln",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Real Oviedo vs Valencia",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga SmartBank",
-        "partido": "Real Zaragoza vs Almería",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga SmartBank",
-        "partido": "Real Valladolid vs Leganés",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Angers SCO vs Nice",
         "hora": "15:00",
