@@ -124,5 +124,11 @@
         "partido": "Real Valladolid vs Leganés",
         "hora": "14:30",
         "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Angers SCO vs Nice",
+        "hora": "15:00",
+        "prioridad": false
     }
 ]
