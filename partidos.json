@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Lorient vs Lens",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Napoli vs Lecce",
         "hora": "14:00",
@@ -99,6 +93,18 @@
         "liga": "Liga Profesional",
         "partido": "Platense vs Vélez Sarsfield",
         "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Rosario Central vs Banfield",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores Sub-20",
+        "partido": "U. CatoliCA Sub-20 vs Olimpia Asuncion Sub-20",
+        "hora": "21:30",
         "prioridad": false
     }
 ]
