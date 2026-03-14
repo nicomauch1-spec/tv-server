@@ -48,6 +48,12 @@
         "prioridad": false
     },
     {
+        "liga": "Serie A de Ecuador",
+        "partido": "Independiente del Valle vs Aucas",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
         "liga": "Bundesliga 2",
         "partido": "Hertha BSC vs Bochum",
         "hora": "16:30",
