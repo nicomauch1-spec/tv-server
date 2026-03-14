@@ -1,14 +1,1 @@
-[
-    {
-        "liga": "Liga Profesional",
-        "partido": "Estudiantes vs Lanús",
-        "hora": "20:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores Sub-20",
-        "partido": "Flamengo Rj Sub-20 vs Ind. Medellin Sub-20",
-        "hora": "21:00",
-        "prioridad": false
-    }
-]
+[]
