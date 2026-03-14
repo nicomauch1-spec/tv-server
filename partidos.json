@@ -1,47 +1,5 @@
 [
     {
-        "liga": "Serie A de Ecuador",
-        "partido": "Independiente del Valle vs Aucas",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Hertha BSC vs Bochum",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Udinese vs Juventus",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "West Ham United vs Manchester City",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Ceuta vs Deportivo La Coruña",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Real Madrid vs Elche",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Monaco vs Brest",
-        "hora": "17:05",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores Sub-20",
         "partido": "Palmeiras Sub-20 vs Sporting Cristal Sub-20",
         "hora": "18:30",
