@@ -1,41 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Borussia Dortmund vs Augsburg",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Eintracht Frankfurt vs Heidenheim",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Hoffenheim vs Wolfsburg",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Bayer Leverkusen vs Bayern München",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Sunderland vs Brighton & Hove Albion",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Burnley vs AFC Bournemouth",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga SmartBank",
         "partido": "Cultural Leonesa vs Racing Santander",
         "hora": "12:15",
