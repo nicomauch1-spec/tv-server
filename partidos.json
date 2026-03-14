@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Internazionale vs Atalanta",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Borussia Dortmund vs Augsburg",
         "hora": "11:30",
