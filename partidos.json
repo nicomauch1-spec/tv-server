@@ -1,17 +1,5 @@
 [
     {
-        "liga": "LaLiga SmartBank",
-        "partido": "Cultural Leonesa vs Racing Santander",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Atlético Madrid vs Getafe",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Lorient vs Lens",
         "hora": "13:00",
