@@ -1,17 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Real Sociedad vs Osasuna",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Sporting Gijón vs CD Castellon",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A de Ecuador",
         "partido": "Emelec vs Orense",
         "hora": "17:30",
