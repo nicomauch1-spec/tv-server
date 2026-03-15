@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Como vs Roma",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A femenina",
-        "partido": "Roma vs Fiorentina",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Real Betis vs Celta de Vigo",
         "hora": "14:30",
@@ -63,6 +51,12 @@
         "liga": "LaLiga 2",
         "partido": "Sporting Gijón vs CD Castellon",
         "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A de Ecuador",
+        "partido": "Emelec vs Orense",
+        "hora": "17:30",
         "prioridad": false
     },
     {
