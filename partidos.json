@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Bundesliga2",
-        "partido": "Kaiserslautern vs Karlsruher SC",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga2",
-        "partido": "Schalke 04 vs Hannover 96",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga2",
-        "partido": "Dynamo Dresden vs Preußen Münster",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Mallorca vs Espanyol",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Córdoba vs Real Sociedad II",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Crystal Palace vs Leeds United",
         "hora": "11:00",
@@ -147,6 +117,66 @@
         "liga": "Bundesliga",
         "partido": "Stuttgart vs RB Leipzig",
         "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Rennes vs Lille",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Lazio vs Milan",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Sociedad vs Osasuna",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Sporting Gijón vs CD Castellon",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Belgrano vs Talleres Córdoba",
+        "hora": "17:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores Sub-20",
+        "partido": "LDU Quito Sub-20 vs S. Wanderers Sub-20",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "River Plate vs Sarmiento",
+        "hora": "19:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores Sub-20",
+        "partido": "Belgrano Sub-20 vs Club Nacional Sub-20",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Tigre vs Argentinos Juniors",
+        "hora": "22:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Unión Santa Fe vs Boca Juniors",
+        "hora": "22:00",
         "prioridad": false
     }
 ]
