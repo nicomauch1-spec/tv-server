@@ -1,23 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Real Betis vs Celta de Vigo",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Málaga vs Huesca",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Eibar vs Burgos",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Gimnasia La Plata vs Independiente Rivadavia",
         "hora": "15:15",
