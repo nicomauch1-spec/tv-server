@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Stuttgart vs RB Leipzig",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Rennes vs Lille",
         "hora": "16:45",
