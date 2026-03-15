@@ -88,5 +88,23 @@
         "partido": "Barcelona vs Sevilla",
         "hora": "12:15",
         "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Le Havre vs Olympique Lyonnais",
+        "hora": "13:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Metz vs Toulouse",
+        "hora": "13:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Liverpool vs Tottenham Hotspur",
+        "hora": "13:30",
+        "prioridad": false
     }
 ]
