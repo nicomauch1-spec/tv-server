@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Verona vs Genoa",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga2",
         "partido": "Kaiserslautern vs Karlsruher SC",
         "hora": "09:30",
@@ -147,6 +141,12 @@
         "liga": "Liga Profesional",
         "partido": "Gimnasia La Plata vs Independiente Rivadavia",
         "hora": "15:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Stuttgart vs RB Leipzig",
+        "hora": "15:30",
         "prioridad": false
     }
 ]
