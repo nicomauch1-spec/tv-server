@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "liga": "Serie A",
+        "partido": "Verona vs Genoa",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga2",
+        "partido": "Kaiserslautern vs Karlsruher SC",
+        "hora": "09:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga2",
+        "partido": "Schalke 04 vs Hannover 96",
+        "hora": "09:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga2",
+        "partido": "Dynamo Dresden vs Preußen Münster",
+        "hora": "09:30",
+        "prioridad": false
+    }
+]
