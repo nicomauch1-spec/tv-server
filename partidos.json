@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Werder Bremen vs Mainz 05",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Granada vs FC Andorra",
         "hora": "12:15",
