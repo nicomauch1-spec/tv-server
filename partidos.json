@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Rennes vs Lille",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Lazio vs Milan",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Real Sociedad vs Osasuna",
         "hora": "17:00",
