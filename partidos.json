@@ -40,5 +40,53 @@
         "partido": "Crystal Palace vs Leeds United",
         "hora": "11:00",
         "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Nottingham Forest vs Fulham",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Strasbourg vs Paris",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Sassuolo vs Bologna",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Pisa vs Cagliari",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Manchester United vs Aston Villa",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Werder Bremen vs Mainz 05",
+        "hora": "11:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Granada vs FC Andorra",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Barcelona vs Sevilla",
+        "hora": "12:15",
+        "prioridad": false
     }
 ]
