@@ -1,17 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Granada vs FC Andorra",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Barcelona vs Sevilla",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Le Havre vs Olympique Lyonnais",
         "hora": "13:15",
