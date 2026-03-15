@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Liverpool vs Tottenham Hotspur",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Freiburg vs Union Berlin",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Como vs Roma",
         "hora": "14:00",
