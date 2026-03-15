@@ -106,5 +106,47 @@
         "partido": "Liverpool vs Tottenham Hotspur",
         "hora": "13:30",
         "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Freiburg vs Union Berlin",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Como vs Roma",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A femenina",
+        "partido": "Roma vs Fiorentina",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Betis vs Celta de Vigo",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Málaga vs Huesca",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Eibar vs Burgos",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Gimnasia La Plata vs Independiente Rivadavia",
+        "hora": "15:15",
+        "prioridad": false
     }
 ]
