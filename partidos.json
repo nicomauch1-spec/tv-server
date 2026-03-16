@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Serie A de Ecuador",
-        "partido": "Emelec vs Orense",
-        "hora": "17:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Belgrano vs Talleres Córdoba",
-        "hora": "17:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores Sub-20",
-        "partido": "LDU Quito Sub-20 vs S. Wanderers Sub-20",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "River Plate vs Sarmiento",
         "hora": "19:45",
