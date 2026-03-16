@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "LaLiga 2",
-        "partido": "Albacete vs Las Palmas",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Cremonese vs Fiorentina",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Rayo Vallecano vs Levante",
         "hora": "17:00",
