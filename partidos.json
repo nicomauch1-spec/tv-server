@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Liga Profesional",
-        "partido": "Aldosivi vs Huracán",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Barracas Central vs Atlético Tucumán",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Albacete vs Las Palmas",
         "hora": "16:30",
