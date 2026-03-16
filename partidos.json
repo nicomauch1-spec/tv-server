@@ -1,1 +1,50 @@
-[]
+[
+    {
+        "liga": "Liga Profesional",
+        "partido": "San Lorenzo vs Defensa y Justicia",
+        "hora": "18:30",
+        "prioridad": true
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Aldosivi vs Huracán",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Barracas Central vs Atlético Tucumán",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Albacete vs Las Palmas",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Cremonese vs Fiorentina",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Rayo Vallecano vs Levante",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Brentford vs Wolverhampton Wanderers",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Racing Club vs Estudiantes Río Cuarto",
+        "hora": "20:00",
+        "prioridad": false
+    }
+]
