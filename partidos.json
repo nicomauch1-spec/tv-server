@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Racing Club vs Estudiantes Río Cuarto",
-        "hora": "20:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Instituto vs Independiente",
         "hora": "22:15",
         "prioridad": false
