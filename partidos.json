@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "liga": "Liga Profesional",
+        "partido": "Lanús vs Newell's Old Boys",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Gimnasia Mendoza vs Estudiantes",
+        "hora": "21:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Central Córdoba SdE vs Deportivo Riestra",
+        "hora": "21:15",
+        "prioridad": false
+    }
+]
