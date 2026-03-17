@@ -1,14 +1,14 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "San Lorenzo vs Defensa y Justicia",
-        "hora": "18:30",
-        "prioridad": true
+        "partido": "Racing Club vs Estudiantes Río Cuarto",
+        "hora": "20:00",
+        "prioridad": false
     },
     {
         "liga": "Liga Profesional",
-        "partido": "Racing Club vs Estudiantes Río Cuarto",
-        "hora": "20:00",
+        "partido": "Instituto vs Independiente",
+        "hora": "22:15",
         "prioridad": false
     }
 ]
