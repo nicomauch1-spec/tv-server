@@ -6,30 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "LaLiga 2",
-        "partido": "Huesca vs Almería",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "RB Leipzig vs Hoffenheim",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Lens vs Angers SCO",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Genoa vs Udinese",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "AFC Bournemouth vs Manchester United",
         "hora": "17:00",
