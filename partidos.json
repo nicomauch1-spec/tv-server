@@ -6,24 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Bundesliga 2",
-        "partido": "Hannover 96 vs Eintracht Braunschweig",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Karlsruher SC vs Greuther Fürth",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Cagliari vs Napoli",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Huesca vs Almería",
         "hora": "16:30",
