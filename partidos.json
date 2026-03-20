@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Premier League",
-        "partido": "AFC Bournemouth vs Manchester United",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Villarreal vs Real Sociedad",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Atlético Tucumán vs Gimnasia La Plata",
         "hora": "21:00",
