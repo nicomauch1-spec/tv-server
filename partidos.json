@@ -1,1 +1,74 @@
-[]
+[
+    {
+        "liga": "Copa Argentina",
+        "partido": "San Lorenzo vs Deportivo Rincón",
+        "hora": "21:15",
+        "prioridad": true
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Hannover 96 vs Eintracht Braunschweig",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Karlsruher SC vs Greuther Fürth",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Cagliari vs Napoli",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Huesca vs Almería",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "RB Leipzig vs Hoffenheim",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Lens vs Angers SCO",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Genoa vs Udinese",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "AFC Bournemouth vs Manchester United",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Villarreal vs Real Sociedad",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Atlético Tucumán vs Gimnasia La Plata",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Banfield vs Tigre",
+        "hora": "21:00",
+        "prioridad": false
+    }
+]
