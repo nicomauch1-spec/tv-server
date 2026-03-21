@@ -1,17 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Leganés vs Ceuta",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Elche vs Mallorca",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Parma vs Cremonese",
         "hora": "11:00",
