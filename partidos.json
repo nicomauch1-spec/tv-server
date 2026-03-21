@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Nürnberg vs Kaiserslautern",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Paderborn vs Dynamo Dresden",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Elversberg vs Arminia Bielefeld",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Brighton & Hove Albion vs Liverpool",
         "hora": "09:30",
