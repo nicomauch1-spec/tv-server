@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Parma vs Cremonese",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Bayern München vs Union Berlin",
         "hora": "11:30",
