@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Auxerre vs Brest",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Vélez Sarsfield vs Lanús",
         "hora": "15:30",
