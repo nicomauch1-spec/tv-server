@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Vélez Sarsfield vs Lanús",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga 2",
         "partido": "Darmstadt 98 vs Schalke 04",
         "hora": "16:30",
