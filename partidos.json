@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Toulouse vs Lorient",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Milan vs Torino",
         "hora": "14:00",
