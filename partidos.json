@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Darmstadt 98 vs Schalke 04",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Juventus vs Sassuolo",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Sevilla vs Valencia",
         "hora": "17:00",
