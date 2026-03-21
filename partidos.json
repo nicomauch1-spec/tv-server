@@ -1,29 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Sevilla vs Valencia",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Leeds United vs Brentford",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Deportivo La Coruña vs Real Zaragoza",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Nice vs PSG",
-        "hora": "17:05",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Defensa y Justicia vs Unión Santa Fe",
         "hora": "17:45",
