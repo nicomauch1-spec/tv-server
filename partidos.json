@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Everton vs Chelsea",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Levante vs Real Oviedo",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Osasuna vs Girona",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Cádiz vs Málaga",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Borussia Dortmund vs Hamburger SV",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Auxerre vs Brest",
         "hora": "15:00",
