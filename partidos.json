@@ -102,6 +102,12 @@
         "prioridad": false
     },
     {
+        "liga": "LaLiga",
+        "partido": "Osasuna vs Girona",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
         "liga": "Premier League",
         "partido": "Everton vs Chelsea",
         "hora": "14:30",
@@ -110,12 +116,6 @@
     {
         "liga": "LaLiga",
         "partido": "Levante vs Real Oviedo",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Osasuna vs Girona",
         "hora": "14:30",
         "prioridad": false
     },
@@ -156,9 +156,51 @@
         "prioridad": false
     },
     {
+        "liga": "LaLiga",
+        "partido": "Sevilla vs Valencia",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
         "liga": "Premier League",
         "partido": "Leeds United vs Brentford",
         "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Deportivo La Coruña vs Real Zaragoza",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Nice vs PSG",
+        "hora": "17:05",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Defensa y Justicia vs Unión Santa Fe",
+        "hora": "17:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Newell's Old Boys vs Gimnasia Mendoza",
+        "hora": "17:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Independiente vs Talleres Córdoba",
+        "hora": "20:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Belgrano vs Racing Club",
+        "hora": "22:15",
         "prioridad": false
     }
 ]
