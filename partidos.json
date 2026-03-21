@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Milan vs Torino",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Everton vs Chelsea",
         "hora": "14:30",
