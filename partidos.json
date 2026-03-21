@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Brighton & Hove Albion vs Liverpool",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Leganés vs Ceuta",
         "hora": "10:00",
