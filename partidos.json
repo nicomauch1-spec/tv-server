@@ -102,12 +102,6 @@
         "prioridad": false
     },
     {
-        "liga": "LaLiga",
-        "partido": "Osasuna vs Girona",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Everton vs Chelsea",
         "hora": "14:30",
@@ -116,6 +110,12 @@
     {
         "liga": "LaLiga",
         "partido": "Levante vs Real Oviedo",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Osasuna vs Girona",
         "hora": "14:30",
         "prioridad": false
     },
