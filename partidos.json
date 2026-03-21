@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Bayern München vs Union Berlin",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Heidenheim vs Bayer Leverkusen",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Wolfsburg vs Werder Bremen",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Köln vs Borussia M'gladbach",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Fulham vs Burnley",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Espanyol vs Getafe",
         "hora": "12:15",
