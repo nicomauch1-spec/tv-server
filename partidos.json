@@ -72,14 +72,14 @@
         "prioridad": false
     },
     {
-        "liga": "LaLiga 2",
-        "partido": "FC Andorra vs Eibar",
+        "liga": "LaLiga",
+        "partido": "Espanyol vs Getafe",
         "hora": "12:15",
         "prioridad": false
     },
     {
-        "liga": "LaLiga",
-        "partido": "Espanyol vs Getafe",
+        "liga": "LaLiga 2",
+        "partido": "FC Andorra vs Eibar",
         "hora": "12:15",
         "prioridad": false
     },
@@ -120,14 +120,14 @@
         "prioridad": false
     },
     {
-        "liga": "Bundesliga",
-        "partido": "Borussia Dortmund vs Hamburger SV",
+        "liga": "LaLiga 2",
+        "partido": "Cádiz vs Málaga",
         "hora": "14:30",
         "prioridad": false
     },
     {
-        "liga": "LaLiga 2",
-        "partido": "Cádiz vs Málaga",
+        "liga": "Bundesliga",
+        "partido": "Borussia Dortmund vs Hamburger SV",
         "hora": "14:30",
         "prioridad": false
     },
