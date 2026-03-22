@@ -1,18 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Defensa y Justicia vs Unión Santa Fe",
-        "hora": "17:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Newell's Old Boys vs Gimnasia Mendoza",
-        "hora": "17:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Independiente vs Talleres Córdoba",
         "hora": "20:00",
         "prioridad": false
