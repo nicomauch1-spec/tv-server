@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Como vs Pisa",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Newcastle United vs Sunderland",
         "hora": "09:00",
@@ -147,6 +141,30 @@
         "liga": "Bundesliga",
         "partido": "Augsburg vs Stuttgart",
         "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Fiorentina vs Internazionale",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Nantes vs Strasbourg",
+        "hora": "16:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Madrid vs Atlético Madrid",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Estudiantes Río Cuarto vs River Plate",
+        "hora": "17:45",
         "prioridad": false
     }
 ]
