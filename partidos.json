@@ -42,9 +42,75 @@
         "prioridad": false
     },
     {
+        "liga": "Serie A",
+        "partido": "Atalanta vs Verona",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
         "liga": "Ligue 1",
         "partido": "Olympique Lyonnais vs Monaco",
         "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Bologna vs Lazio",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Tottenham Hotspur vs Nottingham Forest",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Aston Villa vs West Ham United",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Mainz 05 vs Eintracht Frankfurt",
+        "hora": "11:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Celta de Vigo vs Deportivo Alavés",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Real Sociedad II vs Granada",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Mirandés vs Real Valladolid",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Olympique Marseille vs Lille",
+        "hora": "13:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Paris vs Le Havre",
+        "hora": "13:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Rennes vs Metz",
+        "hora": "13:15",
         "prioridad": false
     }
 ]
