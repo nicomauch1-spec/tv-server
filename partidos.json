@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Fortuna Düsseldorf vs Hertha BSC",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Bochum vs Holstein Kiel",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Preußen Münster vs Magdeburg",
-        "hora": "09:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Barcelona vs Rayo Vallecano",
         "hora": "10:00",
