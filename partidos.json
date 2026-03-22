@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Mainz 05 vs Eintracht Frankfurt",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Celta de Vigo vs Deportivo Alavés",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Real Sociedad II vs Granada",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Mirandés vs Real Valladolid",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Olympique Marseille vs Lille",
         "hora": "13:15",
