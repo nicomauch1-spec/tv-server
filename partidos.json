@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Sarmiento vs Aldosivi",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Augsburg vs Stuttgart",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Fiorentina vs Internazionale",
         "hora": "16:45",
