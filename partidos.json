@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Roma vs Lecce",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Las Palmas vs Sporting Gijón",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Athletic Club vs Real Betis",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Sarmiento vs Aldosivi",
         "hora": "15:30",
