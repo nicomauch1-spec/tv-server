@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Fiorentina vs Internazionale",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Nantes vs Strasbourg",
-        "hora": "16:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Real Madrid vs Atlético Madrid",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Estudiantes Río Cuarto vs River Plate",
-        "hora": "17:45",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Boca Juniors vs Instituto",
         "hora": "20:00",
