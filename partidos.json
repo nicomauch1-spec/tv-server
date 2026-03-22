@@ -1,1 +1,50 @@
-[]
+[
+    {
+        "liga": "Serie A",
+        "partido": "Como vs Pisa",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Newcastle United vs Sunderland",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Fortuna Düsseldorf vs Hertha BSC",
+        "hora": "09:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Bochum vs Holstein Kiel",
+        "hora": "09:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Preußen Münster vs Magdeburg",
+        "hora": "09:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Barcelona vs Rayo Vallecano",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Burgos vs Córdoba",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Olympique Lyonnais vs Monaco",
+        "hora": "11:00",
+        "prioridad": false
+    }
+]
