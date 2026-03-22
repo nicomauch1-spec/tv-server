@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Atalanta vs Verona",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Olympique Lyonnais vs Monaco",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Bologna vs Lazio",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Tottenham Hotspur vs Nottingham Forest",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Aston Villa vs West Ham United",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Mainz 05 vs Eintracht Frankfurt",
         "hora": "11:30",
