@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Olympique Marseille vs Lille",
-        "hora": "13:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Paris vs Le Havre",
-        "hora": "13:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Rennes vs Metz",
-        "hora": "13:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "St. Pauli vs Freiburg",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Roma vs Lecce",
         "hora": "14:00",
