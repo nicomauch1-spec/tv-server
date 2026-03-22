@@ -1,17 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Barcelona vs Rayo Vallecano",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Burgos vs Córdoba",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Atalanta vs Verona",
         "hora": "11:00",
