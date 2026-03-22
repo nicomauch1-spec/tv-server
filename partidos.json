@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Independiente vs Talleres Córdoba",
-        "hora": "20:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Belgrano vs Racing Club",
         "hora": "22:15",
         "prioridad": false
