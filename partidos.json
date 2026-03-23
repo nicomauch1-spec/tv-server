@@ -1,14 +1,1 @@
-[
-    {
-        "liga": "Liga Profesional",
-        "partido": "Argentinos Juniors vs Platense",
-        "hora": "22:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Independiente Rivadavia vs Rosario Central",
-        "hora": "22:15",
-        "prioridad": false
-    }
-]
+[]
