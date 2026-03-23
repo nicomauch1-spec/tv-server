@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "liga": "LaLiga 2",
+        "partido": "CD Castellon vs Cultural Leonesa",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Estudiantes vs Central Córdoba SdE",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Huracán vs Barracas Central",
+        "hora": "21:15",
+        "prioridad": false
+    }
+]
