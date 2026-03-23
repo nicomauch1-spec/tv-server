@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Boca Juniors vs Instituto",
-        "hora": "20:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Argentinos Juniors vs Platense",
         "hora": "22:15",
         "prioridad": false
