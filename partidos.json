@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Deportivo Riestra vs San Lorenzo",
-        "hora": "19:00",
-        "prioridad": true
-    },
-    {
-        "liga": "Copa Argentina",
-        "partido": "Atlético Tucumán vs Sportivo Barracas",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Argentina",
         "partido": "Banfield vs Real Pilar",
         "hora": "21:15",
