@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Córdoba vs Mirandés",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Argentina",
         "partido": "Independiente vs Atenas",
         "hora": "17:00",
