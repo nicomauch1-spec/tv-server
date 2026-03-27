@@ -1,12 +1,6 @@
 [
     {
         "liga": "Copa Argentina",
-        "partido": "Independiente vs Atenas",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Argentina",
         "partido": "Belgrano vs Atlético Rafaela",
         "hora": "22:15",
         "prioridad": false
