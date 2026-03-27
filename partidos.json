@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Córdoba vs Mirandés",
+        "hora": "15:00",
+        "prioridad": false
+    }
+]
