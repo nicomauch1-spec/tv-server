@@ -1,20 +1,26 @@
 [
     {
         "liga": "LaLiga 2",
-        "partido": "Granada vs Huesca",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Real Valladolid vs Burgos",
-        "hora": "12:15",
+        "partido": "Málaga vs Leganés",
+        "hora": "14:30",
         "prioridad": false
     },
     {
         "liga": "LaLiga 2",
         "partido": "Albacete vs CD Castellon",
         "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Sporting Gijón vs Deportivo La Coruña",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Argentina",
+        "partido": "Racing Club vs San Martín Formosa",
+        "hora": "21:15",
         "prioridad": false
     }
 ]
