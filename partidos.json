@@ -1,12 +1,6 @@
 [
     {
         "liga": "LaLiga 2",
-        "partido": "Ceuta vs Cádiz",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
         "partido": "Granada vs Huesca",
         "hora": "12:15",
         "prioridad": false
