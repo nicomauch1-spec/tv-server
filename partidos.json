@@ -1,12 +1,6 @@
 [
     {
         "liga": "LaLiga 2",
-        "partido": "Málaga vs Leganés",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
         "partido": "Albacete vs CD Castellon",
         "hora": "17:00",
         "prioridad": false
