@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "liga": "LaLiga 2",
+        "partido": "Ceuta vs Cádiz",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Granada vs Huesca",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Real Valladolid vs Burgos",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Albacete vs CD Castellon",
+        "hora": "17:00",
+        "prioridad": false
+    }
+]
