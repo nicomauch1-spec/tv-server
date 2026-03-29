@@ -1,12 +1,6 @@
 [
     {
         "liga": "LaLiga 2",
-        "partido": "Cultural Leonesa vs FC Andorra",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
         "partido": "Real Zaragoza vs Racing Santander",
         "hora": "13:30",
         "prioridad": false
