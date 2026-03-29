@@ -1,12 +1,6 @@
 [
     {
         "liga": "LaLiga 2",
-        "partido": "Eibar vs Las Palmas",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
         "partido": "Cultural Leonesa vs FC Andorra",
         "hora": "11:15",
         "prioridad": false
