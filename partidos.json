@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Almería vs Real Sociedad II",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Argentina",
         "partido": "Huracán vs Olimpo",
         "hora": "18:00",
