@@ -10,5 +10,29 @@
         "partido": "Cultural Leonesa vs FC Andorra",
         "hora": "11:15",
         "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Real Zaragoza vs Racing Santander",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Almería vs Real Sociedad II",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Argentina",
+        "partido": "Huracán vs Olimpo",
+        "hora": "18:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Argentina",
+        "partido": "Newell's Old Boys vs Acassuso",
+        "hora": "20:15",
+        "prioridad": false
     }
 ]
