@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "liga": "Copa Argentina",
+        "partido": "Unión Santa Fe vs Agropecuario",
+        "hora": "21:00",
+        "prioridad": false
+    }
+]
