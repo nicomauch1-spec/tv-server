@@ -1,12 +1,6 @@
 [
     {
         "liga": "LaLiga 2",
-        "partido": "Deportivo La Coruña vs Córdoba",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
         "partido": "Real Valladolid vs Cádiz",
         "hora": "16:30",
         "prioridad": false
