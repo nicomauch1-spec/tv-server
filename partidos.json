@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Aldosivi vs Argentinos Juniors",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Mirandés vs Albacete",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Deportivo La Coruña vs Córdoba",
         "hora": "15:00",
