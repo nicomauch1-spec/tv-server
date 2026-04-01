@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "FC Andorra vs Málaga",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Huesca vs Cultural Leonesa",
+        "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Burgos vs Ceuta",
+        "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Racing Santander vs Sporting Gijón",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Argentina",
+        "partido": "Defensa y Justicia vs Chaco For Ever",
+        "hora": "19:00",
+        "prioridad": false
+    }
+]
