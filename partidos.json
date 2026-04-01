@@ -1,18 +1,6 @@
 [
     {
         "liga": "LaLiga SmartBank",
-        "partido": "Huesca vs Cultural Leonesa",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga SmartBank",
-        "partido": "Burgos vs Ceuta",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga SmartBank",
         "partido": "Racing Santander vs Sporting Gijón",
         "hora": "16:30",
         "prioridad": false
