@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga SmartBank",
-        "partido": "Racing Santander vs Sporting Gijón",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Argentina",
         "partido": "Defensa y Justicia vs Chaco For Ever",
         "hora": "19:00",
