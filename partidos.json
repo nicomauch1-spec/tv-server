@@ -1,12 +1,6 @@
 [
     {
         "liga": "LaLiga SmartBank",
-        "partido": "FC Andorra vs Málaga",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga SmartBank",
         "partido": "Huesca vs Cultural Leonesa",
         "hora": "15:00",
         "prioridad": false
