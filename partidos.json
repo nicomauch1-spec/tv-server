@@ -34,5 +34,11 @@
         "partido": "Tigre vs Independiente Rivadavia",
         "hora": "17:30",
         "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Talleres Córdoba vs Boca Juniors",
+        "hora": "20:30",
+        "prioridad": false
     }
 ]
