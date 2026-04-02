@@ -1,14 +1,1 @@
-[
-    {
-        "liga": "Liga Profesional",
-        "partido": "Lanús vs Platense",
-        "hora": "20:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Argentina",
-        "partido": "Instituto vs Atlanta",
-        "hora": "21:15",
-        "prioridad": false
-    }
-]
+[]
