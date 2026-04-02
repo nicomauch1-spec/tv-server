@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Laliga 2",
-        "partido": "Las Palmas vs Granada",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Barracas Central vs Sarmiento",
         "hora": "15:00",
