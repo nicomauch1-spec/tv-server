@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga SmartBank",
-        "partido": "Leganés vs Real Zaragoza",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Tigre vs Independiente Rivadavia",
         "hora": "17:30",
