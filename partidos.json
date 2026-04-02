@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Barracas Central vs Sarmiento",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga SmartBank",
-        "partido": "CD Castellon vs Almería",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga SmartBank",
-        "partido": "Real Sociedad II vs Eibar",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga SmartBank",
         "partido": "Leganés vs Real Zaragoza",
         "hora": "16:30",
