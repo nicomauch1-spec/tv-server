@@ -4,11 +4,5 @@
         "partido": "San Lorenzo vs Estudiantes",
         "hora": "19:30",
         "prioridad": true
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Unión Santa Fe vs Deportivo Riestra",
-        "hora": "17:15",
-        "prioridad": false
     }
 ]
