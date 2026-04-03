@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "liga": "Liga Profesional",
+        "partido": "San Lorenzo vs Estudiantes",
+        "hora": "19:30",
+        "prioridad": true
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Gimnasia Mendoza vs Vélez Sarsfield",
+        "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "PSG vs Toulouse",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Rayo Vallecano vs Elche",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Unión Santa Fe vs Deportivo Riestra",
+        "hora": "17:15",
+        "prioridad": false
+    }
+]
