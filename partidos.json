@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Ligue 1",
-        "partido": "PSG vs Toulouse",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Rayo Vallecano vs Elche",
         "hora": "16:00",
