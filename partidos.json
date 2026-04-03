@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "LaLiga",
-        "partido": "Rayo Vallecano vs Elche",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Unión Santa Fe vs Deportivo Riestra",
         "hora": "17:15",
