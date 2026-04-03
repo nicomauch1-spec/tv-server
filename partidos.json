@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Liga Profesional",
-        "partido": "Gimnasia Mendoza vs Vélez Sarsfield",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "PSG vs Toulouse",
         "hora": "15:45",
