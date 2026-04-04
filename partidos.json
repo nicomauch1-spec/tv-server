@@ -1,23 +1,5 @@
 [
     {
-        "liga": "2. Bundesliga",
-        "partido": "Arminia Bielefeld vs Darmstadt 98",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
-        "liga": "2. Bundesliga",
-        "partido": "Kaiserslautern vs Fortuna Düsseldorf",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
-        "liga": "2. Bundesliga",
-        "partido": "Magdeburg vs Bochum",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga SmartBank",
         "partido": "Cádiz vs Córdoba",
         "hora": "09:00",
@@ -123,6 +105,30 @@
         "liga": "LaLiga 2",
         "partido": "Cultural Leonesa vs Real Valladolid",
         "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Brest vs Rennes",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Dynamo Dresden vs Hertha BSC",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Lazio vs Parma",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Atlético Madrid vs Barcelona",
+        "hora": "16:00",
         "prioridad": false
     }
 ]
