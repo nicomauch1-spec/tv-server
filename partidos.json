@@ -1,17 +1,5 @@
 [
     {
-        "liga": "LaLiga SmartBank",
-        "partido": "Cádiz vs Córdoba",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Real Sociedad vs Levante",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Sassuolo vs Cagliari",
         "hora": "10:00",
@@ -84,12 +72,6 @@
         "prioridad": false
     },
     {
-        "liga": "LaLiga",
-        "partido": "Real Betis vs Espanyol",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Aldosivi vs Estudiantes Río Cuarto",
         "hora": "13:30",
@@ -104,6 +86,12 @@
     {
         "liga": "LaLiga 2",
         "partido": "Cultural Leonesa vs Real Valladolid",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Betis vs Espanyol",
         "hora": "13:30",
         "prioridad": false
     },
@@ -129,6 +117,24 @@
         "liga": "LaLiga",
         "partido": "Atlético Madrid vs Barcelona",
         "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Lille vs Lens",
+        "hora": "16:05",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Independiente vs Racing Club",
+        "hora": "17:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Rosario Central vs Atlético Tucumán",
+        "hora": "21:00",
         "prioridad": false
     }
 ]
