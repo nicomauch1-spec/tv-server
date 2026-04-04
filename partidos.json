@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Verona vs Fiorentina",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Stuttgart vs Borussia Dortmund",
         "hora": "13:30",
