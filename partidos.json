@@ -1,1 +1,38 @@
-[]
+[
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Arminia Bielefeld vs Darmstadt 98",
+        "hora": "08:00",
+        "prioridad": false
+    },
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Kaiserslautern vs Fortuna Düsseldorf",
+        "hora": "08:00",
+        "prioridad": false
+    },
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Magdeburg vs Bochum",
+        "hora": "08:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Cádiz vs Córdoba",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Sociedad vs Levante",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Sassuolo vs Cagliari",
+        "hora": "10:00",
+        "prioridad": false
+    }
+]
