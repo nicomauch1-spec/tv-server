@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Dynamo Dresden vs Hertha BSC",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Lazio vs Parma",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Atlético Madrid vs Barcelona",
         "hora": "16:00",
