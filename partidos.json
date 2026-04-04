@@ -1,17 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Mallorca vs Real Madrid",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Albacete vs Burgos",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Strasbourg vs Nice",
         "hora": "12:00",
