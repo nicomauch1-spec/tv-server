@@ -1,17 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Atlético Madrid vs Barcelona",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Lille vs Lens",
-        "hora": "16:05",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Independiente vs Racing Club",
         "hora": "17:30",
