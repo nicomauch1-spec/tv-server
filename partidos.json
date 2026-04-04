@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Stuttgart vs Borussia Dortmund",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Aldosivi vs Estudiantes Río Cuarto",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Deportivo La Coruña vs Málaga",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Cultural Leonesa vs Real Valladolid",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Real Betis vs Espanyol",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Brest vs Rennes",
         "hora": "14:00",
