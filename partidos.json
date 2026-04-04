@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Strasbourg vs Nice",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Verona vs Fiorentina",
         "hora": "13:00",
