@@ -1,23 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Almería vs Leganés",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Real Oviedo vs Sevilla",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Las Palmas vs Huesca",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Gimnasia La Plata vs Huracán",
         "hora": "15:30",
