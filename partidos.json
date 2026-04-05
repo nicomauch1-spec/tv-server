@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Cremonese vs Bologna",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Angers SCO vs Olympique Lyonnais",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Union Berlin vs St. Pauli",
         "hora": "10:30",
@@ -31,6 +19,12 @@
     },
     {
         "liga": "Ligue 1",
+        "partido": "Lorient vs Paris",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
         "partido": "Le Havre vs Auxerre",
         "hora": "12:15",
         "prioridad": false
@@ -38,12 +32,6 @@
     {
         "liga": "Ligue 1",
         "partido": "Metz vs Nantes",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Lorient vs Paris",
         "hora": "12:15",
         "prioridad": false
     },
