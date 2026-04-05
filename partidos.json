@@ -1,17 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Valencia vs Celta de Vigo",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "FC Andorra vs Racing Santander",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Lorient vs Paris",
         "hora": "12:15",
