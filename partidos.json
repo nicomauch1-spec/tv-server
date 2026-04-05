@@ -42,14 +42,14 @@
         "prioridad": false
     },
     {
-        "liga": "Ligue 1",
-        "partido": "Angers SCO vs Olympique Lyonnais",
+        "liga": "Serie A",
+        "partido": "Cremonese vs Bologna",
         "hora": "10:00",
         "prioridad": false
     },
     {
-        "liga": "Serie A",
-        "partido": "Cremonese vs Bologna",
+        "liga": "Ligue 1",
+        "partido": "Angers SCO vs Olympique Lyonnais",
         "hora": "10:00",
         "prioridad": false
     },
@@ -69,6 +69,96 @@
         "liga": "LaLiga 2",
         "partido": "FC Andorra vs Racing Santander",
         "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Le Havre vs Auxerre",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Metz vs Nantes",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Lorient vs Paris",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Eintracht Frankfurt vs Köln",
+        "hora": "12:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Pisa vs Torino",
+        "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Almería vs Leganés",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Oviedo vs Sevilla",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Las Palmas vs Huesca",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Gimnasia La Plata vs Huracán",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Monaco vs Olympique Marseille",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Internazionale vs Roma",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Deportivo Alavés vs Osasuna",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Real Zaragoza vs Mirandés",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "River Plate vs Belgrano",
+        "hora": "18:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Central Córdoba SdE vs Newell's Old Boys",
+        "hora": "20:30",
         "prioridad": false
     }
 ]
