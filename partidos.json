@@ -1,1 +1,74 @@
-[]
+[
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Eintracht Braunschweig vs Nürnberg",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Greuther Fürth vs Paderborn",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Hannover 96 vs Elversberg",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Holstein Kiel vs Preußen Münster",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Schalke 04 vs Karlsruher SC",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Eibar vs Ceuta",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Getafe vs Athletic Club",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Angers SCO vs Olympique Lyonnais",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Cremonese vs Bologna",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Union Berlin vs St. Pauli",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Valencia vs Celta de Vigo",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "FC Andorra vs Racing Santander",
+        "hora": "11:15",
+        "prioridad": false
+    }
+]
