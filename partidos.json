@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Union Berlin vs St. Pauli",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Valencia vs Celta de Vigo",
         "hora": "11:15",
