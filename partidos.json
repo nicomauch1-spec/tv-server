@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Lorient vs Paris",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Le Havre vs Auxerre",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Metz vs Nantes",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Eintracht Frankfurt vs Köln",
         "hora": "12:30",
