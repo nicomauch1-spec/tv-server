@@ -1,36 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Gimnasia La Plata vs Huracán",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Monaco vs Olympique Marseille",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Internazionale vs Roma",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Deportivo Alavés vs Osasuna",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Real Zaragoza vs Mirandés",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "River Plate vs Belgrano",
         "hora": "18:00",
         "prioridad": false
