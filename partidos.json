@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Juventus vs Genoa",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "CD Castellon vs Granada",
         "hora": "14:00",
