@@ -1,12 +1,6 @@
 [
     {
         "liga": "LaLiga 2",
-        "partido": "CD Castellon vs Granada",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
         "partido": "Sporting Gijón vs Real Sociedad II",
         "hora": "15:30",
         "prioridad": false
