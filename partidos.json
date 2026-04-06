@@ -1,12 +1,6 @@
 [
     {
         "liga": "Serie A",
-        "partido": "Lecce vs Atalanta",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
         "partido": "Juventus vs Genoa",
         "hora": "13:00",
         "prioridad": false
