@@ -1,23 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Sporting Gijón vs Real Sociedad II",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Napoli vs Milan",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Girona vs Villarreal",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Argentinos Juniors vs Banfield",
         "hora": "19:00",
