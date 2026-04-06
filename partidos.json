@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "River Plate vs Belgrano",
-        "hora": "18:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Central Córdoba SdE vs Newell's Old Boys",
         "hora": "20:30",
         "prioridad": false
