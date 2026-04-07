@@ -1,1 +1,80 @@
-[]
+[
+    {
+        "liga": "Copa Argentina",
+        "partido": "Estudiantes Río Cuarto vs San Martín Tucumán",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Argentina",
+        "partido": "Vélez Sarsfield vs Deportivo Armenio",
+        "hora": "18:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Independiente Rivadavia vs Bolívar",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Deportivo La Guaira vs Fluminense",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Independiente Petrolero vs Racing Club",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Barracas Central vs Vasco da Gama",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Always Ready vs LDU Quito",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Barcelona SC vs Cruzeiro",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "O'Higgins vs Millonarios",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Boston River vs São Paulo",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Universidad Católica vs Boca Juniors",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Deportes Tolima vs Universitario",
+        "hora": "23:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Alianza Atlético vs Tigre",
+        "hora": "23:00",
+        "prioridad": false
+    }
+]
