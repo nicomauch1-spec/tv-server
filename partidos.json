@@ -1,53 +1,5 @@
 [
     {
-        "liga": "Copa Argentina",
-        "partido": "Vélez Sarsfield vs Deportivo Armenio",
-        "hora": "18:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Independiente Rivadavia vs Bolívar",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Deportivo La Guaira vs Fluminense",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Independiente Petrolero vs Racing Club",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Barracas Central vs Vasco da Gama",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Always Ready vs LDU Quito",
-        "hora": "21:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Barcelona SC vs Cruzeiro",
-        "hora": "21:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "O'Higgins vs Millonarios",
-        "hora": "21:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Sudamericana",
         "partido": "Boston River vs São Paulo",
         "hora": "21:30",
