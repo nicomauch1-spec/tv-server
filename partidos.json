@@ -7,13 +7,13 @@
     },
     {
         "liga": "Copa Sudamericana",
-        "partido": "Deportivo Cuenca vs Santos",
+        "partido": "Deportivo Riestra vs Palestino",
         "hora": "19:00",
         "prioridad": false
     },
     {
         "liga": "Copa Sudamericana",
-        "partido": "Deportivo Riestra vs Palestino",
+        "partido": "Deportivo Cuenca vs Santos",
         "hora": "19:00",
         "prioridad": false
     },
@@ -42,8 +42,14 @@
         "prioridad": false
     },
     {
+        "liga": "Copa Argentina",
+        "partido": "Sarmiento vs Tristán Suárez",
+        "hora": "21:10",
+        "prioridad": false
+    },
+    {
         "liga": "Copa Sudamericana",
-        "partido": "Torque vs Grêmio",
+        "partido": "Blooming vs River Plate",
         "hora": "21:30",
         "prioridad": false
     },
@@ -56,6 +62,12 @@
     {
         "liga": "Copa Libertadores",
         "partido": "Junior vs Palmeiras",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Torque vs Grêmio",
         "hora": "21:30",
         "prioridad": false
     },
