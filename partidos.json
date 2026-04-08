@@ -1,1 +1,68 @@
-[]
+[
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Deportivo Recoleta vs San Lorenzo",
+        "hora": "19:00",
+        "prioridad": true
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Deportivo Riestra vs Palestino",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Coquimbo Unido vs Nacional",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Mirassol vs Lanús",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Medellín vs Estudiantes",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Audax Italiano vs Olimpia",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Torque vs Grêmio",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Cusco vs Flamengo",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Junior vs Palmeiras",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Academia Puerto Cabello vs Atlético Mineiro",
+        "hora": "23:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Sporting Cristal vs Cerro Porteño",
+        "hora": "23:00",
+        "prioridad": false
+    }
+]
