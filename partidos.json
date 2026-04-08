@@ -7,6 +7,12 @@
     },
     {
         "liga": "Copa Sudamericana",
+        "partido": "Deportivo Cuenca vs Santos",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
         "partido": "Deportivo Riestra vs Palestino",
         "hora": "19:00",
         "prioridad": false
