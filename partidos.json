@@ -6,12 +6,6 @@
         "prioridad": false
     },
     {
-        "liga": "Copa Sudamericana",
-        "partido": "Carabobo vs RB Bragantino",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores",
         "partido": "Rosario Central vs Independiente del Valle",
         "hora": "19:00",
@@ -24,9 +18,27 @@
         "prioridad": false
     },
     {
+        "liga": "Copa Sudamericana",
+        "partido": "Juventud vs Cienciano",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Botafogo vs Caracas",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
         "liga": "Copa Libertadores",
         "partido": "Platense vs Corinthians",
         "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Carabobo vs RB Bragantino",
+        "hora": "21:30",
         "prioridad": false
     },
     {
