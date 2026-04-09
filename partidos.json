@@ -1,47 +1,5 @@
 [
     {
-        "liga": "Copa Libertadores",
-        "partido": "Medellín vs Estudiantes",
-        "hora": "21:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Audax Italiano vs Olimpia",
-        "hora": "21:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Argentina",
-        "partido": "Sarmiento vs Tristán Suárez",
-        "hora": "21:10",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Blooming vs River Plate",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Cusco vs Flamengo",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Junior vs Palmeiras",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Torque vs Grêmio",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Sudamericana",
         "partido": "Academia Puerto Cabello vs Atlético Mineiro",
         "hora": "23:00",
