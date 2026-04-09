@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Liga Profesional Saudí",
-        "partido": "Damac vs Al Quadisiya",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores",
         "partido": "Rosario Central vs Independiente del Valle",
         "hora": "19:00",
