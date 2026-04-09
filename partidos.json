@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Copa Sudamericana",
-        "partido": "Deportivo Recoleta vs San Lorenzo",
-        "hora": "19:00",
-        "prioridad": true
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Deportivo Riestra vs Palestino",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Deportivo Cuenca vs Santos",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Coquimbo Unido vs Nacional",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Mirassol vs Lanús",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores",
         "partido": "Medellín vs Estudiantes",
         "hora": "21:00",
