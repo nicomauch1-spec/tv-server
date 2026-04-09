@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Carabobo vs RB Bragantino",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Rosario Central vs Independiente del Valle",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "UCV vs Libertad",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Platense vs Corinthians",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Santa Fe vs Peñarol",
+        "hora": "23:00",
+        "prioridad": false
+    }
+]
