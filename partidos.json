@@ -1,14 +1,1 @@
-[
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Academia Puerto Cabello vs Atlético Mineiro",
-        "hora": "23:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Sporting Cristal vs Cerro Porteño",
-        "hora": "23:00",
-        "prioridad": false
-    }
-]
+[]
