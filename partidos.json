@@ -46,5 +46,11 @@
         "partido": "Real Madrid vs Girona",
         "hora": "16:00",
         "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Olympique Marseille vs Metz",
+        "hora": "16:05",
+        "prioridad": false
     }
 ]
