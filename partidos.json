@@ -1,13 +1,13 @@
 [
     {
         "liga": "2. Bundesliga",
-        "partido": "Karlsruher SC vs Arminia Bielefeld",
-        "hora": "13:00",
+        "partido": "Fortuna Düsseldorf vs Holstein Kiel",
+        "hora": "13:30",
         "prioridad": false
     },
     {
         "liga": "2. Bundesliga",
-        "partido": "Fortuna Düsseldorf vs Holstein Kiel",
+        "partido": "Karlsruher SC vs Arminia Bielefeld",
         "hora": "13:30",
         "prioridad": false
     },
