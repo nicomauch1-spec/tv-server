@@ -52,5 +52,11 @@
         "partido": "Olympique Marseille vs Metz",
         "hora": "16:05",
         "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Belgrano vs Aldosivi",
+        "hora": "21:00",
+        "prioridad": false
     }
 ]
