@@ -24,6 +24,12 @@
         "prioridad": false
     },
     {
+        "liga": "Copa Argentina",
+        "partido": "Gimnasia La Plata vs Deportivo Camioneros",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
         "liga": "Copa Libertadores",
         "partido": "Platense vs Corinthians",
         "hora": "21:00",
@@ -32,6 +38,12 @@
     {
         "liga": "Copa Sudamericana",
         "partido": "Carabobo vs RB Bragantino",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Macará vs América de Cali",
         "hora": "21:30",
         "prioridad": false
     },
