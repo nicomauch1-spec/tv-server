@@ -10,5 +10,41 @@
         "partido": "Fortuna Düsseldorf vs Holstein Kiel",
         "hora": "13:30",
         "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Paris vs Monaco",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Augsburg vs Hoffenheim",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Ceuta vs Real Sociedad II",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Roma vs Pisa",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "West Ham United vs Wolverhampton Wanderers",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Madrid vs Girona",
+        "hora": "16:00",
+        "prioridad": false
     }
 ]
