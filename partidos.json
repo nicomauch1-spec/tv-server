@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Deportivo Riestra vs Instituto",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Independiente Rivadavia vs Argentinos Juniors",
         "hora": "15:30",
         "prioridad": false
