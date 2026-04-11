@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Rennes vs Angers SCO",
-        "hora": "16:05",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Estudiantes vs Unión Santa Fe",
         "hora": "17:15",
