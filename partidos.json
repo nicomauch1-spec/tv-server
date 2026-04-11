@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Arsenal vs AFC Bournemouth",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Real Sociedad vs Deportivo Alavés",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Cagliari vs Cremonese",
         "hora": "10:00",
