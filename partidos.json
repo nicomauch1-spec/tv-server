@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Liverpool vs Fulham",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Málaga vs Las Palmas",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "St. Pauli vs Bayern München",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Barcelona vs Espanyol",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Auxerre vs Nantes",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Deportivo Riestra vs Instituto",
         "hora": "15:00",
