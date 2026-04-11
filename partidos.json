@@ -1,23 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Burgos vs Sporting Gijón",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Leganés vs Albacete",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Elche vs Valencia",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Milan vs Udinese",
         "hora": "13:00",
