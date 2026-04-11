@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Hertha BSC vs Kaiserslautern",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Nürnberg vs Dynamo Dresden",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Preußen Münster vs Greuther Fürth",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Arsenal vs AFC Bournemouth",
         "hora": "08:30",
