@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Cagliari vs Cremonese",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Torino vs Verona",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Borussia Dortmund vs Bayer Leverkusen",
         "hora": "10:30",
