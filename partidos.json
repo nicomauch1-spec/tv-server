@@ -55,13 +55,13 @@
     },
     {
         "liga": "Bundesliga",
-        "partido": "RB Leipzig vs Borussia M'gladbach",
+        "partido": "Wolfsburg vs Eintracht Frankfurt",
         "hora": "10:30",
         "prioridad": false
     },
     {
         "liga": "Bundesliga",
-        "partido": "Wolfsburg vs Eintracht Frankfurt",
+        "partido": "RB Leipzig vs Borussia M'gladbach",
         "hora": "10:30",
         "prioridad": false
     },
@@ -90,9 +90,27 @@
         "prioridad": false
     },
     {
+        "liga": "LaLiga",
+        "partido": "Elche vs Valencia",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
         "liga": "Serie A",
         "partido": "Milan vs Udinese",
         "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Liverpool vs Fulham",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Málaga vs Las Palmas",
+        "hora": "13:30",
         "prioridad": false
     },
     {
@@ -102,9 +120,75 @@
         "prioridad": false
     },
     {
-        "liga": "Premier League",
-        "partido": "Liverpool vs Fulham",
+        "liga": "LaLiga",
+        "partido": "Barcelona vs Espanyol",
         "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Auxerre vs Nantes",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Deportivo Riestra vs Instituto",
+        "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Independiente Rivadavia vs Argentinos Juniors",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Darmstadt 98 vs Hannover 96",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Atalanta vs Juventus",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Sevilla vs Atlético Madrid",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Córdoba vs Real Zaragoza",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Rennes vs Angers SCO",
+        "hora": "16:05",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Estudiantes vs Unión Santa Fe",
+        "hora": "17:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Boca Juniors vs Independiente",
+        "hora": "19:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Estudiantes Río Cuarto vs Barracas Central",
+        "hora": "21:45",
         "prioridad": false
     }
 ]
