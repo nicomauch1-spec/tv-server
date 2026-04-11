@@ -76,5 +76,35 @@
         "partido": "Burnley vs Brighton & Hove Albion",
         "hora": "11:00",
         "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Burgos vs Sporting Gijón",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Leganés vs Albacete",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Milan vs Udinese",
+        "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "St. Pauli vs Bayern München",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Liverpool vs Fulham",
+        "hora": "13:30",
+        "prioridad": false
     }
 ]
