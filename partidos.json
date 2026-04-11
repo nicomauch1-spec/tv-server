@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Milan vs Udinese",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Liverpool vs Fulham",
         "hora": "13:30",
