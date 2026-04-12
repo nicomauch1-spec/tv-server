@@ -6,24 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Bundesliga 2",
-        "partido": "Elversberg vs Schalke 04",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Bochum vs Eintracht Braunschweig",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Paderborn vs Magdeburg",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Osasuna vs Real Betis",
         "hora": "09:00",
