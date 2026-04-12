@@ -6,36 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Ligue 1",
-        "partido": "Toulouse vs Lille",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Nice vs Le Havre",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Chelsea vs Manchester City",
-        "hora": "12:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Stuttgart vs Hamburger SV",
-        "hora": "12:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Bologna vs Lecce",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Cádiz vs FC Andorra",
         "hora": "13:30",
