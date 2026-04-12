@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Bundesliga",
-        "partido": "Köln vs Werder Bremen",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Huesca vs Deportivo La Coruña",
         "hora": "11:15",
@@ -69,6 +63,12 @@
         "liga": "LaLiga 2",
         "partido": "Mirandés vs CD Castellon",
         "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A de Ecuador",
+        "partido": "Técnico Universitario vs Universidad Católica",
+        "hora": "14:00",
         "prioridad": false
     },
     {
