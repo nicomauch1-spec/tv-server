@@ -1,18 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Estudiantes vs Unión Santa Fe",
-        "hora": "17:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Boca Juniors vs Independiente",
-        "hora": "19:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Estudiantes Río Cuarto vs Barracas Central",
         "hora": "21:45",
         "prioridad": false
