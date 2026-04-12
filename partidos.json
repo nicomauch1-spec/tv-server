@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "LaLiga",
-        "partido": "Osasuna vs Real Betis",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Granada vs Cultural Leonesa",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Nottingham Forest vs Aston Villa",
         "hora": "10:00",
