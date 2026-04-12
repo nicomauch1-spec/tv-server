@@ -6,30 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "LaLiga 2",
-        "partido": "Cádiz vs FC Andorra",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Celta de Vigo vs Real Oviedo",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Mirandés vs CD Castellon",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A de Ecuador",
-        "partido": "Técnico Universitario vs Universidad Católica",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Mainz 05 vs Freiburg",
         "hora": "14:30",
