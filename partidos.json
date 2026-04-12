@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Serie A",
-        "partido": "Genoa vs Sassuolo",
-        "hora": "07:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga 2",
         "partido": "Elversberg vs Schalke 04",
         "hora": "08:30",
@@ -177,6 +171,12 @@
         "liga": "Liga Profesional",
         "partido": "Atlético Tucumán vs Tigre",
         "hora": "17:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Racing Club vs River Plate",
+        "hora": "20:00",
         "prioridad": false
     }
 ]
