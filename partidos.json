@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Newell's Old Boys vs San Lorenzo",
-        "hora": "15:00",
-        "prioridad": true
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Mainz 05 vs Freiburg",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Platense vs Gimnasia Mendoza",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Olympique Lyonnais vs Lorient",
         "hora": "15:45",
