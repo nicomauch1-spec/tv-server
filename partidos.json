@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Olympique Lyonnais vs Lorient",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Como vs Inter",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Athletic Club vs Villarreal",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Racing Santander vs Almería",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Huracán vs Rosario Central",
         "hora": "17:30",
