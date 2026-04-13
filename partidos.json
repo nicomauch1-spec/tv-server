@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Real Valladolid vs Eibar",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Fiorentina vs Lazio",
         "hora": "15:45",
