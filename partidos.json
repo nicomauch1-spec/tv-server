@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "liga": "LaLiga 2",
+        "partido": "Real Valladolid vs Eibar",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Fiorentina vs Lazio",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Levante vs Getafe",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Manchester United vs Leeds United",
+        "hora": "16:00",
+        "prioridad": false
+    }
+]
