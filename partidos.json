@@ -1,18 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Huracán vs Rosario Central",
-        "hora": "17:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Atlético Tucumán vs Tigre",
-        "hora": "17:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Racing Club vs River Plate",
         "hora": "20:00",
         "prioridad": false
