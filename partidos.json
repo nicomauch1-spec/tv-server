@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Estudiantes vs Cusco",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Nacional vs Deportes Tolima",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Cerro Porteño vs Junior",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Boca Juniors vs Barcelona",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Vasco da Gama vs Audax Italiano",
+        "hora": "21:00",
+        "prioridad": false
+    }
+]
