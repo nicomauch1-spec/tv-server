@@ -46,5 +46,29 @@
         "partido": "Vasco da Gama vs Audax Italiano",
         "hora": "21:00",
         "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Palestino vs Torque",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Santos vs Deportivo Recoleta",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "LDU Quito vs Mirassol",
+        "hora": "23:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Universitario vs Coquimbo Unido",
+        "hora": "23:00",
+        "prioridad": false
     }
 ]
