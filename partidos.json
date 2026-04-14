@@ -12,14 +12,32 @@
         "prioridad": false
     },
     {
+        "liga": "Copa Sudamericana",
+        "partido": "Grêmio vs Deportivo Riestra",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
         "liga": "Copa Libertadores",
         "partido": "Cerro Porteño vs Junior",
         "hora": "19:00",
         "prioridad": false
     },
     {
+        "liga": "Copa Sudamericana",
+        "partido": "São Paulo vs O'Higgins",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
         "liga": "Copa Libertadores",
         "partido": "Boca Juniors vs Barcelona",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Bolívar vs Deportivo La Guaira",
         "hora": "21:00",
         "prioridad": false
     },
