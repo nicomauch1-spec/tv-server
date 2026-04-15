@@ -10,5 +10,29 @@
         "partido": "Al Nassr vs Al Ittifaq",
         "hora": "15:00",
         "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Cruzeiro vs Universidad Católica",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Racing Club vs Botafogo",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Caracas vs Independiente Petrolero",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Libertad vs Rosario Central",
+        "hora": "19:00",
+        "prioridad": false
     }
 ]
