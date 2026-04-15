@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Copa Argentina",
-        "partido": "Gimnasia Mendoza vs Gimnasia y Tiro",
-        "hora": "14:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional Saudí",
-        "partido": "Al Nassr vs Al Ittifaq",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores",
         "partido": "Cruzeiro vs Universidad Católica",
         "hora": "19:00",
@@ -33,6 +21,48 @@
         "liga": "Copa Libertadores",
         "partido": "Libertad vs Rosario Central",
         "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Olimpia vs Barracas Central",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "River Plate vs Carabobo",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Fluminense vs Independiente Rivadavia",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Corinthians vs Santa Fe",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "América de Cali vs Alianza Atlético",
+        "hora": "23:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Independiente del Valle vs UCV",
+        "hora": "23:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Millonarios vs Boston River",
+        "hora": "23:00",
         "prioridad": false
     }
 ]
