@@ -28,5 +28,11 @@
         "partido": "Flamengo vs Medellín",
         "hora": "21:30",
         "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Cienciano vs Academia Puerto Cabello",
+        "hora": "23:00",
+        "prioridad": false
     }
 ]
