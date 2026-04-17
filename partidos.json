@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Copa de Primera",
-        "partido": "Sportivo Trinidense vs Sportivo San Lorenzo",
-        "hora": "17:00",
-        "prioridad": true
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Unión Santa Fe vs Newell's Old Boys",
         "hora": "20:30",
