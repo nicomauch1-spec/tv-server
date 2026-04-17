@@ -6,24 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Serie A",
-        "partido": "Sassuolo vs Como",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "2. Bundesliga",
-        "partido": "Holstein Kiel vs Kaiserslautern",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "2. Bundesliga",
-        "partido": "Elversberg vs Karlsruher SC",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "St. Pauli vs Köln",
         "hora": "15:30",
