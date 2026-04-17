@@ -6,36 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Bundesliga",
-        "partido": "St. Pauli vs Köln",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga SmartBank",
-        "partido": "Real Sociedad II vs Racing Santander",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Inter vs Cagliari",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Lens vs Toulouse",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Las Palmas vs Leganés",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Unión Santa Fe vs Newell's Old Boys",
         "hora": "20:30",
