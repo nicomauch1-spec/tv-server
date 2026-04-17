@@ -1,24 +1,6 @@
 [
     {
         "liga": "Copa Sudamericana",
-        "partido": "Atlético Mineiro vs Juventud",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Palmeiras vs Sporting Cristal",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Copa Sudamericana: Tigre vs Macará",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
         "partido": "RB Bragantino vs Blooming",
         "hora": "21:30",
         "prioridad": false
