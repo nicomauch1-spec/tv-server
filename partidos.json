@@ -30,6 +30,12 @@
         "prioridad": false
     },
     {
+        "liga": "LaLiga SmartBank",
+        "partido": "Real Sociedad II vs Racing Santander",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
         "liga": "Serie A",
         "partido": "Inter vs Cagliari",
         "hora": "15:45",
