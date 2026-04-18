@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Newcastle United vs AFC Bournemouth",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Real Zaragoza vs Ceuta",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Lorient vs Olympique Marseille",
         "hora": "12:00",
@@ -69,12 +57,6 @@
         "liga": "Serie A",
         "partido": "Roma vs Atalanta",
         "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Chelsea vs Manchester United",
-        "hora": "16:00",
         "prioridad": false
     },
     {
