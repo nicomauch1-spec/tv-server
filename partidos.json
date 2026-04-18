@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Udinese vs Parma",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Bayer Leverkusen vs Augsburg",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Union Berlin vs Wolfsburg",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Hoffenheim vs Borussia Dortmund",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Werder Bremen vs Hamburger SV",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Newcastle United vs AFC Bournemouth",
         "hora": "11:00",
