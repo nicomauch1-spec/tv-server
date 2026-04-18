@@ -36,18 +36,6 @@
         "prioridad": false
     },
     {
-        "liga": "Premier League",
-        "partido": "Newcastle United vs AFC Bournemouth",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Leeds United vs Wolverhampton Wanderers",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Real Zaragoza vs Ceuta",
         "hora": "11:15",
@@ -67,13 +55,13 @@
     },
     {
         "liga": "LaLiga 2",
-        "partido": "Cultural Leonesa vs Córdoba",
+        "partido": "CD Castellon vs Burgos",
         "hora": "13:30",
         "prioridad": false
     },
     {
         "liga": "LaLiga 2",
-        "partido": "CD Castellon vs Burgos",
+        "partido": "Cultural Leonesa vs Córdoba",
         "hora": "13:30",
         "prioridad": false
     },
@@ -117,6 +105,24 @@
         "liga": "Premier League",
         "partido": "Chelsea vs Manchester United",
         "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Lille vs Nice",
+        "hora": "16:05",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Instituto vs Estudiantes",
+        "hora": "17:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Independiente vs Defensa y Justicia",
+        "hora": "19:30",
         "prioridad": false
     }
 ]
