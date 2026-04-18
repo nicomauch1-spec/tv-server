@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Hannover 96 vs Paderborn",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Roma vs Atalanta",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Chelsea vs Manchester United",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Lille vs Nice",
         "hora": "16:05",
