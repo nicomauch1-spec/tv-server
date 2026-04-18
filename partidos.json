@@ -1,35 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "CD Castellon vs Burgos",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Cultural Leonesa vs Córdoba",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Eintracht Frankfurt vs RB Leipzig",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Tottenham Hotspur vs Brighton & Hove Albion",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Angers SCO vs Le Havre",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Gimnasia La Plata vs Estudiantes Río Cuarto",
         "hora": "15:00",
