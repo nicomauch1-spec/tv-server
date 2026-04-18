@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Napoli vs Lazio",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "CD Castellon vs Burgos",
         "hora": "13:30",
