@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Lille vs Nice",
-        "hora": "16:05",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Instituto vs Estudiantes",
         "hora": "17:15",
