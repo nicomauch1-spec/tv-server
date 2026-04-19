@@ -30,6 +30,12 @@
         "prioridad": false
     },
     {
+        "liga": "Premier League",
+        "partido": "Nottingham Forest vs Burnley",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
         "liga": "Serie A",
         "partido": "Verona vs Milan",
         "hora": "10:00",
@@ -38,6 +44,18 @@
     {
         "liga": "Ligue 1",
         "partido": "Monaco vs Auxerre",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Everton vs Liverpool",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Aston Villa vs Sunderland",
         "hora": "10:00",
         "prioridad": false
     },
@@ -69,6 +87,60 @@
         "liga": "Ligue 1",
         "partido": "Metz vs Paris",
         "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Bayern München vs Stuttgart",
+        "hora": "12:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Pisa vs Genoa",
+        "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Albacete vs Granada",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Eibar vs Huesca",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Aldosivi vs Racing Club",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Borussia M'gladbach vs Mainz 05",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "PSG vs Olympique Lyonnais",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Juventus vs Bologna",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Almería vs Málaga",
+        "hora": "16:00",
         "prioridad": false
     }
 ]
