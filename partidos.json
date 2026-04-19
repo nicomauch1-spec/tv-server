@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Greuther Fürth vs Darmstadt 98",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Eintracht Braunschweig vs Hertha BSC",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Schalke 04 vs Preußen Münster",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "FC Andorra vs Real Valladolid",
         "hora": "09:00",
