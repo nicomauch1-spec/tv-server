@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Borussia M'gladbach vs Mainz 05",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "PSG vs Olympique Lyonnais",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Juventus vs Bologna",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Almería vs Málaga",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "River Plate vs Boca Juniors",
         "hora": "17:00",
