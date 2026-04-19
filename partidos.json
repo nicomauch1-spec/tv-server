@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Cremonese vs Torino",
-        "hora": "07:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga 2",
         "partido": "Greuther Fürth vs Darmstadt 98",
         "hora": "08:30",
@@ -73,12 +67,6 @@
     },
     {
         "liga": "Ligue 1",
-        "partido": "Strasbourg vs Rennes",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
         "partido": "Nantes vs Brest",
         "hora": "12:15",
         "prioridad": false
@@ -87,6 +75,18 @@
         "liga": "Ligue 1",
         "partido": "Metz vs Paris",
         "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Strasbourg vs Rennes",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Manchester City vs Arsenal",
+        "hora": "12:30",
         "prioridad": false
     },
     {
@@ -141,6 +141,24 @@
         "liga": "LaLiga 2",
         "partido": "Almería vs Málaga",
         "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "River Plate vs Boca Juniors",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Talleres Córdoba vs Deportivo Riestra",
+        "hora": "20:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Rosario Central vs Sarmiento",
+        "hora": "20:30",
         "prioridad": false
     }
 ]
