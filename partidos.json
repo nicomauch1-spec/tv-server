@@ -1,41 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Nottingham Forest vs Burnley",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Verona vs Milan",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Monaco vs Auxerre",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Everton vs Liverpool",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Aston Villa vs Sunderland",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Freiburg vs Heidenheim",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "Sporting Gijón vs Cádiz",
         "hora": "11:15",
