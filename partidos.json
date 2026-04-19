@@ -1,18 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Instituto vs Estudiantes",
-        "hora": "17:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Independiente vs Defensa y Justicia",
-        "hora": "19:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Argentinos Juniors vs Atlético Tucumán",
         "hora": "21:45",
         "prioridad": false
