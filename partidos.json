@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "River Plate vs Boca Juniors",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Talleres Córdoba vs Deportivo Riestra",
         "hora": "20:30",
         "prioridad": false
