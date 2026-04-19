@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Pisa vs Genoa",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Albacete vs Granada",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Eibar vs Huesca",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Aldosivi vs Racing Club",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Borussia M'gladbach vs Mainz 05",
         "hora": "14:30",
