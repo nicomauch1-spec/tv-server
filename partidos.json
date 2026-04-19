@@ -1,41 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Sporting Gijón vs Cádiz",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Nantes vs Brest",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Metz vs Paris",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Strasbourg vs Rennes",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Manchester City vs Arsenal",
-        "hora": "12:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Bayern München vs Stuttgart",
-        "hora": "12:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Pisa vs Genoa",
         "hora": "13:00",
