@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "FC Andorra vs Real Valladolid",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Nottingham Forest vs Burnley",
         "hora": "10:00",
