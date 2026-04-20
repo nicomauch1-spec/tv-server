@@ -1,14 +1,1 @@
-[
-    {
-        "liga": "Liga Profesional",
-        "partido": "Talleres Córdoba vs Deportivo Riestra",
-        "hora": "20:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Rosario Central vs Sarmiento",
-        "hora": "20:30",
-        "prioridad": false
-    }
-]
+[]
