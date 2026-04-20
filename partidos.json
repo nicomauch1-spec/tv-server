@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "liga": "Liga Profesional",
+        "partido": "Barracas Central vs Belgrano",
+        "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Deportivo La Coruña vs Mirandés",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Lecce vs Fiorentina",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Crystal Palace vs West Ham United",
+        "hora": "16:00",
+        "prioridad": false
+    }
+]
