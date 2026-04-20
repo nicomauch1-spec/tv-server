@@ -1,6 +1,12 @@
 [
     {
         "liga": "Liga Profesional",
+        "partido": "San Lorenzo vs Vélez Sarsfield",
+        "hora": "19:30",
+        "prioridad": true
+    },
+    {
+        "liga": "Liga Profesional",
         "partido": "Barracas Central vs Belgrano",
         "hora": "15:00",
         "prioridad": false
@@ -21,6 +27,30 @@
         "liga": "Premier League",
         "partido": "Crystal Palace vs West Ham United",
         "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Central Córdoba SdE vs Platense",
+        "hora": "17:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Banfield vs Independiente Rivadavia",
+        "hora": "17:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Gimnasia Mendoza vs Lanús",
+        "hora": "21:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Tigre vs Huracán",
+        "hora": "21:45",
         "prioridad": false
     }
 ]
