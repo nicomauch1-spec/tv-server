@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Serie A",
-        "partido": "Lecce vs Fiorentina",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Crystal Palace vs West Ham United",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Central Córdoba SdE vs Platense",
         "hora": "17:15",
