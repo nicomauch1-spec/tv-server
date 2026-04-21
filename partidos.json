@@ -16,5 +16,17 @@
         "partido": "Brighton & Hove Albion vs Chelsea",
         "hora": "16:00",
         "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Madrid vs Deportivo Alavés",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Girona vs Real Betis",
+        "hora": "16:30",
+        "prioridad": false
     }
 ]
