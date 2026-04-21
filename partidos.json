@@ -1,14 +1,1 @@
-[
-    {
-        "liga": "Liga Profesional",
-        "partido": "Gimnasia Mendoza vs Lanús",
-        "hora": "21:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Tigre vs Huracán",
-        "hora": "21:45",
-        "prioridad": false
-    }
-]
+[]
