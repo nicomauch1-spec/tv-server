@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "San Lorenzo vs Vélez Sarsfield",
-        "hora": "19:30",
-        "prioridad": true
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Gimnasia Mendoza vs Lanús",
         "hora": "21:45",
         "prioridad": false
