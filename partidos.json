@@ -7,18 +7,6 @@
     },
     {
         "liga": "Liga Profesional",
-        "partido": "Central Córdoba SdE vs Platense",
-        "hora": "17:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Banfield vs Independiente Rivadavia",
-        "hora": "17:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Gimnasia Mendoza vs Lanús",
         "hora": "21:45",
         "prioridad": false
