@@ -1,17 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Mallorca vs Valencia",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Athletic Club vs Osasuna",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Brighton & Hove Albion vs Chelsea",
         "hora": "16:00",
