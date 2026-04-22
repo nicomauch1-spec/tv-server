@@ -1,17 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "PSG vs Nantes",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Elche vs Atlético Madrid",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Real Sociedad vs Getafe",
         "hora": "15:00",
