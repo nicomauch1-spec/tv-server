@@ -1,1 +1,38 @@
-[]
+[
+    {
+        "liga": "Ligue 1",
+        "partido": "PSG vs Nantes",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Elche vs Atlético Madrid",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Sociedad vs Getafe",
+        "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "AFC Bournemouth vs Leeds United",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Burnley vs Manchester City",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Barcelona vs Celta de Vigo",
+        "hora": "16:30",
+        "prioridad": false
+    }
+]
