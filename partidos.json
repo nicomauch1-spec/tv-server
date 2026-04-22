@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Real Sociedad vs Getafe",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "AFC Bournemouth vs Leeds United",
         "hora": "16:00",
