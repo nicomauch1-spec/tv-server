@@ -34,5 +34,17 @@
         "partido": "Barcelona vs Celta de Vigo",
         "hora": "16:30",
         "prioridad": false
+    },
+    {
+        "liga": "Copa Argentina",
+        "partido": "Acassuso vs Gimnasia La Plata",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Argentina",
+        "partido": "Deportivo Morón vs Midland",
+        "hora": "21:15",
+        "prioridad": false
     }
 ]
