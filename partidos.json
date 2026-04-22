@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "AFC Bournemouth vs Leeds United",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Burnley vs Manchester City",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Barcelona vs Celta de Vigo",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Argentina",
         "partido": "Acassuso vs Gimnasia La Plata",
         "hora": "19:00",
