@@ -1,12 +1,6 @@
 [
     {
         "liga": "LaLiga",
-        "partido": "Rayo Vallecano vs Espanyol",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
         "partido": "Real Oviedo vs Villarreal",
         "hora": "16:30",
         "prioridad": false
