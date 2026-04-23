@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Real Oviedo vs Villarreal",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Defensa y Justicia vs Boca Juniors",
         "hora": "20:00",
