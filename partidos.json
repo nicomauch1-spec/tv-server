@@ -1,1 +1,50 @@
-[]
+[
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Fortuna Düsseldorf vs Dynamo Dresden",
+        "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Kaiserslautern vs Eintracht Braunschweig",
+        "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Albacete vs Eibar",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "RB Leipzig vs Union Berlin",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Napoli vs Cremonese",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Brest vs Lens",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Betis vs Real Madrid",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Sunderland vs Nottingham Forest",
+        "hora": "16:00",
+        "prioridad": false
+    }
+]
