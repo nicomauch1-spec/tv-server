@@ -6,30 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Serie A",
-        "partido": "Napoli vs Cremonese",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Brest vs Lens",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Real Betis vs Real Madrid",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Sunderland vs Nottingham Forest",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Deportivo Riestra vs Independiente",
         "hora": "17:00",
