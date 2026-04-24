@@ -1,15 +1,9 @@
 [
     {
-        "liga": "2. Bundesliga",
-        "partido": "Fortuna Düsseldorf vs Dynamo Dresden",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
-        "liga": "2. Bundesliga",
-        "partido": "Kaiserslautern vs Eintracht Braunschweig",
-        "hora": "13:00",
-        "prioridad": false
+        "liga": "Liga Profesional",
+        "partido": "Platense vs San Lorenzo",
+        "hora": "21:30",
+        "prioridad": true
     },
     {
         "liga": "LaLiga SmartBank",
@@ -51,6 +45,24 @@
         "liga": "Liga Profesional",
         "partido": "Deportivo Riestra vs Independiente",
         "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Lanús vs Central Córdoba SdE",
+        "hora": "19:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Estudiantes Río Cuarto vs Rosario Central",
+        "hora": "19:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Racing Club vs Barracas Central",
+        "hora": "21:30",
         "prioridad": false
     }
 ]
