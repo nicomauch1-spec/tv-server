@@ -46,5 +46,11 @@
         "partido": "Sunderland vs Nottingham Forest",
         "hora": "16:00",
         "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Deportivo Riestra vs Independiente",
+        "hora": "17:00",
+        "prioridad": false
     }
 ]
