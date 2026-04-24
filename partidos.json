@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "LaLiga SmartBank",
-        "partido": "Albacete vs Eibar",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "RB Leipzig vs Union Berlin",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Napoli vs Cremonese",
         "hora": "15:45",
