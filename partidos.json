@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Bologna vs Roma",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Valencia vs Girona",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Burgos vs Deportivo La Coruña",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Hamburger SV vs Hoffenheim",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Arsenal vs Newcastle United",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Angers SCO vs PSG",
         "hora": "14:00",
