@@ -70,5 +70,11 @@
         "partido": "Köln vs Bayer Leverkusen",
         "hora": "10:30",
         "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Liverpool vs Crystal Palace",
+        "hora": "11:00",
+        "prioridad": false
     }
 ]
