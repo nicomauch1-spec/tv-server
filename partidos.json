@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Estudiantes vs Talleres Córdoba",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Sarmiento vs Tigre",
         "hora": "19:15",
         "prioridad": false
