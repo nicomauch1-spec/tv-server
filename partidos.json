@@ -7,18 +7,6 @@
     },
     {
         "liga": "Liga Profesional",
-        "partido": "Lanús vs Central Córdoba SdE",
-        "hora": "19:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Estudiantes Río Cuarto vs Rosario Central",
-        "hora": "19:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Racing Club vs Barracas Central",
         "hora": "21:30",
         "prioridad": false
