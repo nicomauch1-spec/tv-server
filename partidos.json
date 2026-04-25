@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Deportivo Alavés vs Mallorca",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Olympique Lyonnais vs Auxerre",
         "hora": "10:00",
@@ -126,6 +120,18 @@
         "prioridad": false
     },
     {
+        "liga": "LaLiga",
+        "partido": "Atlético Madrid vs Athletic Club",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Málaga vs CD Castellon",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
         "liga": "Ligue 1",
         "partido": "Toulouse vs Monaco",
         "hora": "16:05",
@@ -135,6 +141,18 @@
         "liga": "Liga Profesional",
         "partido": "Estudiantes vs Talleres Córdoba",
         "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Sarmiento vs Tigre",
+        "hora": "19:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "River Plate vs Aldosivi",
+        "hora": "21:30",
         "prioridad": false
     }
 ]
