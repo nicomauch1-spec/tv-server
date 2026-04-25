@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Angers SCO vs PSG",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga 2",
         "partido": "Darmstadt 98 vs Elversberg",
         "hora": "15:30",
