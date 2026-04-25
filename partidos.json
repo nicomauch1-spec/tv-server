@@ -1,47 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Olympique Lyonnais vs Auxerre",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Parma vs Pisa",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Wolfsburg vs Borussia M'gladbach",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Heidenheim vs St. Pauli",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Mainz 05 vs Bayern München",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Augsburg vs Eintracht Frankfurt",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Köln vs Bayer Leverkusen",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Liverpool vs Crystal Palace",
         "hora": "11:00",
