@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Darmstadt 98 vs Elversberg",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Verona vs Lecce",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Atlético Madrid vs Athletic Club",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Málaga vs CD Castellon",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Toulouse vs Monaco",
-        "hora": "16:05",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Estudiantes vs Talleres Córdoba",
         "hora": "17:00",
