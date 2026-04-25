@@ -76,5 +76,35 @@
         "partido": "Liverpool vs Crystal Palace",
         "hora": "11:00",
         "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Wolverhampton vs Tottenham Hotspur",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "West Ham United vs Everton",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Getafe vs Barcelona",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Bologna vs Roma",
+        "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Arsenal vs Newcastle United",
+        "hora": "13:30",
+        "prioridad": false
     }
 ]
