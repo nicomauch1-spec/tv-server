@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Le Havre vs Metz",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Rennes vs Nantes",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Paris vs Lille",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Borussia Dortmund vs Freiburg",
-        "hora": "12:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Torino vs Internazionale",
         "hora": "13:00",
