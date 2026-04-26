@@ -1,23 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Real Oviedo vs Elche",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Mirandés vs Cultural Leonesa",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Granada vs Almería",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Le Havre vs Metz",
         "hora": "12:15",
