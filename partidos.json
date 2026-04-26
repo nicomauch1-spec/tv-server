@@ -100,5 +100,29 @@
         "partido": "Torino vs Internazionale",
         "hora": "13:00",
         "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Huesca vs Real Zaragoza",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Osasuna vs Sevilla",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Leganés vs FC Andorra",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Independiente Rivadavia vs Gimnasia Mendoza",
+        "hora": "15:00",
+        "prioridad": false
     }
 ]
