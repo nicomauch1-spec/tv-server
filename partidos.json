@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Independiente Rivadavia vs Gimnasia Mendoza",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Milan vs Juventus",
         "hora": "15:45",
