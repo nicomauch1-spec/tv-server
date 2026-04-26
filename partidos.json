@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Nürnberg vs Magdeburg",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Bochum vs Greuther Fürth",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Paderborn vs Schalke 04",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Rayo Vallecano vs Real Sociedad",
         "hora": "09:00",
