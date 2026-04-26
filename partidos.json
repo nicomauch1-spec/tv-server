@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Sarmiento vs Tigre",
-        "hora": "19:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "River Plate vs Aldosivi",
         "hora": "21:30",
         "prioridad": false
