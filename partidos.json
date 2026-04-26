@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Lorient vs Strasbourg",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Genoa vs Como",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Stuttgart vs Werder Bremen",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Real Oviedo vs Elche",
         "hora": "11:15",
