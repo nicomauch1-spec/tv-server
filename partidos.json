@@ -1,8 +1,104 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "River Plate vs Aldosivi",
-        "hora": "21:30",
+        "liga": "Serie A",
+        "partido": "Fiorentina vs Sassuolo",
+        "hora": "07:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Nürnberg vs Magdeburg",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Bochum vs Greuther Fürth",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Paderborn vs Schalke 04",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Rayo Vallecano vs Real Sociedad",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": ": Córdoba vs Sporting Gijón",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Lorient vs Strasbourg",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Genoa vs Como",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Stuttgart vs Werder Bremen",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Oviedo vs Elche",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Mirandés vs Cultural Leonesa",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Granada vs Almería",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Le Havre vs Metz",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Rennes vs Nantes",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Paris vs Lille",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Borussia Dortmund vs Freiburg",
+        "hora": "12:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Torino vs Internazionale",
+        "hora": "13:00",
         "prioridad": false
     }
 ]
