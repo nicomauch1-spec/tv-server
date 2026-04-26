@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Milan vs Juventus",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Olympique Marseille vs Nice",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Villarreal vs Celta de Vigo",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Ceuta vs Racing Santander",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Belgrano vs Gimnasia La Plata",
         "hora": "17:30",
