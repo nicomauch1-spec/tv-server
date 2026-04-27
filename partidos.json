@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "liga": "Serie A",
+        "partido": "Cagliari vs Atalanta",
+        "hora": "13:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Cádiz vs Las Palmas",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Lazio vs Udinese",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Manchester United vs Brentford",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Espanyol vs Levante",
+        "hora": "16:00",
+        "prioridad": false
+    }
+]
