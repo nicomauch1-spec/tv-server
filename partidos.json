@@ -1,18 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Belgrano vs Gimnasia La Plata",
-        "hora": "17:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Newell's Old Boys vs Instituto",
-        "hora": "17:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Atlético Tucumán vs Banfield",
         "hora": "20:00",
         "prioridad": false
