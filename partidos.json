@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Cagliari vs Atalanta",
-        "hora": "13:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga SmartBank",
         "partido": "Cádiz vs Las Palmas",
         "hora": "15:30",
