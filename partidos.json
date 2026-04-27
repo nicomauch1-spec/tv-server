@@ -28,5 +28,11 @@
         "partido": "Espanyol vs Levante",
         "hora": "16:00",
         "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Vélez Sarsfield vs Unión Santa Fe",
+        "hora": "18:00",
+        "prioridad": false
     }
 ]
