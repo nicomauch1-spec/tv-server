@@ -34,5 +34,11 @@
         "partido": "Vélez Sarsfield vs Unión Santa Fe",
         "hora": "18:00",
         "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Huracán vs Argentinos Juniors",
+        "hora": "21:00",
+        "prioridad": false
     }
 ]
