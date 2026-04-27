@@ -1,29 +1,5 @@
 [
     {
-        "liga": "LaLiga SmartBank",
-        "partido": "Cádiz vs Las Palmas",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Lazio vs Udinese",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Manchester United vs Brentford",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Espanyol vs Levante",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Vélez Sarsfield vs Unión Santa Fe",
         "hora": "18:00",
