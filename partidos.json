@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Copa Sudamericana",
-        "partido": "San Lorenzo vs Santos",
-        "hora": "19:00",
-        "prioridad": true
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Libertad vs Independiente del Valle",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Lanús vs LDU Quito",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Botafogo vs Independiente Petrolero",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores",
         "partido": "UCV vs Rosario Central",
         "hora": "21:00",
