@@ -1,13 +1,13 @@
 [
     {
-        "liga": "Copa Libertadores",
-        "partido": "Independiente Rivadavia vs Deportivo La Guaira",
+        "liga": "Copa Sudamericana",
+        "partido": "Carabobo vs Blooming",
         "hora": "19:00",
         "prioridad": false
     },
     {
-        "liga": "Copa Sudamericana",
-        "partido": "Carabobo vs Blooming",
+        "liga": "Copa Libertadores",
+        "partido": "Independiente Rivadavia vs Deportivo La Guaira",
         "hora": "19:00",
         "prioridad": false
     },
@@ -50,6 +50,12 @@
     {
         "liga": "Copa Libertadores",
         "partido": "Medellín vs Cusco",
+        "hora": "23:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Alianza Atlético vs Macará",
         "hora": "23:00",
         "prioridad": false
     }
