@@ -1,42 +1,6 @@
 [
     {
         "liga": "Copa Sudamericana",
-        "partido": "Juventud vs Academia Puerto Cabello",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Caracas vs Racing Club",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Mirassol vs Always Ready",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Deportivo Riestra vs Torque",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Platense vs Santa Fe",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Barcelona SC vs Universidad Católica",
-        "hora": "21:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
         "partido": "Palestino vs Grêmio",
         "hora": "21:30",
         "prioridad": false
