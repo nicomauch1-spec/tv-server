@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "FC Andorra vs Albacete",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Deportivo La Coruña vs Leganés",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Pisa vs Lecce",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Leeds United vs Burnley",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Girona vs Mallorca",
+        "hora": "16:00",
+        "prioridad": false
+    }
+]
