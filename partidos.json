@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga SmartBank",
-        "partido": "Deportivo La Coruña vs Leganés",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Pisa vs Lecce",
         "hora": "15:45",
