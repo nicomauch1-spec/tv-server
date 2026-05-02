@@ -6,36 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Premier League",
-        "partido": "Brentford vs West Ham United",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Wolverhampton Wanderers vs Sunderland",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Newcastle United vs Brighton & Hove Albion",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Cultural Leonesa vs Cádiz",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Valencia vs Atlético Madrid",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "PSG vs Lorient",
         "hora": "12:00",
