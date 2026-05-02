@@ -1,5 +1,11 @@
 [
     {
+        "liga": "Liga Profesional",
+        "partido": "San Lorenzo vs Independiente",
+        "hora": "18:45",
+        "prioridad": true
+    },
+    {
         "liga": "Bundesliga 2",
         "partido": "Holstein Kiel vs Eintracht Braunschweig",
         "hora": "08:00",
@@ -165,6 +171,36 @@
         "liga": "LaLiga",
         "partido": "Osasuna vs Barcelona",
         "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Eibar vs Málaga",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Nice vs Lens",
+        "hora": "16:05",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Central Córdoba SdE vs Boca Juniors",
+        "hora": "16:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Unión Santa Fe vs Talleres Córdoba",
+        "hora": "18:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Platense vs Estudiantes",
+        "hora": "21:15",
         "prioridad": false
     }
 ]
