@@ -6,24 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Bundesliga 2",
-        "partido": "Holstein Kiel vs Eintracht Braunschweig",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Dynamo Dresden vs Kaiserslautern",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Arminia Bielefeld vs Bochum",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Villarreal vs Levante",
         "hora": "09:00",
