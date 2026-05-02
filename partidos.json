@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Ligue 1",
-        "partido": "PSG vs Lorient",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Como vs Napoli",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Bayer Leverkusen vs RB Leipzig",
         "hora": "13:30",
