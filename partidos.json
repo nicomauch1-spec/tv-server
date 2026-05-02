@@ -6,36 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "2. Bundesliga",
-        "partido": "Schalke 04 vs Fortuna Düsseldorf",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Atalanta vs Genoa",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Osasuna vs Barcelona",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Eibar vs Málaga",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Nice vs Lens",
-        "hora": "16:05",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Central Córdoba SdE vs Boca Juniors",
         "hora": "16:15",
