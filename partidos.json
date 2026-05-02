@@ -6,42 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Bundesliga",
-        "partido": "Bayer Leverkusen vs RB Leipzig",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Deportivo Alavés vs Athletic Club",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Arsenal vs Fulham",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "CD Castellon vs Córdoba",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Barracas Central vs Banfield",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Metz vs Monaco",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Lanús vs Deportivo Riestra",
         "hora": "14:30",
