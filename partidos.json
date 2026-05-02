@@ -7,12 +7,6 @@
     },
     {
         "liga": "Liga Profesional",
-        "partido": "Central Córdoba SdE vs Boca Juniors",
-        "hora": "16:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Unión Santa Fe vs Talleres Córdoba",
         "hora": "18:45",
         "prioridad": false
