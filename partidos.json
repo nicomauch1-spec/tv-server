@@ -6,48 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Serie A",
-        "partido": "Udinese vs Torino",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Nantes vs Olympique Marseille",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Union Berlin vs Köln",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Bayern München vs Heidenheim",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Werder Bremen vs Augsburg",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Hoffenheim vs Stuttgart",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Eintracht Frankfurt vs Hamburger SV",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Brentford vs West Ham United",
         "hora": "11:00",
