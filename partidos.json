@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "LaLiga",
-        "partido": "Villarreal vs Levante",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Udinese vs Torino",
         "hora": "10:00",
