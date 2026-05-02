@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Liga Profesional",
-        "partido": "Lanús vs Deportivo Riestra",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "2. Bundesliga",
         "partido": "Schalke 04 vs Fortuna Düsseldorf",
         "hora": "15:30",
