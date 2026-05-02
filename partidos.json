@@ -4,5 +4,167 @@
         "partido": "Holstein Kiel vs Eintracht Braunschweig",
         "hora": "08:00",
         "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Dynamo Dresden vs Kaiserslautern",
+        "hora": "08:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Arminia Bielefeld vs Bochum",
+        "hora": "08:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Villarreal vs Levante",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Udinese vs Torino",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Nantes vs Olympique Marseille",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Union Berlin vs Köln",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Bayern München vs Heidenheim",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Werder Bremen vs Augsburg",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Hoffenheim vs Stuttgart",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Eintracht Frankfurt vs Hamburger SV",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Brentford vs West Ham United",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Wolverhampton Wanderers vs Sunderland",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Newcastle United vs Brighton & Hove Albion",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Cultural Leonesa vs Cádiz",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Valencia vs Atlético Madrid",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "PSG vs Lorient",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Como vs Napoli",
+        "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Bayer Leverkusen vs RB Leipzig",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Deportivo Alavés vs Athletic Club",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Arsenal vs Fulham",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "CD Castellon vs Córdoba",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Barracas Central vs Banfield",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Metz vs Monaco",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Lanús vs Deportivo Riestra",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Schalke 04 vs Fortuna Düsseldorf",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Atalanta vs Genoa",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Osasuna vs Barcelona",
+        "hora": "16:00",
+        "prioridad": false
     }
 ]
