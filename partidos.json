@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "liga": "Serie A",
+        "partido": "Bologna vs Cagliari",
+        "hora": "07:30",
+        "prioridad": false
+    }
+]
