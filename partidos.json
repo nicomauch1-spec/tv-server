@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Bologna vs Cagliari",
-        "hora": "07:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga 2",
         "partido": "Elversberg vs Paderborn",
         "hora": "08:30",
