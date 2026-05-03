@@ -1,53 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Olympique Lyonnais vs Rennes",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Internazionale vs Parma",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Espanyol vs Real Madrid",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Gimnasia La Plata vs Argentinos Juniors",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A Brasil",
-        "partido": "Flamengo vs Vasco da Gama",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga SmartBank",
-        "partido": "Las Palmas vs Real Valladolid",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Belgrano vs Sarmiento",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Racing Club vs Huracán",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "River Plate vs Atlético Tucumán",
         "hora": "18:30",
