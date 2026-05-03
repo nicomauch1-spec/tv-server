@@ -1,23 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Getafe vs Rayo Vallecano",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Sporting Gijón vs Ceuta",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Manchester United vs Liverpool",
-        "hora": "11:30",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Auxerre vs Angers SCO",
         "hora": "12:15",
