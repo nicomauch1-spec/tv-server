@@ -1,35 +1,5 @@
 [
     {
-        "liga": "Ligue 1",
-        "partido": "Auxerre vs Angers SCO",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Paris vs Brest",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Strasbourg vs Toulouse",
-        "hora": "12:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Borussia M'gladbach vs Borussia Dortmund",
-        "hora": "12:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Juventus vs Verona",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Real Betis vs Real Oviedo",
         "hora": "13:30",
