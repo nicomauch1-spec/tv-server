@@ -1,17 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Celta de Vigo vs Elche",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Racing Santander vs Huesca",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "AFC Bournemouth vs Crystal Palace",
         "hora": "10:00",
