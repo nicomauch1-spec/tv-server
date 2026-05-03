@@ -4,5 +4,167 @@
         "partido": "Bologna vs Cagliari",
         "hora": "07:30",
         "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Elversberg vs Paderborn",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Hannover 96 vs Preußen Münster",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Karlsruher SC vs Darmstadt 98",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Magdeburg vs Hertha BSC",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Celta de Vigo vs Elche",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Racing Santander vs Huesca",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "AFC Bournemouth vs Crystal Palace",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Sassuolo vs Milan",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Lille vs Le Havre",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "St. Pauli vs Mainz 05",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Getafe vs Rayo Vallecano",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Sporting Gijón vs Ceuta",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Manchester United vs Liverpool",
+        "hora": "11:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Auxerre vs Angers SCO",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Paris vs Brest",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Strasbourg vs Toulouse",
+        "hora": "12:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Borussia M'gladbach vs Borussia Dortmund",
+        "hora": "12:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Juventus vs Verona",
+        "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Betis vs Real Oviedo",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Aldosivi vs Independiente Rivadavia",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Real Sociedad II vs Burgos",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Freiburg vs Wolfsburg",
+        "hora": "14:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Aston Villa vs Tottenham Hotspur",
+        "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Olympique Lyonnais vs Rennes",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Internazionale vs Parma",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Espanyol vs Real Madrid",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Belgrano vs Sarmiento",
+        "hora": "16:00",
+        "prioridad": false
     }
 ]
