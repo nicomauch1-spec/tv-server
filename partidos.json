@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Elversberg vs Paderborn",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Hannover 96 vs Preußen Münster",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Karlsruher SC vs Darmstadt 98",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga 2",
-        "partido": "Magdeburg vs Hertha BSC",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Celta de Vigo vs Elche",
         "hora": "09:00",
