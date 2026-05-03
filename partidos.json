@@ -1,18 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "San Lorenzo vs Independiente",
-        "hora": "18:45",
-        "prioridad": true
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Unión Santa Fe vs Talleres Córdoba",
-        "hora": "18:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Platense vs Estudiantes",
         "hora": "21:15",
         "prioridad": false
