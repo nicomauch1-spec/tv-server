@@ -1,23 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Real Betis vs Real Oviedo",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Aldosivi vs Independiente Rivadavia",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Real Sociedad II vs Burgos",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Freiburg vs Wolfsburg",
         "hora": "14:30",
