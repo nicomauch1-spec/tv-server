@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Gimnasia Mendoza vs Defensa y Justicia",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Vélez Sarsfield vs Newell's Old Boys",
         "hora": "19:15",
         "prioridad": false
