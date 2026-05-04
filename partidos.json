@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Chelsea vs Nottingham Forest",
-        "hora": "11:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Cremonese vs Lazio",
         "hora": "13:30",
