@@ -1,29 +1,5 @@
 [
     {
-        "liga": "LaLiga SmartBank",
-        "partido": "Almería vs Mirandés",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Roma vs Fiorentina",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Everton vs Manchester City",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Sevilla vs Real Sociedad",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Gimnasia Mendoza vs Defensa y Justicia",
         "hora": "17:00",
