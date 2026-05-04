@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Cremonese vs Lazio",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga SmartBank",
         "partido": "Almería vs Mirandés",
         "hora": "15:30",
