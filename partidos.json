@@ -10,5 +10,47 @@
         "partido": "Cremonese vs Lazio",
         "hora": "13:30",
         "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Almería vs Mirandés",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Roma vs Fiorentina",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Everton vs Manchester City",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Sevilla vs Real Sociedad",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Gimnasia Mendoza vs Defensa y Justicia",
+        "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Vélez Sarsfield vs Newell's Old Boys",
+        "hora": "19:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Estudiantes Río Cuarto vs Instituto",
+        "hora": "21:30",
+        "prioridad": false
     }
 ]
