@@ -1,1 +1,56 @@
-[]
+[
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Deportivo Cuenca vs San Lorenzo",
+        "hora": "23:00",
+        "prioridad": true
+    },
+    {
+        "liga": "Liga Profesional Saudí",
+        "partido": "Al Khaleej vs Al Hilal",
+        "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Rosario Central vs Libertad",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Sporting Cristal vs Palmeiras",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Deportivo Riestra vs Grêmio",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Independiente Petrolero vs Caracas",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Barcelona vs Boca Juniors",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "UCV vs Independiente del Valle",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Always Ready vs Lanús",
+        "hora": "21:30",
+        "prioridad": false
+    }
+]
