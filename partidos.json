@@ -6,9 +6,9 @@
         "prioridad": true
     },
     {
-        "liga": "Liga Profesional Saudí",
-        "partido": "Al Khaleej vs Al Hilal",
-        "hora": "15:00",
+        "liga": "Copa Libertadores",
+        "partido": "Sporting Cristal vs Palmeiras",
+        "hora": "19:00",
         "prioridad": false
     },
     {
@@ -18,8 +18,8 @@
         "prioridad": false
     },
     {
-        "liga": "Copa Libertadores",
-        "partido": "Sporting Cristal vs Palmeiras",
+        "liga": "Copa Sudamericana",
+        "partido": "Independiente Petrolero vs Caracas",
         "hora": "19:00",
         "prioridad": false
     },
@@ -31,7 +31,7 @@
     },
     {
         "liga": "Copa Sudamericana",
-        "partido": "Independiente Petrolero vs Caracas",
+        "partido": "Juventud vs Atlético Mineiro",
         "hora": "19:00",
         "prioridad": false
     },
