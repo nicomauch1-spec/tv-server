@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Vélez Sarsfield vs Newell's Old Boys",
-        "hora": "19:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Estudiantes Río Cuarto vs Instituto",
         "hora": "21:30",
         "prioridad": false
