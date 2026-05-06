@@ -40,5 +40,35 @@
         "partido": "Botafogo vs Racing Club",
         "hora": "21:30",
         "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Independiente Rivadavia vs Fluminense",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Santa Fe vs Corinthians",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Alianza Atlético vs América de Cali",
+        "hora": "23:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Universidad Católica vs Cruzeiro",
+        "hora": "23:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Deportes Tolima vs Nacional",
+        "hora": "23:00",
+        "prioridad": false
     }
 ]
