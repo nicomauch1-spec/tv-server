@@ -6,9 +6,39 @@
         "prioridad": false
     },
     {
+        "liga": "Copa Libertadores",
+        "partido": "Cusco vs Estudiantes LP",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
         "liga": "Copa Sudamericana",
         "partido": "Torque vs Palestino",
         "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Deportivo La Guaira vs Bolívar",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Macará vs Tigre",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Barracas Central vs Olimpia",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Botafogo vs Racing Club",
+        "hora": "21:30",
         "prioridad": false
     }
 ]
