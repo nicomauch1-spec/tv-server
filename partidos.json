@@ -48,6 +48,18 @@
         "prioridad": false
     },
     {
+        "liga": "Copa Sudamericana",
+        "partido": "Deportivo Recoleta vs Santos",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Academia Puerto Cabello vs Cienciano",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
         "liga": "Copa Libertadores",
         "partido": "Always Ready vs Lanús",
         "hora": "21:30",
