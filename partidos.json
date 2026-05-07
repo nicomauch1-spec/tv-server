@@ -1,17 +1,5 @@
 [
     {
-        "liga": "UEFA Europa League",
-        "partido": "Aston Villa vs Nottingham Forest",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "UEFA Europa League",
-        "partido": "Freiburg vs Sporting Braga",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Sudamericana",
         "partido": "Boston River vs Millonarios",
         "hora": "19:00",
@@ -32,7 +20,37 @@
     {
         "liga": "Copa Sudamericana",
         "partido": "O'Higgins vs São Paulo",
-        "hora": "19:15",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Coquimbo Unido vs Universitario",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Blooming vs RB Bragantino",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Medellín vs Flamengo",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Carabobo vs River Plate",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Junior vs Cerro Porteño",
+        "hora": "23:00",
         "prioridad": false
     }
 ]
