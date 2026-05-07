@@ -10,5 +10,29 @@
         "partido": "Freiburg vs Sporting Braga",
         "hora": "16:00",
         "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Boston River vs Millonarios",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Mirassol vs LDU Quito",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Platense vs Peñarol",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "O'Higgins vs São Paulo",
+        "hora": "19:15",
+        "prioridad": false
     }
 ]
