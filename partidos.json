@@ -10,5 +10,17 @@
         "partido": "Paderborn vs Karlsruher SC",
         "hora": "13:30",
         "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Cádiz vs Deportivo La Coruña",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Borussia Dortmund vs Eintracht Frankfurt",
+        "hora": "15:30",
+        "prioridad": false
     }
 ]
