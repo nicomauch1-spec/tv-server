@@ -1,32 +1,8 @@
 [
     {
-        "liga": "LaLiga SmartBank",
-        "partido": "Cádiz vs Deportivo La Coruña",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Borussia Dortmund vs Eintracht Frankfurt",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Lens vs Nantes",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Torino vs Sassuolo",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Levante vs Osasuna",
-        "hora": "16:00",
+        "liga": "Copa Argentina",
+        "partido": "Banfield vs San Martín Tucumán",
+        "hora": "21:00",
         "prioridad": false
     }
 ]
