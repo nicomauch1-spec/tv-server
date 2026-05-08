@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Kaiserslautern vs Arminia Bielefeld",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Paderborn vs Karlsruher SC",
+        "hora": "13:30",
+        "prioridad": false
+    }
+]
