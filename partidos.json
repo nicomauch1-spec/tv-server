@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Talleres Córdoba vs Belgrano",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A de Ecuador",
         "partido": "Aucas vs Universidad Católica",
         "hora": "18:30",
