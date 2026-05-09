@@ -160,5 +160,23 @@
         "partido": "Talleres Córdoba vs Belgrano",
         "hora": "16:30",
         "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Boca Juniors vs Huracán",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Independiente Rivadavia vs Unión Santa Fe",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Argentinos Juniors vs Lanús",
+        "hora": "21:30",
+        "prioridad": false
     }
 ]
