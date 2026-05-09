@@ -1,32 +1,14 @@
 [
     {
-        "liga": "Bundesliga 2",
-        "partido": "Nürnberg vs Schalke 04",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Lecce vs Juventus",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Real Sociedad vs Real Betis",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Málaga vs Sporting Gijón",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Talleres Córdoba vs Belgrano",
         "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A de Ecuador",
+        "partido": "Aucas vs Universidad Católica",
+        "hora": "18:30",
         "prioridad": false
     },
     {
