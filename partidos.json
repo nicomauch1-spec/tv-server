@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Wolfsburg vs Bayern München",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Atlético Madrid vs Celta de Vigo",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Manchester City vs Brentford",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Real Valladolid vs Real Zaragoza",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga 2",
         "partido": "Nürnberg vs Schalke 04",
         "hora": "15:30",
