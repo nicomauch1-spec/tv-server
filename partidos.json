@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Lazio vs Internazionale",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Wolfsburg vs Bayern München",
         "hora": "13:30",
