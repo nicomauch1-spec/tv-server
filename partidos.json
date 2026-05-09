@@ -1,23 +1,5 @@
 [
     {
-        "liga": "2. Bundesliga",
-        "partido": "Bochum vs Hannover 96",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
-        "liga": "2. Bundesliga",
-        "partido": "Eintracht Braunschweig vs Dynamo Dresden",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
-        "liga": "2. Bundesliga",
-        "partido": "Holstein Kiel vs Magdeburg",
-        "hora": "08:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Liverpool vs Chelsea",
         "hora": "08:30",
