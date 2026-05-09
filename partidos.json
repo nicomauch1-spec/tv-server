@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Cagliari vs Udinese",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "RB Leipzig vs St. Pauli",
         "hora": "10:30",
@@ -84,14 +78,14 @@
         "prioridad": false
     },
     {
-        "liga": "LaLiga 2",
-        "partido": "Real Valladolid vs Real Zaragoza",
+        "liga": "Premier League",
+        "partido": "Manchester City vs Brentford",
         "hora": "13:30",
         "prioridad": false
     },
     {
-        "liga": "Premier League",
-        "partido": "Manchester City vs Brentford",
+        "liga": "LaLiga 2",
+        "partido": "Real Valladolid vs Real Zaragoza",
         "hora": "13:30",
         "prioridad": false
     },
