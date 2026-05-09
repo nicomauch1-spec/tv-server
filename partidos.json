@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Liverpool vs Chelsea",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Ceuta vs CD Castellon",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Elche vs Deportivo Alavés",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Cagliari vs Udinese",
         "hora": "10:00",
