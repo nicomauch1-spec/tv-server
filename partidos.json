@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Verona vs Como",
-        "hora": "07:30",
-        "prioridad": false
-    },
-    {
         "liga": "2. Bundesliga",
         "partido": "Fortuna Düsseldorf vs Elversberg",
         "hora": "08:30",
