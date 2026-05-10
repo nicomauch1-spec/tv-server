@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Bundesliga",
-        "partido": "Mainz 05 vs Union Berlin",
-        "hora": "14:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Rosario Central vs Independiente",
         "hora": "15:00",
