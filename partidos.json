@@ -6,42 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Premier League",
-        "partido": "West Ham United vs Arsenal",
-        "hora": "12:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Bundesliga",
-        "partido": "Köln vs Heidenheim",
-        "hora": "12:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Parma vs Roma",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Real Oviedo vs Getafe",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Córdoba vs Granada",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Mirandés vs Eibar",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "Mainz 05 vs Union Berlin",
         "hora": "14:30",
@@ -96,6 +60,12 @@
         "prioridad": false
     },
     {
+        "liga": "LaLiga",
+        "partido": "Barcelona vs Real Madrid",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
         "liga": "Ligue 1",
         "partido": "Metz vs Lorient",
         "hora": "16:00",
@@ -104,12 +74,6 @@
     {
         "liga": "Ligue 1",
         "partido": "Le Havre vs Olympique Marseille",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Barcelona vs Real Madrid",
         "hora": "16:00",
         "prioridad": false
     },
