@@ -36,6 +36,18 @@
         "prioridad": false
     },
     {
+        "liga": "Serie A",
+        "partido": "Cremonese vs Pisa",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Fiorentina vs Genoa",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
         "liga": "Premier League",
         "partido": "Burnley vs Aston Villa",
         "hora": "10:00",
@@ -51,6 +63,42 @@
         "liga": "Premier League",
         "partido": "Crystal Palace vs Everton",
         "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Hamburger SV vs Freiburg",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Athletic Club vs Valencia",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Leganés vs Racing Santander",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "West Ham United vs Arsenal",
+        "hora": "12:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga",
+        "partido": "Köln vs Heidenheim",
+        "hora": "12:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Parma vs Roma",
+        "hora": "13:00",
         "prioridad": false
     }
 ]
