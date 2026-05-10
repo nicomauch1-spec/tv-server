@@ -1,21 +1,9 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Hamburger SV vs Freiburg",
-        "hora": "10:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Leganés vs Racing Santander",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Athletic Club vs Valencia",
-        "hora": "11:15",
-        "prioridad": false
+        "liga": "Liga Profesional",
+        "partido": "River Plate vs San Lorenzo",
+        "hora": "19:00",
+        "prioridad": true
     },
     {
         "liga": "Premier League",
@@ -73,6 +61,12 @@
     },
     {
         "liga": "Ligue 1",
+        "partido": "PSG vs Brest",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
         "partido": "Rennes vs Paris",
         "hora": "16:00",
         "prioridad": false
@@ -91,12 +85,6 @@
     },
     {
         "liga": "Ligue 1",
-        "partido": "PSG vs Brest",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
         "partido": "Monaco vs Lille",
         "hora": "16:00",
         "prioridad": false
@@ -104,12 +92,6 @@
     {
         "liga": "Ligue 1",
         "partido": "Toulouse vs Olympique Lyonnais",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Barcelona vs Real Madrid",
         "hora": "16:00",
         "prioridad": false
     },
@@ -126,9 +108,21 @@
         "prioridad": false
     },
     {
+        "liga": "LaLiga",
+        "partido": "Barcelona vs Real Madrid",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
         "liga": "Liga Profesional",
         "partido": "Estudiantes vs Racing Club",
         "hora": "17:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Vélez Sarsfield vs Gimnasia La Plata",
+        "hora": "21:30",
         "prioridad": false
     }
 ]
