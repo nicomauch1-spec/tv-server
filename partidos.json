@@ -1,14 +1,56 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "Independiente Rivadavia vs Unión Santa Fe",
-        "hora": "21:30",
+        "liga": "Serie A",
+        "partido": "Verona vs Como",
+        "hora": "07:30",
         "prioridad": false
     },
     {
-        "liga": "Liga Profesional",
-        "partido": "Argentinos Juniors vs Lanús",
-        "hora": "21:30",
+        "liga": "2. Bundesliga",
+        "partido": "Fortuna Düsseldorf vs Elversberg",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Hertha BSC vs Greuther Fürth",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Preußen Münster vs Darmstadt 98",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "FC Andorra vs Las Palmas",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Mallorca vs Villarreal",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Burnley vs Aston Villa",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Nottingham Forest vs Newcastle United",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Crystal Palace vs Everton",
+        "hora": "10:00",
         "prioridad": false
     }
 ]
