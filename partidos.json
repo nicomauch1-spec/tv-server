@@ -1,75 +1,15 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "River Plate vs San Lorenzo",
-        "hora": "19:00",
+        "liga": "Primera División de Paraguay",
+        "partido": "Sportivo San Lorenzo vs Olimpia",
+        "hora": "17:30",
         "prioridad": true
     },
     {
         "liga": "Liga Profesional",
-        "partido": "Rosario Central vs Independiente",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Milan vs Atalanta",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "PSG vs Brest",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Rennes vs Paris",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Auxerre vs Nice",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Angers SCO vs Strasbourg",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Monaco vs Lille",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Toulouse vs Olympique Lyonnais",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Barcelona vs Real Madrid",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Metz vs Lorient",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Le Havre vs Olympique Marseille",
-        "hora": "16:00",
-        "prioridad": false
+        "partido": "River Plate vs San Lorenzo",
+        "hora": "19:00",
+        "prioridad": true
     },
     {
         "liga": "Liga Profesional",
