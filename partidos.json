@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Primera División de Paraguay",
-        "partido": "Sportivo San Lorenzo vs Olimpia",
-        "hora": "17:30",
-        "prioridad": true
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "River Plate vs San Lorenzo",
         "hora": "19:00",
@@ -16,12 +10,6 @@
         "partido": "Sportivo San Lorenzo vs Olimpia",
         "hora": "20:00",
         "prioridad": true
-    },
-    {
-        "liga": "Liga Profesional",
-        "partido": "Estudiantes vs Racing Club",
-        "hora": "17:00",
-        "prioridad": false
     },
     {
         "liga": "Liga Profesional",
