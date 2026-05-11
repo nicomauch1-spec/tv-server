@@ -12,6 +12,12 @@
         "prioridad": false
     },
     {
+        "liga": "LaLiga",
+        "partido": "Rayo Vallecano vs Girona",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
         "liga": "Premier League",
         "partido": "Tottenham Hotspur vs Leeds United",
         "hora": "16:00",
