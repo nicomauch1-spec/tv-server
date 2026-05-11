@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "liga": "LaLiga 2",
+        "partido": "Huesca vs Real Sociedad II",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Napoli vs Bologna",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Tottenham Hotspur vs Leeds United",
+        "hora": "16:00",
+        "prioridad": false
+    }
+]
