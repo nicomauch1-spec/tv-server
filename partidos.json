@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Huesca vs Real Sociedad II",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Napoli vs Bologna",
         "hora": "15:45",
