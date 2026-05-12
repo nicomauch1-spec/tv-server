@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "liga": "LaLiga",
+        "partido": "Real Betis vs Elche",
+        "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Red Star vs Rodez",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Argentinos Juniors vs Huracán",
+        "hora": "21:30",
+        "prioridad": false
+    }
+]
