@@ -1,12 +1,6 @@
 [
     {
         "liga": "LaLiga",
-        "partido": "Real Betis vs Elche",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
         "partido": "Osasuna vs Atlético Madrid",
         "hora": "16:30",
         "prioridad": false
