@@ -9,7 +9,6 @@ from urllib.parse import urlparse
 # CONFIGURACIÓN DEL SCRAPER DE CANALES
 # ==========================================
 
-# Plantilla base. "search_name" es el texto clave que buscaremos.
 MIS_CANALES_BASE = [
     {"id": "0", "name": "ESPN Premium", "search_name": "ESPN Premium", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn-premium-ar.png"},
     {"id": "1", "name": "TNT Sports Premium", "search_name": "TNT Sports", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tnt-sports-ar.png"},
@@ -30,10 +29,6 @@ MIS_CANALES_BASE = [
     {"id": "16", "name": "DSports 2", "search_name": "DSports 2", "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports2-lam.png"}
 ]
 
-# Dejamos "streamtp" genérico para que atrape .com, cloud, 501, 10, etc.
-PROVEEDORES_PERMITIDOS = ['la14hd', 'streamtp', 'nebunexa', 'bolaloca']
-PALABRAS_PROHIBIDAS = ['pc', 'extension', 'vpn', 'app']
-
 def obtener_referer(url):
     try:
         parsed_url = urlparse(url)
@@ -41,39 +36,46 @@ def obtener_referer(url):
     except:
         return ""
 
+# ==========================================
+# VALIDACIÓN DE OPCIONES
+# ==========================================
+
 def es_opcion_valida(opcion):
-    nombre_opcion = opcion.get('name', '').lower()
     url_opcion = opcion.get('iframe', '').lower()
 
+    # Solo descartamos opciones inválidas o vacías
     if not url_opcion or url_opcion == 'undefined':
         return False
 
-    # Acá está el arreglo mágico:
-    PALABRAS_PROHIBIDAS = ['extension', 'vpn', 'app', '(pc)', ' pc ']
-    
-    for palabra in PALABRAS_PROHIBIDAS:
-        if palabra in nombre_opcion:
-            return False
+    return True
 
-    for proveedor in PROVEEDORES_PERMITIDOS:
-        if proveedor in url_opcion:
-            return True
-            
-    return False
+# ==========================================
+# SCRAPER DE CANALES
+# ==========================================
 
 def procesar_canales():
     print("\n📺 Iniciando scraper de CANALES...")
+
     timestamp = int(time.time() * 1000)
     url_origen = f"https://nowfutbol.pages.dev/vivo/channels.json?{timestamp}"
-    
+
     canales_finales = []
-    
+
     try:
-        scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True})
-        headers = {"Referer": "https://nowfutbol.pages.dev/vivo/"}
-        
+        scraper = cloudscraper.create_scraper(
+            browser={
+                'browser': 'chrome',
+                'platform': 'windows',
+                'desktop': True
+            }
+        )
+
+        headers = {
+            "Referer": "https://nowfutbol.pages.dev/vivo/"
+        }
+
         response = scraper.get(url_origen, headers=headers, timeout=20)
-        
+
         try:
             data_origen = response.json()
         except json.decoder.JSONDecodeError:
@@ -81,61 +83,94 @@ def procesar_canales():
             return
 
         print(f"✅ Se descargaron {len(data_origen)} categorías del servidor.")
-        
+
         for mi_canal in MIS_CANALES_BASE:
+
             fuentes_limpias = []
-            urls_vistas = set() 
+            urls_vistas = set()
             contador_fuentes = 1
+
             busqueda = mi_canal["search_name"].lower()
 
             for categoria in data_origen:
+
                 nombre_categoria = categoria.get("name", "").lower()
                 opciones_crudas = categoria.get("options", [])
-                
-                for opcion in opciones_crudas:
-                    nombre_opcion_crudo = opcion.get("name", "").lower()
-                    
-                    # MAGIA DOBLE: Verificamos si la búsqueda coincide con el nombre de la categoría O con el nombre de la opción
-                    if (busqueda == nombre_categoria) or (busqueda in nombre_opcion_crudo):
-                        if es_opcion_valida(opcion):
-                            url_limpia = opcion.get("iframe")
-                            
-                            # Evitamos guardar links duplicados
-                            if url_limpia not in urls_vistas:
-                                urls_vistas.add(url_limpia)
-                                
-                                nombre_bonito = f"Opción {contador_fuentes}"
-                                if "la14hd" in url_limpia: nombre_bonito += " (Alternativa)"
-                                elif "streamtp" in url_limpia: nombre_bonito += " (HD)"
-                                elif "nebunexa" in url_limpia: nombre_bonito += " (Nebunexa)"
-                                elif "bolaloca" in url_limpia: nombre_bonito += " (Bolaloca)"
 
-                                fuente = {
-                                    "name": nombre_bonito,
-                                    "url": url_limpia,
-                                    "referer": obtener_referer(url_limpia)
-                                }
-                                fuentes_limpias.append(fuente)
-                                contador_fuentes += 1
+                for opcion in opciones_crudas:
+
+                    nombre_opcion_crudo = opcion.get("name", "").lower()
+
+                    coincide = (
+                        busqueda == nombre_categoria
+                        or busqueda in nombre_opcion_crudo
+                    )
+
+                    if coincide and es_opcion_valida(opcion):
+
+                        url_limpia = opcion.get("iframe")
+
+                        # Evitamos duplicados
+                        if url_limpia not in urls_vistas:
+
+                            urls_vistas.add(url_limpia)
+
+                            try:
+                                dominio = urlparse(url_limpia).netloc.replace("www.", "")
+                            except:
+                                dominio = "stream"
+
+                            nombre_bonito = f"Opción {contador_fuentes} ({dominio})"
+
+                            fuente = {
+                                "name": nombre_bonito,
+                                "url": url_limpia,
+                                "referer": obtener_referer(url_limpia)
+                            }
+
+                            fuentes_limpias.append(fuente)
+                            contador_fuentes += 1
 
             if fuentes_limpias:
+
                 nuevo_canal = {
                     "id": mi_canal["id"],
                     "name": mi_canal["name"],
                     "logoUrl": mi_canal["logoUrl"],
                     "sources": fuentes_limpias
                 }
+
                 canales_finales.append(nuevo_canal)
-                print(f"[+] Canal procesado con éxito: {mi_canal['name']} ({len(fuentes_limpias)} fuentes encontradas)")
+
+                print(
+                    f"[+] Canal procesado con éxito: "
+                    f"{mi_canal['name']} "
+                    f"({len(fuentes_limpias)} fuentes encontradas)"
+                )
+
             else:
-                print(f"[-] Canal {mi_canal['name']} sin fuentes válidas (se ignora).")
+                print(
+                    f"[-] Canal {mi_canal['name']} "
+                    f"sin fuentes válidas (se ignora)."
+                )
 
         if canales_finales:
+
             with open("canales.json", "w", encoding="utf-8") as f:
-                json.dump(canales_finales, f, indent=4, ensure_ascii=False)
+                json.dump(
+                    canales_finales,
+                    f,
+                    indent=4,
+                    ensure_ascii=False
+                )
+
             print("\n✅ Archivo canales.json guardado con éxito.")
+
         else:
-            print("\n⚠️ No se guardó canales.json porque la lista final quedó vacía.")
+            print(
+                "\n⚠️ No se guardó canales.json "
+                "porque la lista final quedó vacía."
+            )
 
     except Exception as e:
         print(f"❌ Error crítico actualizando canales: {e}")
@@ -143,49 +178,92 @@ def procesar_canales():
 # ==========================================
 # CONFIGURACIÓN DEL SCRAPER DE AGENDA
 # ==========================================
+
 LIGAS_TOP = [
-    "LIGA PROFESIONAL", "COPA ARGENTINA", "LIBERTADORES", "SUDAMERICANA",
-    "PREMIER", "LALIGA", "SERIE A", "BUNDESLIGA", "LIGUE 1", 
-    "UEFA Champions League", "EUROPA LEAGUE"
+    "LIGA PROFESIONAL",
+    "COPA ARGENTINA",
+    "LIBERTADORES",
+    "SUDAMERICANA",
+    "PREMIER",
+    "LALIGA",
+    "SERIE A",
+    "BUNDESLIGA",
+    "LIGUE 1",
+    "UEFA Champions League",
+    "EUROPA LEAGUE"
 ]
 
 def ajustar_hora(hora_str):
+
     try:
         hora_limpia = hora_str.strip()
         hora_obj = datetime.strptime(hora_limpia, "%H:%M")
+
         nueva_hora = hora_obj + timedelta(hours=2)
+
         return nueva_hora.strftime("%H:%M")
+
     except:
         return hora_str
 
+# ==========================================
+# SCRAPER DE AGENDA
+# ==========================================
+
 def procesar_agenda():
+
     print("\n⚽ Iniciando scraper de AGENDA...")
+
     url_agenda = "https://la14hd.com/eventos/json/agenda123.json"
-    headers = {"User-Agent": "Mozilla/5.0"}
-    
+
+    headers = {
+        "User-Agent": "Mozilla/5.0"
+    }
+
     try:
-        response = requests.get(url_agenda, headers=headers, timeout=15)
+
+        response = requests.get(
+            url_agenda,
+            headers=headers,
+            timeout=15
+        )
+
         response.raise_for_status()
+
         data = response.json()
-        print(f"📡 Datos recibidos: {len(data)} eventos encontrados en la web.")
-        
+
+        print(
+            f"📡 Datos recibidos: "
+            f"{len(data)} eventos encontrados en la web."
+        )
+
         agenda_filtrada = []
         partidos_vistos = set()
 
         for evento in data:
+
             titulo_raw = evento.get("title", "")
             titulo_up = titulo_raw.upper()
-            
+
             es_cuervo = "SAN LORENZO" in titulo_up
-            es_interesante = any(liga in titulo_up for liga in LIGAS_TOP)
+
+            es_interesante = any(
+                liga in titulo_up
+                for liga in LIGAS_TOP
+            )
 
             if es_interesante or es_cuervo:
-                hora_arg = ajustar_hora(evento.get("time", "00:00"))
-                
+
+                hora_arg = ajustar_hora(
+                    evento.get("time", "00:00")
+                )
+
                 clave = f"{titulo_up}-{hora_arg}"
+
                 if clave not in partidos_vistos:
+
                     partidos_vistos.add(clave)
-                    
+
                     if ":" in titulo_raw:
                         liga, partido = titulo_raw.split(":", 1)
                     else:
@@ -198,15 +276,33 @@ def procesar_agenda():
                         "prioridad": es_cuervo
                     })
 
-        agenda_filtrada.sort(key=lambda x: (not x['prioridad'], x['hora']))
+        agenda_filtrada.sort(
+            key=lambda x: (
+                not x['prioridad'],
+                x['hora']
+            )
+        )
 
         if not agenda_filtrada:
-            print("⚠️ Filtro aplicado: No se encontraron partidos que coincidan con tus ligas.")
-        
+            print(
+                "⚠️ Filtro aplicado: "
+                "No se encontraron partidos "
+                "que coincidan con tus ligas."
+            )
+
         with open("partidos.json", "w", encoding="utf-8") as f:
-            json.dump(agenda_filtrada, f, indent=4, ensure_ascii=False)
-        
-        print(f"✅ partidos.json guardado con éxito. ({len(agenda_filtrada)} partidos)")
+
+            json.dump(
+                agenda_filtrada,
+                f,
+                indent=4,
+                ensure_ascii=False
+            )
+
+        print(
+            f"✅ partidos.json guardado con éxito. "
+            f"({len(agenda_filtrada)} partidos)"
+        )
 
     except Exception as e:
         print(f"❌ Error actualizando agenda: {e}")
@@ -214,14 +310,15 @@ def procesar_agenda():
 # ==========================================
 # EJECUCIÓN PRINCIPAL
 # ==========================================
+
 def procesar_todo():
+
     print("🚀 Iniciando actualización general...")
+
     procesar_canales()
     procesar_agenda()
+
     print("\n🏁 Proceso terminado.")
 
 if __name__ == "__main__":
     procesar_todo()
-
-
-
