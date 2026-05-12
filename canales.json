@@ -5,37 +5,82 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn-premium-ar.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (Bolaloca)",
+                "name": "Opción 2 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/2/76",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 3 (HD)",
+                "name": "Opción 3 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=espnpremium",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 4 (Alternativa)",
+                "name": "Opción 4 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=espnpremium",
                 "referer": "https://la14hd.com/"
             },
             {
-                "name": "Opción 5 (HD)",
+                "name": "Opción 5 (elcanaldeportivo.com)",
+                "url": "https://elcanaldeportivo.com/espnpremium.php",
+                "referer": "https://elcanaldeportivo.com/"
+            },
+            {
+                "name": "Opción 6 (tucanaldeportivo.org)",
+                "url": "https://tucanaldeportivo.org/espnhd.php?alt=https://tucanaldeportivo.org/espnpremium.php",
+                "referer": "https://tucanaldeportivo.org/"
+            },
+            {
+                "name": "Opción 7 (nebunexa.life)",
+                "url": "https://nebunexa.life/tok.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE",
+                "referer": "https://nebunexa.life/"
+            },
+            {
+                "name": "Opción 8 (sopracan-28-04-flotodsplaaerbloeer.blogspot.com)",
+                "url": "https://sopracan-28-04-flotodsplaaerbloeer.blogspot.com/p/cantodossplaaer-2.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE",
+                "referer": "https://sopracan-28-04-flotodsplaaerbloeer.blogspot.com/"
+            },
+            {
+                "name": "Opción 9 (tvlibree.com)",
+                "url": "https://tvlibree.com/pc/dex/?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE",
+                "referer": "https://tvlibree.com/"
+            },
+            {
+                "name": "Opción 10 (nebunexa.life)",
+                "url": "https://nebunexa.life/tok.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE&lang=1",
+                "referer": "https://nebunexa.life/"
+            },
+            {
+                "name": "Opción 11 (dots.bestleague.world)",
+                "url": "https://dots.bestleague.world/tok.html?get=Rm94X1Nwb3J0c19QcmVtaXVuX0hE&lang=1",
+                "referer": "https://dots.bestleague.world/"
+            },
+            {
+                "name": "Opción 12 (telegratuita.org)",
+                "url": "https://telegratuita.org/repro/?r=Ly90ZWxlZGVwb3J0ZXMudG9wL3Bydi5waHA/aWQ9ZXNwbnByZW1pdW0=",
+                "referer": "https://telegratuita.org/"
+            },
+            {
+                "name": "Opción 13 (streamtp10.com)",
                 "url": "https://streamtp10.com/global1.php?stream=espnpremium",
                 "referer": "https://streamtp10.com/"
             },
             {
-                "name": "Opción 6 (Bolaloca)",
+                "name": "Opción 14 (cableparatodos-soextensioonnennbe.blogspot.com)",
+                "url": "https://cableparatodos-soextensioonnennbe.blogspot.com/p/cantodsdepopraexteeen-giaacommpu.html?id=eeespreee-giaaaa",
+                "referer": "https://cableparatodos-soextensioonnennbe.blogspot.com/"
+            },
+            {
+                "name": "Opción 15 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/1/76",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 7 (Bolaloca)",
+                "name": "Opción 16 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/3/76",
                 "referer": "https://bolaloca.my/"
             }
@@ -47,24 +92,64 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tnt-sports-ar.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (domainplayer.lat)",
+                "url": "https://domainplayer.lat/embed/202039.html",
+                "referer": "https://domainplayer.lat/"
+            },
+            {
+                "name": "Opción 2 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=VE5UX1Nwb3J0c19IRA&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (Bolaloca)",
+                "name": "Opción 3 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/2/75",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 3 (HD)",
+                "name": "Opción 4 (elcanaldeportivo.com)",
+                "url": "https://elcanaldeportivo.com/tntsports.php",
+                "referer": "https://elcanaldeportivo.com/"
+            },
+            {
+                "name": "Opción 5 (telegratuita.org)",
+                "url": "https://telegratuita.org/repro/?r=L2xhdGFtLnBocD9jYW5hbD10bnRzcG9ydHM=",
+                "referer": "https://telegratuita.org/"
+            },
+            {
+                "name": "Opción 6 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=tntsports",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 4 (Alternativa)",
+                "name": "Opción 7 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=tntsports",
                 "referer": "https://la14hd.com/"
+            },
+            {
+                "name": "Opción 8 (nebunexa.life)",
+                "url": "https://nebunexa.life/tok.html?get=VE5UX1Nwb3J0c19IRA",
+                "referer": "https://nebunexa.life/"
+            },
+            {
+                "name": "Opción 9 (sopracan-28-04-flotodsplaaerbloeer.blogspot.com)",
+                "url": "https://sopracan-28-04-flotodsplaaerbloeer.blogspot.com/p/cantodossplaaer-2.html?get=VE5UX1Nwb3J0c19IRA",
+                "referer": "https://sopracan-28-04-flotodsplaaerbloeer.blogspot.com/"
+            },
+            {
+                "name": "Opción 10 (domainplayer.lat)",
+                "url": "https://domainplayer.lat/embed/9876.html",
+                "referer": "https://domainplayer.lat/"
+            },
+            {
+                "name": "Opción 11 (embedsports.top)",
+                "url": "https://embedsports.top/embed/alpha/wrc-japan-2025-stage-10/1",
+                "referer": "https://embedsports.top/"
+            },
+            {
+                "name": "Opción 12 (embedsports.top)",
+                "url": "https://embedsports.top/embed/alpha/wrc-japan-2025-stage-10/2",
+                "referer": "https://embedsports.top/"
             }
         ]
     },
@@ -74,37 +159,52 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tyc-sports-ar.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=VHlDU3BvcnQ&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (Bolaloca)",
+                "name": "Opción 2 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/2/77",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 3 (HD)",
+                "name": "Opción 3 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=tycsports",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 4 (Alternativa)",
+                "name": "Opción 4 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=tycsports",
                 "referer": "https://la14hd.com/"
             },
             {
-                "name": "Opción 5 (Nebunexa)",
+                "name": "Opción 5 (tvlibree.com)",
+                "url": "https://tvlibree.com/pc/dex/?get=VHlDU3BvcnQ",
+                "referer": "https://tvlibree.com/"
+            },
+            {
+                "name": "Opción 6 (nebunexa.life)",
                 "url": "https://www.nebunexa.life/cvatt.html?get=VHlDU3BvcnQ&lang=1",
                 "referer": "https://www.nebunexa.life/"
             },
             {
-                "name": "Opción 6 (Bolaloca)",
+                "name": "Opción 7 (cableparatodspracantodsplaeeecongeeeo.blogspot.com)",
+                "url": "https://cableparatodspracantodsplaeeecongeeeo.blogspot.com/p/caantodsplaaeedyyysssstee.html?id=teeeincespooargee-giaaa",
+                "referer": "https://cableparatodspracantodsplaeeecongeeeo.blogspot.com/"
+            },
+            {
+                "name": "Opción 8 (nebunexa.life)",
+                "url": "https://nebunexa.life/tok.html?get=VHlDU3BvcnQ",
+                "referer": "https://nebunexa.life/"
+            },
+            {
+                "name": "Opción 9 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/1/77",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 7 (Bolaloca)",
+                "name": "Opción 10 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/3/77",
                 "referer": "https://bolaloca.my/"
             }
@@ -116,42 +216,62 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/espn-ar.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=RVNQTjJIRA&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (Alternativa)",
+                "name": "Opción 2 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=espn",
                 "referer": "https://la14hd.com/"
             },
             {
-                "name": "Opción 3 (HD)",
+                "name": "Opción 3 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=espn",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 4 (Bolaloca)",
+                "name": "Opción 4 (dominioparatodo.space)",
+                "url": "https://dominioparatodo.space/zk.html?id=6",
+                "referer": "https://dominioparatodo.space/"
+            },
+            {
+                "name": "Opción 5 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/2/87",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 5 (Nebunexa)",
+                "name": "Opción 6 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=RVNQTl9VWQ==&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 6 (Bolaloca)",
+                "name": "Opción 7 (cableparatodos-soextensioonnennbe.blogspot.com)",
+                "url": "https://cableparatodos-soextensioonnennbe.blogspot.com/p/sopraexteeen-commpu-1.html?get=RVNQTjJIRA",
+                "referer": "https://cableparatodos-soextensioonnennbe.blogspot.com/"
+            },
+            {
+                "name": "Opción 8 (dots.bestleague.world)",
+                "url": "https://dots.bestleague.world/tok.html?get=RVNQTjJIRA",
+                "referer": "https://dots.bestleague.world/"
+            },
+            {
+                "name": "Opción 9 (embedsports.top)",
+                "url": "https://embedsports.top/embed/alpha/espn/2",
+                "referer": "https://embedsports.top/"
+            },
+            {
+                "name": "Opción 10 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/1/141",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 7 (Bolaloca)",
+                "name": "Opción 11 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/2/141",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 8 (Bolaloca)",
+                "name": "Opción 12 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/3/141",
                 "referer": "https://bolaloca.my/"
             }
@@ -163,37 +283,47 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-2-ar.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=RVNQTjJfQXJn&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (HD)",
+                "name": "Opción 2 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=espn2",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 3 (Alternativa)",
+                "name": "Opción 3 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=espn2",
                 "referer": "https://la14hd.com/"
             },
             {
-                "name": "Opción 4 (Nebunexa)",
+                "name": "Opción 4 (nebunexa.life)",
                 "url": "https://www.nebunexa.life/cvatt.html?get=RVNQTjJfVVk=&lang=1",
                 "referer": "https://www.nebunexa.life/"
             },
             {
-                "name": "Opción 5 (Bolaloca)",
+                "name": "Opción 5 (embedsports.top)",
+                "url": "https://embedsports.top/embed/alpha/fia-formula-1-2025-brazil-f1gp-sprint-qualifying/2",
+                "referer": "https://embedsports.top/"
+            },
+            {
+                "name": "Opción 6 (dots.bestleague.world)",
+                "url": "https://dots.bestleague.world/tok.html?get=RVNQTjJfQXJn",
+                "referer": "https://dots.bestleague.world/"
+            },
+            {
+                "name": "Opción 7 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/1/142",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 6 (Bolaloca)",
+                "name": "Opción 8 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/2/142",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 7 (Bolaloca)",
+                "name": "Opción 9 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/3/142",
                 "referer": "https://bolaloca.my/"
             }
@@ -205,32 +335,37 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/argentina/espn-3-ar.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=RVNQTjM=&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (HD)",
+                "name": "Opción 2 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=espn3",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 3 (Alternativa)",
+                "name": "Opción 3 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=espn3",
                 "referer": "https://la14hd.com/"
             },
             {
-                "name": "Opción 4 (Bolaloca)",
+                "name": "Opción 4 (dots.bestleague.world)",
+                "url": "https://dots.bestleague.world/tok.html?get=RVNQTjM",
+                "referer": "https://dots.bestleague.world/"
+            },
+            {
+                "name": "Opción 5 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/1/143",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 5 (Bolaloca)",
+                "name": "Opción 6 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/2/143",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 6 (Bolaloca)",
+                "name": "Opción 7 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/3/143",
                 "referer": "https://bolaloca.my/"
             }
@@ -242,19 +377,29 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/espn-4-br.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=RVNQTkhE&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (HD)",
+                "name": "Opción 2 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=espn4",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 3 (Alternativa)",
+                "name": "Opción 3 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=espn4",
                 "referer": "https://la14hd.com/"
+            },
+            {
+                "name": "Opción 4 (dots.bestleague.world)",
+                "url": "https://dots.bestleague.world/tok.html?get=RVNQTkhE",
+                "referer": "https://dots.bestleague.world/"
+            },
+            {
+                "name": "Opción 5 (hopelife.bestleague.world)",
+                "url": "https://hopelife.bestleague.world/cvatt.html?get=RVNQTkhE=&lang=1",
+                "referer": "https://hopelife.bestleague.world/"
             }
         ]
     },
@@ -264,19 +409,24 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/espn-5-br.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=RVNQTjQ=&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (HD)",
+                "name": "Opción 2 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=espn5",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 3 (Alternativa)",
+                "name": "Opción 3 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=espn5",
                 "referer": "https://la14hd.com/"
+            },
+            {
+                "name": "Opción 4 (dots.bestleague.world)",
+                "url": "https://dots.bestleague.world/tok.html?get=RVNQTjQ",
+                "referer": "https://dots.bestleague.world/"
             }
         ]
     },
@@ -286,19 +436,24 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/espn-6-lam.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=Rm94U3BvcnRzM19VWQ==&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (HD)",
+                "name": "Opción 2 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=espn6",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 3 (Alternativa)",
+                "name": "Opción 3 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=espn6",
                 "referer": "https://la14hd.com/"
+            },
+            {
+                "name": "Opción 4 (dots.bestleague.world)",
+                "url": "https://dots.bestleague.world/tok.html?get=Rm94U3BvcnRzM19VWQ==&lang=1",
+                "referer": "https://dots.bestleague.world/"
             }
         ]
     },
@@ -308,19 +463,24 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/espn-7-lam.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=Rm94U3BvcnRzMl9VWQ==&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (HD)",
+                "name": "Opción 2 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=espn7",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 3 (Alternativa)",
+                "name": "Opción 3 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=espn7",
                 "referer": "https://la14hd.com/"
+            },
+            {
+                "name": "Opción 4 (dots.bestleague.world)",
+                "url": "https://dots.bestleague.world/tok.html?get=Rm94U3BvcnRzMl9VWQ==&lang=1",
+                "referer": "https://dots.bestleague.world/"
             }
         ]
     },
@@ -330,62 +490,67 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-ar.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=Rm94U3BvcnRz&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (HD)",
+                "name": "Opción 2 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=fox1ar",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 3 (Alternativa)",
+                "name": "Opción 3 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=foxsports",
                 "referer": "https://la14hd.com/"
             },
             {
-                "name": "Opción 4 (Nebunexa)",
+                "name": "Opción 4 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=Rm94U3BvcnRzMkhE&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 5 (HD)",
+                "name": "Opción 5 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=fox2ar",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 6 (Alternativa)",
+                "name": "Opción 6 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=foxsports2",
                 "referer": "https://la14hd.com/"
             },
             {
-                "name": "Opción 7 (Nebunexa)",
+                "name": "Opción 7 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=Rm94U3BvcnRzM0hE&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 8 (HD)",
+                "name": "Opción 8 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=fox3ar",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 9 (Alternativa)",
+                "name": "Opción 9 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=foxsports3",
                 "referer": "https://la14hd.com/"
             },
             {
-                "name": "Opción 10 (Bolaloca)",
+                "name": "Opción 10 (nebunexa.life)",
+                "url": "https://nebunexa.life/tok.html?get=Rm94U3BvcnRz",
+                "referer": "https://nebunexa.life/"
+            },
+            {
+                "name": "Opción 11 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/1/104",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 11 (Bolaloca)",
+                "name": "Opción 12 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/2/104",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 12 (Bolaloca)",
+                "name": "Opción 13 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/3/104",
                 "referer": "https://bolaloca.my/"
             }
@@ -397,17 +562,17 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/fox-sports-2-ar.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/cvatt.html?get=Rm94U3BvcnRzMkhE&lang=1",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (HD)",
+                "name": "Opción 2 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=fox2ar",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 3 (Alternativa)",
+                "name": "Opción 3 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=foxsports2",
                 "referer": "https://la14hd.com/"
             }
@@ -419,12 +584,17 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/mexico/fox-sports-premium-mx.png",
         "sources": [
             {
-                "name": "Opción 1 (HD)",
+                "name": "Opción 1 (bestleague.world)",
+                "url": "https://bestleague.world/mpdk/?get=aHR0cHM6Ly9vdHRiLmxpdmUuY2Yud3cuYWl2LWNkbi5uZXQvaWFkLW5pdHJvL2xpdmUvY2xpZW50cy9kYXNoL2VuYy9mZHg3NHpxemh1L291dC92MS83ZDdhOGM2OTgxYTg0MmI5OGE2ODNlOWZiZmU1MWQxNy9jZW5jLm1wZA==&key=OWYzMjdkMjRjNjZmYmQ4NGUxNWFiNWM5ZWFkN2M3YTQ=&key2=ODM4MzcxODU1MjljMGM0MDQ4ZjgxMzg2YzJkMzY0MjY=",
+                "referer": "https://bestleague.world/"
+            },
+            {
+                "name": "Opción 2 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=foxsportspremium",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 2 (Alternativa)",
+                "name": "Opción 3 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=foxsportspremium",
                 "referer": "https://la14hd.com/"
             }
@@ -436,17 +606,17 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/brazil/premiere-br.png",
         "sources": [
             {
-                "name": "Opción 1 (Nebunexa)",
+                "name": "Opción 1 (nebunexa.life)",
                 "url": "https://nebunexa.life/mpdk/?get=aHR0cHM6Ly9hYmMzb3J3YWFhYWFhYWFtaHB1aTd3bG5tZnFnaC5vdHRiLmxpdmUuY2Yud3cuYWl2LWNkbi5uZXQvZ3J1LW5pdHJvL2xpdmUvY2xpZW50cy9kYXNoL2VuYy9uZWxmeXVjdzlhL291dC92MS82ZmZiMmMzNjVhZDE0Zjg4YjE1NDU5MWJlYjQzZDFmNi9jZW5jLm1wZA==&key=NTZiNzljMTc4MmIzMGU2YjZmYzk3M2IwZThmZDQxMDQ=&key2=ZmEzOGFhYTg2NWE1N2VkYTdjNzc0NDQ2OTdiYThlZDM=",
                 "referer": "https://nebunexa.life/"
             },
             {
-                "name": "Opción 2 (HD)",
+                "name": "Opción 2 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=premiere1",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 3 (Alternativa)",
+                "name": "Opción 3 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=premiere1",
                 "referer": "https://la14hd.com/"
             }
@@ -458,17 +628,17 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dazn-f1-es.png",
         "sources": [
             {
-                "name": "Opción 1 (Bolaloca)",
+                "name": "Opción 1 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/1/60",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 2 (Bolaloca)",
+                "name": "Opción 2 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/2/60",
                 "referer": "https://bolaloca.my/"
             },
             {
-                "name": "Opción 3 (Bolaloca)",
+                "name": "Opción 3 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/3/60",
                 "referer": "https://bolaloca.my/"
             }
@@ -480,19 +650,29 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports-lam.png",
         "sources": [
             {
-                "name": "Opción 1 (HD)",
+                "name": "Opción 1 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=dsports",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 2 (Alternativa)",
+                "name": "Opción 2 (streamfree.to)",
+                "url": "https://streamfree.to/embed/soccer/z54e6Trc9iuoKbKtGG7enw?server=origin&quality=540p&t=1764705855460",
+                "referer": "https://streamfree.to/"
+            },
+            {
+                "name": "Opción 3 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canales.php?stream=dsports",
                 "referer": "https://la14hd.com/"
             },
             {
-                "name": "Opción 3 (Bolaloca)",
+                "name": "Opción 4 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/2/94",
                 "referer": "https://bolaloca.my/"
+            },
+            {
+                "name": "Opción 5 (tucanaldeportivo.org)",
+                "url": "https://tucanaldeportivo.org/directvsports.php",
+                "referer": "https://tucanaldeportivo.org/"
             }
         ]
     },
@@ -502,17 +682,22 @@
         "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/world-latin-america/dsports2-lam.png",
         "sources": [
             {
-                "name": "Opción 1 (HD)",
+                "name": "Opción 1 (streamtpcloud.com)",
                 "url": "https://streamtpcloud.com/global1.php?stream=dsports2",
                 "referer": "https://streamtpcloud.com/"
             },
             {
-                "name": "Opción 2 (Alternativa)",
+                "name": "Opción 2 (la14hd.com)",
                 "url": "https://la14hd.com/vivo/canal.php?stream=dsports2",
                 "referer": "https://la14hd.com/"
             },
             {
-                "name": "Opción 3 (Bolaloca)",
+                "name": "Opción 3 (futbol.to)",
+                "url": "https://futbol.to/en-vivo/?c=directvsports2",
+                "referer": "https://futbol.to/"
+            },
+            {
+                "name": "Opción 4 (bolaloca.my)",
                 "url": "https://bolaloca.my/player/2/95",
                 "referer": "https://bolaloca.my/"
             }
