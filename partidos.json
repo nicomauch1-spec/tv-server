@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Osasuna vs Atlético Madrid",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Belgrano vs Unión Santa Fe",
         "hora": "19:00",
