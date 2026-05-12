@@ -12,9 +12,15 @@
         "prioridad": false
     },
     {
-        "liga": "Ligue 1",
-        "partido": "Red Star vs Rodez",
-        "hora": "15:30",
+        "liga": "LaLiga",
+        "partido": "Osasuna vs Atlético Madrid",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Belgrano vs Unión Santa Fe",
+        "hora": "19:00",
         "prioridad": false
     },
     {
