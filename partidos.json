@@ -1,23 +1,5 @@
 [
     {
-        "liga": "Copa Argentina",
-        "partido": "Platense vs San Martín San Juan",
-        "hora": "16:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Deportivo Alavés vs Barcelona",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Getafe vs Mallorca",
-        "hora": "16:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "Rosario Central vs Racing Club",
         "hora": "19:00",
