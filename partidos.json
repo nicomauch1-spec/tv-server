@@ -1,1 +1,56 @@
-[]
+[
+    {
+        "liga": "Ligue 1",
+        "partido": "Brest vs Strasbourg",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Villarreal vs Sevilla",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Manchester City vs Crystal Palace",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Lens vs PSG",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Argentina",
+        "partido": "Platense vs San Martín San Juan",
+        "hora": "16:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Deportivo Alavés vs Barcelona",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Getafe vs Mallorca",
+        "hora": "16:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Rosario Central vs Racing Club",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "River Plate vs Gimnasia La Plata",
+        "hora": "21:30",
+        "prioridad": false
+    }
+]
