@@ -1,5 +1,11 @@
 [
     {
+        "liga": "LaLiga",
+        "partido": "Espanyol vs Athletic Club",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
         "liga": "Ligue 1",
         "partido": "Brest vs Strasbourg",
         "hora": "14:00",
