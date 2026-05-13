@@ -1,12 +1,6 @@
 [
     {
         "liga": "Liga Profesional",
-        "partido": "Belgrano vs Unión Santa Fe",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Liga Profesional",
         "partido": "Argentinos Juniors vs Huracán",
         "hora": "21:30",
         "prioridad": false
