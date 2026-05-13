@@ -1,23 +1,5 @@
 [
     {
-        "liga": "LaLiga",
-        "partido": "Espanyol vs Athletic Club",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Brest vs Strasbourg",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Villarreal vs Sevilla",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Manchester City vs Crystal Palace",
         "hora": "16:00",
