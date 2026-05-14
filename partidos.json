@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "liga": "LaLiga",
+        "partido": "Valencia vs Rayo Vallecano",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Girona vs Real Sociedad",
+        "hora": "15:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Madrid vs Real Oviedo",
+        "hora": "16:30",
+        "prioridad": false
+    }
+]
