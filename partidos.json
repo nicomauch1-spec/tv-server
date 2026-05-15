@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "CD Castellon vs Cádiz",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Aston Villa vs Liverpool",
         "hora": "16:00",
@@ -15,6 +9,12 @@
         "liga": "LaLiga 2",
         "partido": "Córdoba vs Albacete",
         "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "LDU Quito vs Técnico Universitario",
+        "hora": "18:30",
         "prioridad": false
     }
 ]
