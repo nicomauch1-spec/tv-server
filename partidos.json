@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "liga": "Ligue 1",
+        "partido": "Saint-Étienne vs Rodez",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Aston Villa vs Liverpool",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Córdoba vs Albacete",
+        "hora": "16:00",
+        "prioridad": false
+    }
+]
