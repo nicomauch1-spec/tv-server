@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A femenina",
-        "partido": "Roma vs Genoa",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
         "liga": "Bundesliga",
         "partido": "St. Pauli vs Wolfsburg",
         "hora": "10:30",
@@ -80,6 +74,12 @@
     {
         "liga": "LaLiga 2",
         "partido": "Almería vs Las Palmas",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Granada vs Burgos",
         "hora": "13:30",
         "prioridad": false
     }
