@@ -67,6 +67,12 @@
     },
     {
         "liga": "LaLiga 2",
+        "partido": "Ceuta vs Málaga",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
         "partido": "Cultural Leonesa vs Eibar",
         "hora": "11:15",
         "prioridad": false
