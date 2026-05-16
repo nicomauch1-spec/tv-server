@@ -1,11 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Real Sociedad II vs Mirandés",
-        "hora": "09:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A femenina",
         "partido": "Roma vs Genoa",
         "hora": "10:00",
