@@ -1,23 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Racing Santander vs Real Valladolid",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Almería vs Las Palmas",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Granada vs Burgos",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "River Plate vs Rosario Central",
         "hora": "19:30",
