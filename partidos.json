@@ -13,12 +13,6 @@
     },
     {
         "liga": "LaLiga",
-        "partido": "Atlético Madrid vs Girona",
-        "hora": "14:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
         "partido": "Levante vs Mallorca",
         "hora": "14:00",
         "prioridad": false
@@ -37,13 +31,19 @@
     },
     {
         "liga": "LaLiga",
+        "partido": "Real Oviedo vs Deportivo Alavés",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
         "partido": "Sevilla vs Real Madrid",
         "hora": "14:00",
         "prioridad": false
     },
     {
         "liga": "LaLiga",
-        "partido": "Athletic Club vs Celta de Vigo",
+        "partido": "Atlético Madrid vs Girona",
         "hora": "14:00",
         "prioridad": false
     },
@@ -56,6 +56,12 @@
     {
         "liga": "LaLiga",
         "partido": "Real Sociedad vs Valencia",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Athletic Club vs Celta de Vigo",
         "hora": "14:00",
         "prioridad": false
     },
