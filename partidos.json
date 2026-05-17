@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Manchester United vs Nottingham Forest",
-        "hora": "08:30",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Internazionale vs Verona",
         "hora": "10:00",
@@ -147,6 +141,84 @@
         "liga": "LaLiga",
         "partido": "Real Sociedad vs Valencia",
         "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Sassuolo vs Lecce",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Udinese vs Cremonese",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Cagliari vs Torino",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Nice vs Metz",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Lille vs Auxerre",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Olympique Marseille vs Rennes",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Brest vs Angers SCO",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Olympique Lyonnais vs Lens",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Strasbourg vs Monaco",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Lorient vs Le Havre",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Nantes vs Toulouse",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Paris vs PSG",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Barcelona vs Real Betis",
+        "hora": "16:15",
         "prioridad": false
     }
 ]
