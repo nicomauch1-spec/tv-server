@@ -1,5 +1,11 @@
 [
     {
+        "liga": "Primera División",
+        "partido": "Sportivo San Lorenzo vs Sportivo Luqueño",
+        "hora": "17:00",
+        "prioridad": true
+    },
+    {
         "liga": "Serie A",
         "partido": "Atalanta vs Bologna",
         "hora": "13:00",
@@ -109,6 +115,12 @@
     },
     {
         "liga": "Ligue 1",
+        "partido": "Paris vs PSG",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
         "partido": "Olympique Lyonnais vs Lens",
         "hora": "16:00",
         "prioridad": false
@@ -132,15 +144,15 @@
         "prioridad": false
     },
     {
-        "liga": "Ligue 1",
-        "partido": "Paris vs PSG",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Barcelona vs Real Betis",
         "hora": "16:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "Argentinos Juniors vs Belgrano",
+        "hora": "17:00",
         "prioridad": false
     }
 ]
