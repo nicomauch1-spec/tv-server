@@ -1,44 +1,8 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Roma vs Lazio",
-        "hora": "07:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Genoa vs Milan",
-        "hora": "07:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Como vs Parma",
-        "hora": "07:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Juventus vs Fiorentina",
-        "hora": "07:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Pisa vs Napoli",
-        "hora": "07:30",
-        "prioridad": false
-    },
-    {
         "liga": "Premier League",
         "partido": "Manchester United vs Nottingham Forest",
         "hora": "08:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Deportivo La Coruña vs FC Andorra",
-        "hora": "09:00",
         "prioridad": false
     },
     {
@@ -123,6 +87,66 @@
         "liga": "Premier League",
         "partido": "Everton vs Sunderland",
         "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Atalanta vs Bologna",
+        "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Newcastle United vs West Ham United",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Atlético Madrid vs Girona",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Levante vs Mallorca",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Osasuna vs Espanyol",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Rayo Vallecano vs Villarreal",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Sevilla vs Real Madrid",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Athletic Club vs Celta de Vigo",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Elche vs Getafe",
+        "hora": "14:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Sociedad vs Valencia",
+        "hora": "14:00",
         "prioridad": false
     }
 ]
