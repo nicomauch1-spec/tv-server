@@ -6,24 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Serie A",
-        "partido": "Sassuolo vs Lecce",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Udinese vs Cremonese",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Cagliari vs Torino",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
         "liga": "Ligue 1",
         "partido": "Nice vs Metz",
         "hora": "16:00",
