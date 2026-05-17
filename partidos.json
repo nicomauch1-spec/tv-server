@@ -88,5 +88,11 @@
         "partido": "Argentinos Juniors vs Belgrano",
         "hora": "17:00",
         "prioridad": false
+    },
+    {
+        "liga": "Serie A de Ecuador",
+        "partido": "Manta vs Emelec",
+        "hora": "20:10",
+        "prioridad": false
     }
 ]
