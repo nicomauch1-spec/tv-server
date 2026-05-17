@@ -1,1 +1,128 @@
-[]
+[
+    {
+        "liga": "Serie A",
+        "partido": "Roma vs Lazio",
+        "hora": "07:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Genoa vs Milan",
+        "hora": "07:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Como vs Parma",
+        "hora": "07:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Juventus vs Fiorentina",
+        "hora": "07:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Pisa vs Napoli",
+        "hora": "07:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Manchester United vs Nottingham Forest",
+        "hora": "08:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Deportivo La Coruña vs FC Andorra",
+        "hora": "09:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Internazionale vs Verona",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Hannover 96 vs Nürnberg",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Schalke 04 vs Eintracht Braunschweig",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Dynamo Dresden vs Holstein Kiel",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Greuther Fürth vs Fortuna Düsseldorf",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Magdeburg vs Kaiserslautern",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Karlsruher SC vs Bochum",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Elversberg vs Preußen Münster",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Arminia Bielefeld vs Hertha BSC",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Bundesliga 2",
+        "partido": "Darmstadt 98 vs Paderborn",
+        "hora": "10:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Leeds United vs Brighton & Hove Albion",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Wolverhampton Wanderers vs Fulham",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Brentford vs Crystal Palace",
+        "hora": "11:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Everton vs Sunderland",
+        "hora": "11:00",
+        "prioridad": false
+    }
+]
