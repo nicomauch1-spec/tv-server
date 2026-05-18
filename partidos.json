@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Leganés vs Huesca",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Arsenal vs Burnley",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Guayaquil City vs Orense",
+        "hora": "21:00",
+        "prioridad": false
+    }
+]
