@@ -1,12 +1,6 @@
 [
     {
         "liga": "Premier League",
-        "partido": "AFC Bournemouth vs Manchester City",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
         "partido": "Chelsea vs Tottenham Hotspur",
         "hora": "16:15",
         "prioridad": false
