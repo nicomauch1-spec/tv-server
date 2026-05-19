@@ -1,1 +1,80 @@
-[]
+[
+    {
+        "liga": "Premier League",
+        "partido": "AFC Bournemouth vs Manchester City",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Chelsea vs Tottenham Hotspur",
+        "hora": "16:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Torque vs Deportivo Riestra",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Fluminense vs Bolívar",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Audax Italiano vs Barracas Central",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Coquimbo Unido vs Deportes Tolima",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Rosario Central vs UCV",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Always Ready vs Mirassol",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Santa Fe vs Platense",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "São Paulo vs Millonarios",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Boca Juniors vs Cruzeiro",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Independiente del Valle vs Libertad",
+        "hora": "23:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Deportivo Cuenca vs Deportivo Recoleta",
+        "hora": "23:00",
+        "prioridad": false
+    }
+]
