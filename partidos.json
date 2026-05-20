@@ -6,12 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "Liga Profesional",
-        "partido": "Al Khaleej vs Al-Ahli",
-        "hora": "15:00",
-        "prioridad": false
-    },
-    {
         "liga": "UEFA Europa League",
         "partido": "Freiburg vs Aston Villa",
         "hora": "16:00",
@@ -30,14 +24,14 @@
         "prioridad": false
     },
     {
-        "liga": "Copa Sudamericana",
-        "partido": "Olimpia vs Vasco da Gama",
+        "liga": "Copa Libertadores",
+        "partido": "Nacional vs Universitario",
         "hora": "19:00",
         "prioridad": false
     },
     {
-        "liga": "Copa Libertadores",
-        "partido": "Nacional vs Universitario",
+        "liga": "Copa Sudamericana",
+        "partido": "Olimpia vs Vasco da Gama",
         "hora": "19:00",
         "prioridad": false
     },
