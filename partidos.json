@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Premier League",
-        "partido": "Chelsea vs Tottenham Hotspur",
-        "hora": "16:15",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Sudamericana",
         "partido": "Torque vs Deportivo Riestra",
         "hora": "19:00",
@@ -57,6 +51,12 @@
         "liga": "Copa Libertadores",
         "partido": "Boca Juniors vs Cruzeiro",
         "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "América de Cali vs Tigre",
+        "hora": "23:00",
         "prioridad": false
     },
     {
