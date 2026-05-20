@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "UEFA Europa League",
-        "partido": "Freiburg vs Aston Villa",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Argentina",
-        "partido": "Talleres Córdoba vs Atlético Tucumán",
-        "hora": "17:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Sudamericana",
         "partido": "Boston River vs O'Higgins",
         "hora": "19:00",
