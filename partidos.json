@@ -1,30 +1,6 @@
 [
     {
         "liga": "Copa Sudamericana",
-        "partido": "Santos vs San Lorenzo",
-        "hora": "19:00",
-        "prioridad": true
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Boston River vs O'Higgins",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Nacional vs Universitario",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Olimpia vs Vasco da Gama",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
         "partido": "Grêmio vs Palestino",
         "hora": "21:00",
         "prioridad": false
@@ -36,14 +12,20 @@
         "prioridad": false
     },
     {
-        "liga": "Copa Sudamericana",
-        "partido": "River Plate vs RB Bragantino",
+        "liga": "Copa Libertadores",
+        "partido": "Palmeiras vs Cerro Porteño",
         "hora": "21:30",
         "prioridad": false
     },
     {
         "liga": "Copa Libertadores",
         "partido": "LDU Quito vs Lanús",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "River Plate vs RB Bragantino",
         "hora": "21:30",
         "prioridad": false
     },
