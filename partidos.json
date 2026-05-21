@@ -10,5 +10,17 @@
         "partido": "Atlético Mineiro vs Cienciano",
         "hora": "19:00",
         "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Academia Puerto Cabello vs Juventud",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Deportivo La Guaira vs Independiente Rivadavia",
+        "hora": "19:00",
+        "prioridad": false
     }
 ]
