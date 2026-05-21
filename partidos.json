@@ -1,13 +1,13 @@
 [
     {
-        "liga": "Bundesliga",
-        "partido": "Wolfsburg vs Paderborn",
-        "hora": "15:30",
+        "liga": "Copa Sudamericana",
+        "partido": "Atlético Mineiro vs Cienciano",
+        "hora": "19:00",
         "prioridad": false
     },
     {
-        "liga": "Copa Sudamericana",
-        "partido": "Atlético Mineiro vs Cienciano",
+        "liga": "Copa Libertadores",
+        "partido": "Deportivo La Guaira vs Independiente Rivadavia",
         "hora": "19:00",
         "prioridad": false
     },
@@ -18,9 +18,33 @@
         "prioridad": false
     },
     {
+        "liga": "Copa Sudamericana",
+        "partido": "Racing Club vs Caracas",
+        "hora": "21:00",
+        "prioridad": false
+    },
+    {
         "liga": "Copa Libertadores",
-        "partido": "Deportivo La Guaira vs Independiente Rivadavia",
-        "hora": "19:00",
+        "partido": "Peñarol vs Corinthians",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Universidad Católica vs Barcelona",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Blooming vs Carabobo",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Macará vs Alianza Atlético",
+        "hora": "23:00",
         "prioridad": false
     }
 ]
