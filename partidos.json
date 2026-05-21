@@ -4,5 +4,11 @@
         "partido": "Wolfsburg vs Paderborn",
         "hora": "15:30",
         "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Atlético Mineiro vs Cienciano",
+        "hora": "19:00",
+        "prioridad": false
     }
 ]
