@@ -6,18 +6,6 @@
         "prioridad": true
     },
     {
-        "liga": "2. Bundesliga",
-        "partido": "Rot-Weiss Essen vs Greuther Fürth",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Fiorentina vs Atalanta",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Argentina",
         "partido": "Unión Santa Fe vs Independiente",
         "hora": "20:00",
