@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Lazio vs Pisa",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Mallorca vs Real Oviedo",
         "hora": "16:00",
