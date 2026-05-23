@@ -13,25 +13,7 @@
     },
     {
         "liga": "LaLiga",
-        "partido": "Girona vs Elche",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
         "partido": "Mallorca vs Real Oviedo",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Real Madrid vs Athletic Club",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
-        "partido": "Valencia vs Barcelona",
         "hora": "16:00",
         "prioridad": false
     },
@@ -43,13 +25,25 @@
     },
     {
         "liga": "LaLiga",
-        "partido": "Celta de Vigo vs Sevilla",
+        "partido": "Valencia vs Barcelona",
         "hora": "16:00",
         "prioridad": false
     },
     {
         "liga": "LaLiga",
-        "partido": "Getafe vs Osasuna",
+        "partido": "Real Madrid vs Athletic Club",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Girona vs Elche",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Celta de Vigo vs Sevilla",
         "hora": "16:00",
         "prioridad": false
     },
@@ -62,6 +56,12 @@
     {
         "liga": "LaLiga",
         "partido": "Real Betis vs Levante",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Getafe vs Osasuna",
         "hora": "16:00",
         "prioridad": false
     }
