@@ -13,7 +13,31 @@
     },
     {
         "liga": "LaLiga",
+        "partido": "Girona vs Elche",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Mallorca vs Real Oviedo",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Real Madrid vs Athletic Club",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
         "partido": "Valencia vs Barcelona",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Deportivo Alavés vs Rayo Vallecano",
         "hora": "16:00",
         "prioridad": false
     },
@@ -25,7 +49,7 @@
     },
     {
         "liga": "LaLiga",
-        "partido": "Deportivo Alavés vs Rayo Vallecano",
+        "partido": "Getafe vs Osasuna",
         "hora": "16:00",
         "prioridad": false
     },
