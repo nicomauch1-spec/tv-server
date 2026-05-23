@@ -1,14 +1,1 @@
-[
-    {
-        "liga": "Primera División",
-        "partido": "2 de Mayo vs Sportivo San Lorenzo",
-        "hora": "18:00",
-        "prioridad": true
-    },
-    {
-        "liga": "Copa Argentina",
-        "partido": "Unión Santa Fe vs Independiente",
-        "hora": "20:00",
-        "prioridad": false
-    }
-]
+[]
