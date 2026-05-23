@@ -1,12 +1,6 @@
 [
     {
         "liga": "Serie A",
-        "partido": "Bologna vs Internazionale",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
         "partido": "Lazio vs Pisa",
         "hora": "15:45",
         "prioridad": false
@@ -25,12 +19,6 @@
     },
     {
         "liga": "LaLiga",
-        "partido": "Valencia vs Barcelona",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga",
         "partido": "Real Madrid vs Athletic Club",
         "hora": "16:00",
         "prioridad": false
@@ -44,6 +32,12 @@
     {
         "liga": "LaLiga",
         "partido": "Celta de Vigo vs Sevilla",
+        "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Valencia vs Barcelona",
         "hora": "16:00",
         "prioridad": false
     },
