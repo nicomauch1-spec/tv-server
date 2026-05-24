@@ -1,11 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Parma vs Sassuolo",
-        "hora": "10:00",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga 2",
         "partido": "FC Andorra vs Ceuta",
         "hora": "11:15",
@@ -99,6 +93,12 @@
         "liga": "LaLiga 2",
         "partido": "Cultural Leonesa vs Burgos",
         "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Liga Profesional",
+        "partido": "River Plate vs Belgrano",
+        "hora": "15:30",
         "prioridad": false
     }
 ]
