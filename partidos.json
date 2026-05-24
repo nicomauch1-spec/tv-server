@@ -1,1 +1,86 @@
-[]
+[
+    {
+        "liga": "Serie A",
+        "partido": "Parma vs Sassuolo",
+        "hora": "10:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "FC Andorra vs Ceuta",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Albacete vs Real Sociedad II",
+        "hora": "11:15",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "West Ham United vs Leeds United",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Nottingham Forest vs AFC Bournemouth",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Tottenham Hotspur vs Everton",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Brighton & Hove Albion vs Manchester United",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Fulham vs Newcastle United",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Crystal Palace vs Arsenal",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Burnley vs Wolverhampton Wanderers",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Napoli vs Udinese",
+        "hora": "13:00",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Sporting Gijón vs Almería",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Eibar vs Córdoba",
+        "hora": "13:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga 2",
+        "partido": "Cultural Leonesa vs Burgos",
+        "hora": "13:30",
+        "prioridad": false
+    }
+]
