@@ -19,12 +19,6 @@
     },
     {
         "liga": "Premier League",
-        "partido": "Tottenham Hotspur vs Everton",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
         "partido": "Brighton & Hove Albion vs Manchester United",
         "hora": "12:00",
         "prioridad": false
@@ -38,6 +32,30 @@
     {
         "liga": "Premier League",
         "partido": "Nottingham Forest vs AFC Bournemouth",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Tottenham Hotspur vs Everton",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Sunderland vs Chelsea",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Manchester City vs Aston Villa",
+        "hora": "12:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Premier League",
+        "partido": "Liverpool vs Brentford",
         "hora": "12:00",
         "prioridad": false
     },
