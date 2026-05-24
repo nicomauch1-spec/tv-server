@@ -1,41 +1,5 @@
 [
     {
-        "liga": "Liga Profesional",
-        "partido": "River Plate vs Belgrano",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Milan vs Cagliari",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Lecce vs Genoa",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Verona vs Roma",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Cremonese vs Como",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
-        "liga": "Serie A",
-        "partido": "Torino vs Juventus",
-        "hora": "15:45",
-        "prioridad": false
-    },
-    {
         "liga": "LaLiga",
         "partido": "Villarreal vs Atlético Madrid",
         "hora": "16:00",
