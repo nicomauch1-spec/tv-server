@@ -1,29 +1,5 @@
 [
     {
-        "liga": "Serie A",
-        "partido": "Napoli vs Udinese",
-        "hora": "13:00",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Sporting Gijón vs Almería",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Eibar vs Córdoba",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Cultural Leonesa vs Burgos",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Liga Profesional",
         "partido": "River Plate vs Belgrano",
         "hora": "15:30",
