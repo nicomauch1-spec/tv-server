@@ -1,77 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "FC Andorra vs Ceuta",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Albacete vs Real Sociedad II",
-        "hora": "11:15",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Brighton & Hove Albion vs Manchester United",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "West Ham United vs Leeds United",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Nottingham Forest vs AFC Bournemouth",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Tottenham Hotspur vs Everton",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Sunderland vs Chelsea",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Manchester City vs Aston Villa",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Liverpool vs Brentford",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Crystal Palace vs Arsenal",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Burnley vs Wolverhampton Wanderers",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Premier League",
-        "partido": "Fulham vs Newcastle United",
-        "hora": "12:00",
-        "prioridad": false
-    },
-    {
         "liga": "Serie A",
         "partido": "Napoli vs Udinese",
         "hora": "13:00",
@@ -99,6 +27,42 @@
         "liga": "Liga Profesional",
         "partido": "River Plate vs Belgrano",
         "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Milan vs Cagliari",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Lecce vs Genoa",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Verona vs Roma",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Cremonese vs Como",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Serie A",
+        "partido": "Torino vs Juventus",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga",
+        "partido": "Villarreal vs Atlético Madrid",
+        "hora": "16:00",
         "prioridad": false
     }
 ]
