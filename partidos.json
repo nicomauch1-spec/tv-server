@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "liga": "Bundesliga",
+        "partido": "Paderborn vs Wolfsburg",
+        "hora": "15:30",
+        "prioridad": false
+    }
+]
