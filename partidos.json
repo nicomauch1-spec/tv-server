@@ -1,1 +1,26 @@
-[]
+[
+    {
+        "liga": "2. Bundesliga",
+        "partido": "Greuther Fürth vs Rot-Weiss Essen",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Ligue 1",
+        "partido": "Saint-Étienne vs Nice",
+        "hora": "15:45",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Grêmio vs Torque",
+        "hora": "19:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Sudamericana",
+        "partido": "Millonarios vs O'Higgins",
+        "hora": "19:00",
+        "prioridad": false
+    }
+]
