@@ -6,20 +6,14 @@
         "prioridad": true
     },
     {
-        "liga": "2. Bundesliga",
-        "partido": "Greuther Fürth vs Rot-Weiss Essen",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Ligue 1",
-        "partido": "Saint-Étienne vs Nice",
-        "hora": "15:45",
+        "liga": "Copa Sudamericana",
+        "partido": "São Paulo vs Boston River",
+        "hora": "19:00",
         "prioridad": false
     },
     {
         "liga": "Copa Sudamericana",
-        "partido": "São Paulo vs Boston River",
+        "partido": "Palestino vs Deportivo Riestra",
         "hora": "19:00",
         "prioridad": false
     },
@@ -32,12 +26,6 @@
     {
         "liga": "Copa Sudamericana",
         "partido": "Grêmio vs Torque",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Palestino vs Deportivo Riestra",
         "hora": "19:00",
         "prioridad": false
     },
@@ -74,6 +62,12 @@
     {
         "liga": "Copa Libertadores",
         "partido": "Flamengo vs Cusco",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Libertadores",
+        "partido": "Universitario vs Deportes Tolima",
         "hora": "21:30",
         "prioridad": false
     }
