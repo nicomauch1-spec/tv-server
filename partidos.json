@@ -54,14 +54,20 @@
         "prioridad": false
     },
     {
+        "liga": "Copa Sudamericana",
+        "partido": "RB Bragantino vs Carabobo",
+        "hora": "21:30",
+        "prioridad": false
+    },
+    {
         "liga": "Copa Libertadores",
         "partido": "Corinthians vs Platense",
         "hora": "21:30",
         "prioridad": false
     },
     {
-        "liga": "Copa Sudamericana",
-        "partido": "RB Bragantino vs Carabobo",
+        "liga": "Copa Libertadores",
+        "partido": "Bolívar vs Independiente Rivadavia",
         "hora": "21:30",
         "prioridad": false
     },
@@ -74,12 +80,6 @@
     {
         "liga": "Copa Libertadores",
         "partido": "Peñarol vs Santa Fe",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Bolívar vs Independiente Rivadavia",
         "hora": "21:30",
         "prioridad": false
     }
