@@ -6,50 +6,14 @@
         "prioridad": true
     },
     {
-        "liga": "Copa Sudamericana",
-        "partido": "São Paulo vs Boston River",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Palestino vs Deportivo Riestra",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Libertadores",
-        "partido": "Lanús vs Mirassol",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Grêmio vs Torque",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "LDU Quito vs Always Ready",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Millonarios vs O'Higgins",
-        "hora": "19:00",
+        "partido": "Nacional vs Coquimbo Unido",
+        "hora": "21:30",
         "prioridad": false
     },
     {
         "liga": "Copa Sudamericana",
         "partido": "Santos vs Deportivo Cuenca",
-        "hora": "21:30",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Nacional vs Coquimbo Unido",
         "hora": "21:30",
         "prioridad": false
     },
