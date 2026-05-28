@@ -1,53 +1,5 @@
 [
     {
-        "liga": "Copa Libertadores",
-        "partido": "Independiente del Valle vs Rosario Central",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Racing Club vs Independiente Petrolero",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Atlético Mineiro vs Academia Puerto Cabello",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Caracas vs Botafogo",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Cienciano vs Juventud",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Olimpia vs Audax Italiano",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Libertadores",
-        "partido": "Libertad vs UCV",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Sudamericana",
-        "partido": "Vasco da Gama vs Barracas Central",
-        "hora": "19:00",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Sudamericana",
         "partido": "River Plate vs Blooming",
         "hora": "21:30",
