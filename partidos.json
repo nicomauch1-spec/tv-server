@@ -4,5 +4,17 @@
         "partido": "Real Sociedad II vs Cultural Leonesa",
         "hora": "11:15",
         "prioridad": false
+    },
+    {
+        "liga": "Copa Argentina",
+        "partido": "Gimnasia Jujuy vs Belgrano",
+        "hora": "15:30",
+        "prioridad": false
+    },
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Granada vs Sporting Gijón",
+        "hora": "16:00",
+        "prioridad": false
     }
 ]
