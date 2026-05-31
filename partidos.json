@@ -1,18 +1,6 @@
 [
     {
         "liga": "Copa Argentina",
-        "partido": "Estudiantes vs Rosario Central",
-        "hora": "15:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Córdoba vs Huesca",
-        "hora": "16:00",
-        "prioridad": false
-    },
-    {
-        "liga": "Copa Argentina",
         "partido": "Racing Club vs Defensa y Justicia",
         "hora": "19:00",
         "prioridad": false
