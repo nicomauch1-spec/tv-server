@@ -1,23 +1,5 @@
 [
     {
-        "liga": "LaLiga 2",
-        "partido": "Real Zaragoza vs Málaga",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Racing Santander vs Cádiz",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
-        "liga": "LaLiga 2",
-        "partido": "Burgos vs FC Andorra",
-        "hora": "13:30",
-        "prioridad": false
-    },
-    {
         "liga": "Copa Argentina",
         "partido": "Estudiantes vs Rosario Central",
         "hora": "15:30",
@@ -27,6 +9,12 @@
         "liga": "LaLiga 2",
         "partido": "Córdoba vs Huesca",
         "hora": "16:00",
+        "prioridad": false
+    },
+    {
+        "liga": "Copa Argentina",
+        "partido": "Racing Club vs Defensa y Justicia",
+        "hora": "19:00",
         "prioridad": false
     }
 ]
