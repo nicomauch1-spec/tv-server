@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "liga": "Copa Argentina",
+        "partido": "Barracas Central vs Huracán",
+        "hora": "21:15",
+        "prioridad": false
+    }
+]
