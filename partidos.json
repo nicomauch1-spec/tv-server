@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "liga": "LaLiga SmartBank",
+        "partido": "Almería vs CD Castellon",
+        "hora": "16:00",
+        "prioridad": false
+    }
+]
