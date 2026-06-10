@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "liga": "LaLiga 2",
+        "partido": "Málaga vs Las Palmas",
+        "hora": "16:00",
+        "prioridad": false
+    }
+]
